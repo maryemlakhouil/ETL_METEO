@@ -2,7 +2,7 @@ import logging
 import sys
 
 
-def get_logger(name: str) -> logging.Logger:
+def get_Logger(name: str) -> logging.Logger:
     logger = logging.getLogger(name)
     # évite les doublons de handlers 
     if not logger.handlers:  
