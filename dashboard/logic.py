@@ -4,22 +4,23 @@ import pandas as pd
 
 RISK_LEVELS = ["Faible", "Modéré", "Élevé", "Critique"]
 RISKY_LEVELS = ["Élevé", "Critique"]
+
 PERIOD_PRESETS = {
     "Toutes les dates disponibles": None,
     "Aujourd'hui": 0,
     "3 prochains jours": 3,
     "7 prochains jours": 7,
 }
+
 RISK_COLORS = {
-    "Faible": "#16a34a",    
+    "Faible": "#16a34a",   
     "Modéré": "#ca8a04",    
     "Élevé": "#ea580c",     
     "Critique": "#dc2626", 
 }
-
-
+# periode de date 
 def compute_period_range(preset: str, today: date, min_date: date, max_date: date) -> tuple:
-   
+ 
     n_days = PERIOD_PRESETS.get(preset)
     if n_days is None:
         return (min_date, max_date)
@@ -42,6 +43,30 @@ def apply_filters(df: pd.DataFrame, cities: list, date_range: tuple, risk_levels
     if risk_levels:
         filtered = filtered[filtered["risk_level"].isin(risk_levels)]
     return filtered
+
+
+def build_map_data(df: pd.DataFrame) -> pd.DataFrame:
+   
+    if df.empty or "latitude" not in df.columns:
+        return df.iloc[0:0]
+
+    from src.transform.build_gold import risk_level as score_to_level
+
+    grouped = (
+        df.dropna(subset=["latitude", "longitude"])
+        .groupby(["city_name", "latitude", "longitude"], as_index=False)
+        .agg(
+            risk_score=("risk_score", "mean"),
+            temp_max=("temp_max", "mean"),
+            precipitation_mm=("precipitation_mm", "mean"),
+            n_previsions=("risk_score", "count"),
+        )
+    )
+    grouped["risk_score"] = grouped["risk_score"].round(1)
+    grouped["temp_max"] = grouped["temp_max"].round(1)
+    grouped["precipitation_mm"] = grouped["precipitation_mm"].round(1)
+    grouped["risk_level"] = grouped["risk_score"].apply(score_to_level)
+    return grouped
 
 
 def compute_kpis(df: pd.DataFrame) -> dict:
