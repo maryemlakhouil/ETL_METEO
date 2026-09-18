@@ -1,11 +1,12 @@
 from pathlib import Path
+import os
 
 # difinir les chemins (cas dans un autre project )
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data"
 BRONZE_DIR = DATA_DIR / "bronze"
-SLIVER_DIR = DATA_DIR / "silver"
+SILVER_DIR = DATA_DIR / "silver"
 GOLD_DIR = DATA_DIR / "gold"
 
 # Chemin vers le CSV SimpleMaps telechrge manuellement
@@ -35,6 +36,15 @@ MAX_RETRIES = 3
 # multiplié par le numéro de tentative
 RETRY_BACKOFF_SECONDS = 2  
 
-  
+# Postgres 
+
+DB_HOST = os.getenv("POSTGRES_HOST", "localhost")
+DB_PORT = os.getenv("POSTGRES_PORT", "5432")
+DB_NAME = os.getenv("POSTGRES_DB", "weather_db")
+DB_USER = os.getenv("POSTGRES_USER", "postgres")
+DB_PASSWORD = os.getenv("POSTGRES_PASSWORD", "postgres")
+
+SCHEMA_SQL_PATH = PROJECT_ROOT / "sql" / "schema.sql"
+
 
  
