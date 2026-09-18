@@ -1,6 +1,6 @@
 import json 
 import time 
-from datetime import data 
+from datetime import date
 from pathlib import Path
 
 import requests
@@ -8,9 +8,9 @@ import requests
 from src.extract.extract_cities import load_cities 
 
 from src.utils.config import (BRONZE_DIR,DAILY_VARIABLES,FORECAST_DAYS,MAX_RETRIES,OPEN_METEO_URL,REQUEST_TIMEOUT,RETRY_BACKOFF_SECONDS,)
-from src.utils.logger import get_logger
+from src.utils.logger import get_Logger
 
-logger = get_logger(__name__)
+logger = get_Logger(__name__)
 
 def fetch_weather_for_city(city_name: str, lat: float, lng: float) -> dict | None:
         
@@ -51,8 +51,8 @@ def fetch_weather_for_city(city_name: str, lat: float, lng: float) -> dict | Non
                 if attempt < MAX_RETRIES:
                     time.sleep(RETRY_BACKOFF_SECONDS * attempt)  
         
-                logger.error(f"[{city_name}] Échec définitif après {MAX_RETRIES} tentatives")
-        return None
+        logger.error(f"[{city_name}] Échec définitif après {MAX_RETRIES} tentatives")
+        return None 
         
 # orchestre toute l'extraction. 
 def run_bronze_extraction() -> Path:
@@ -81,7 +81,7 @@ def run_bronze_extraction() -> Path:
 
         safe_name = str(city_name).replace(" ", "_").replace("/", "_")
         output_path = output_dir / f"{safe_name}.json"
-        
+
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(raw_data, f, ensure_ascii=False, indent=2)
 
