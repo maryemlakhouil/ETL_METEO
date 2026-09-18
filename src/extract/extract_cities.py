@@ -32,7 +32,7 @@ def load_cities() -> pd.DataFrame :
     if dropped : 
         logger.warning(f"{dropped} villes ignorées car lat/lng manquantes")
 
-        return df[["city","lat","len"]].reset_index(drop=True)
+    return df[["city","lat","lng"]].reset_index(drop=True)
 
 
 if __name__ == '__main__':
