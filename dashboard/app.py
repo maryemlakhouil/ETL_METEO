@@ -1,21 +1,20 @@
 import sys
 from datetime import date as date_cls
 from pathlib import Path
-
+# directement depuis dashboard/ (son propre dossier, pas la racine).
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import pandas as pd
+import plotly.express as px
 import streamlit as st
 from sqlalchemy import create_engine
 
-from dashboard.logic import (PERIOD_PRESETS,RISK_COLORS,RISK_LEVELS,apply_filters,compute_kpis,compute_period_range,
-)
+from dashboard.logic import (PERIOD_PRESETS,RISK_COLORS,RISK_LEVELS,apply_filters,build_map_data,compute_kpis,compute_period_range,)
 from src.utils.config import DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER
 
 st.set_page_config(page_title="Météo Livraison - Maroc", layout="wide")
 
-# Couleurs des cartes KPI (indépendantes des couleurs de risk_level,
-# utilisées pour distinguer visuellement le TYPE d'indicateur)
+# Couleurs des cartes KPI 
 KPI_COLOR_INFO = "#2563eb"     
 KPI_COLOR_WARNING = "#ea580c"  
 KPI_COLOR_DANGER = "#dc2626"  
@@ -39,13 +38,11 @@ def kpi_card(label: str, value: str, color: str) -> None:
         unsafe_allow_html=True,
     )
 
-
 def style_risk_level(val: str) -> str:
     color = RISK_COLORS.get(val)
     if not color:
         return ""
     return f"background-color: {color}22; color: {color}; font-weight: 600;"
-
 
 @st.cache_resource
 def get_engine():
@@ -57,7 +54,8 @@ def get_engine():
 def load_data() -> pd.DataFrame:
     query = """
         SELECT
-            v.city_name, p.forecast_date, p.temp_max, p.temp_min,
+            v.city_name, v.latitude, v.longitude,
+            p.forecast_date, p.temp_max, p.temp_min,
             p.precipitation_mm, p.precipitation_prob, p.wind_speed_max,
             p.wind_gust_max, p.weather_code, p.temp_category,
             p.precipitation_category, p.wind_category,
@@ -72,7 +70,7 @@ def load_data() -> pd.DataFrame:
 
 
 def main():
-    st.title("🌦️ Suivi météo & risques livraison — Maroc")
+    st.title("Suivi météo & risques livraison — Maroc")
     st.caption("Où et quand faut-il être particulièrement vigilant dans les prochains jours ?")
 
     try:
@@ -108,7 +106,8 @@ def main():
 
     filtered = apply_filters(df, selected_cities, date_range, selected_levels)
 
-    # --- KPIs (cartes colorées) ---
+    # --- (cartes colorées) ---
+
     kpis = compute_kpis(filtered)
     c1, c2, c3, c4, c5 = st.columns(5)
     with c1:
@@ -126,31 +125,74 @@ def main():
 
     st.divider()
 
-    # --- Détail / graphiques ---
-    tab1, tab2, tab3 = st.tabs([" Détail", " Risque par ville", " Évolution"])
-
-    with tab1:
-        detail_cols = [
-            "city_name", "forecast_date", "temp_max", "precipitation_mm",
-            "wind_gust_max", "risk_score", "risk_level", "data_quality_flag",
-        ]
-        detail_df = filtered.sort_values("risk_score", ascending=False)[detail_cols]
-        st.dataframe(
-            detail_df.style.map(style_risk_level, subset=["risk_level"]),
-            use_container_width=True,
-            hide_index=True,
+    # --- Carte (vue d'ensemble géographique en premier) ---
+    st.subheader("Carte des risques")
+    map_df = build_map_data(filtered)
+    if map_df.empty:
+        st.info("Aucune donnée géolocalisée pour ces filtres.")
+    else:
+        fig = px.scatter_map(
+            map_df,
+            lat="latitude",
+            lon="longitude",
+            color="risk_level",
+            size="risk_score",
+            size_max=28,
+            hover_name="city_name",
+            hover_data={
+                "latitude": False,
+                "longitude": False,
+                "risk_score": True,
+                "temp_max": True,
+                "precipitation_mm": True,
+                "n_previsions": True,
+            },
+            color_discrete_map=RISK_COLORS,
+            category_orders={"risk_level": RISK_LEVELS},
+            zoom=4.4,
+            center={"lat": 31.5, "lon": -6.5},  
+            map_style="open-street-map",
+            height=480,
+        )
+        fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
+        st.plotly_chart(fig, use_container_width=True)
+        st.caption(
+            "Chaque point = risque moyen d'une ville sur la période filtrée. "
+            "Taille et couleur augmentent avec le niveau de risque."
         )
 
-    with tab2:
+    st.divider()
+
+    # --- Risque par ville 
+    col_bar, col_line = st.columns(2)
+
+    with col_bar:
+        st.subheader("Risque moyen par ville")
         by_city = filtered.groupby("city_name")["risk_score"].mean().sort_values(ascending=False).head(15)
         st.bar_chart(by_city)
 
-    with tab3:
+    with col_line:
+        st.subheader("Évolution du risque")
         if selected_cities:
             pivot = filtered.pivot_table(index="forecast_date", columns="city_name", values="risk_score")
             st.line_chart(pivot)
         else:
             st.info("Sélectionne une ou plusieurs villes dans le filtre pour voir l'évolution du risque.")
+
+    st.divider()
+
+    # --- Détail (tableau complet, en bas) ---
+    st.subheader(" Détail des prévisions")
+    detail_cols = [
+        "city_name", "forecast_date", "temp_max", "precipitation_mm",
+        "wind_gust_max", "risk_score", "risk_level", "data_quality_flag",
+    ]
+    detail_df = filtered.sort_values("risk_score", ascending=False)[detail_cols]
+    st.dataframe(
+        detail_df.style.map(style_risk_level, subset=["risk_level"]),
+        use_container_width=True,
+        hide_index=True,
+    )
 
 
 if __name__ == "__main__":
