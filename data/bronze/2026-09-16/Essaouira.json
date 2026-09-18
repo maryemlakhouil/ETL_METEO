@@ -1,0 +1,95 @@
+{
+  "latitude": 31.5,
+  "longitude": -9.75,
+  "generationtime_ms": 1.004934310913086,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 12.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      25.9,
+      24.4,
+      24.8,
+      24.9,
+      26.1,
+      31.7,
+      33.5
+    ],
+    "temperature_2m_min": [
+      20.4,
+      19.5,
+      19.6,
+      18.9,
+      19.5,
+      20.5,
+      20.0
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      2,
+      3,
+      0,
+      3
+    ],
+    "wind_speed_10m_max": [
+      36.0,
+      26.4,
+      28.9,
+      27.7,
+      14.3,
+      9.6,
+      13.2
+    ],
+    "wind_gusts_10m_max": [
+      67.0,
+      49.0,
+      53.3,
+      50.4,
+      29.9,
+      19.1,
+      25.9
+    ],
+    "weather_code": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  "_city_name": "Essaouira",
+  "_extracted_at": "2026-09-16T00:47:55"
+}

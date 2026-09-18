@@ -1,0 +1,95 @@
+{
+  "latitude": 31.5,
+  "longitude": -5.5625,
+  "generationtime_ms": 0.2707242965698242,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 1280.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      32.1,
+      30.3,
+      30.4,
+      29.5,
+      31.2,
+      31.7,
+      31.9
+    ],
+    "temperature_2m_min": [
+      19.8,
+      20.1,
+      17.8,
+      20.6,
+      21.7,
+      21.0,
+      19.9
+    ],
+    "precipitation_sum": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.6,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      3,
+      38,
+      55,
+      33,
+      23,
+      25,
+      18
+    ],
+    "wind_speed_10m_max": [
+      32.1,
+      22.0,
+      17.7,
+      15.2,
+      12.2,
+      13.1,
+      19.8
+    ],
+    "wind_gusts_10m_max": [
+      51.1,
+      43.6,
+      27.7,
+      26.3,
+      20.9,
+      26.3,
+      33.1
+    ],
+    "weather_code": [
+      2,
+      80,
+      3,
+      3,
+      3,
+      80,
+      3
+    ]
+  },
+  "_city_name": "Tineghir",
+  "_extracted_at": "2026-09-16T00:48:13"
+}

@@ -1,0 +1,95 @@
+{
+  "latitude": 33.4375,
+  "longitude": -7.5625,
+  "generationtime_ms": 0.662684440612793,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 180.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      26.9,
+      27.4,
+      29.9,
+      32.8,
+      32.6,
+      33.5,
+      32.2
+    ],
+    "temperature_2m_min": [
+      18.3,
+      17.0,
+      17.8,
+      20.5,
+      19.7,
+      19.5,
+      19.1
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      15.5,
+      15.4,
+      15.2,
+      14.4,
+      15.9,
+      16.9,
+      18.7
+    ],
+    "wind_gusts_10m_max": [
+      30.6,
+      30.2,
+      30.2,
+      28.8,
+      31.7,
+      33.1,
+      36.4
+    ],
+    "weather_code": [
+      3,
+      3,
+      45,
+      45,
+      45,
+      45,
+      45
+    ]
+  },
+  "_city_name": "Ad Darwa",
+  "_extracted_at": "2026-09-17T13:00:53"
+}

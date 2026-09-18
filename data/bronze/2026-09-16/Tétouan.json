@@ -1,0 +1,95 @@
+{
+  "latitude": 35.5625,
+  "longitude": -5.375,
+  "generationtime_ms": 0.7036924362182617,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 66.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      33.3,
+      28.0,
+      26.6,
+      26.2,
+      26.6,
+      26.5,
+      27.1
+    ],
+    "temperature_2m_min": [
+      19.2,
+      15.7,
+      20.5,
+      22.2,
+      22.7,
+      22.3,
+      21.4
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      1,
+      5,
+      3,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      24.9,
+      10.6,
+      15.8,
+      31.5,
+      32.6,
+      32.4,
+      21.1
+    ],
+    "wind_gusts_10m_max": [
+      57.6,
+      26.6,
+      40.3,
+      76.7,
+      77.0,
+      67.3,
+      54.0
+    ],
+    "weather_code": [
+      3,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "_city_name": "Tétouan",
+  "_extracted_at": "2026-09-16T00:46:44"
+}

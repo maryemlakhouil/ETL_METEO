@@ -1,0 +1,95 @@
+{
+  "latitude": 23.725834,
+  "longitude": -15.966187,
+  "generationtime_ms": 0.7561445236206055,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/El_Aaiun",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 12.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      23.2,
+      22.0,
+      21.2,
+      21.0,
+      21.2,
+      21.5,
+      22.0
+    ],
+    "temperature_2m_min": [
+      22.0,
+      20.2,
+      20.2,
+      19.8,
+      19.4,
+      19.2,
+      20.0
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      9,
+      12
+    ],
+    "wind_speed_10m_max": [
+      35.3,
+      40.5,
+      39.6,
+      30.2,
+      32.6,
+      28.7,
+      27.5
+    ],
+    "wind_gusts_10m_max": [
+      43.9,
+      51.5,
+      49.3,
+      39.2,
+      40.3,
+      41.0,
+      35.3
+    ],
+    "weather_code": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "_city_name": "Ad Dakhla",
+  "_extracted_at": "2026-09-16T00:47:07"
+}

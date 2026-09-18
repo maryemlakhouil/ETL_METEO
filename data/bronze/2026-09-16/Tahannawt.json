@@ -1,0 +1,95 @@
+{
+  "latitude": 31.375,
+  "longitude": -7.9375,
+  "generationtime_ms": 0.540614128112793,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 929.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      30.8,
+      25.6,
+      27.8,
+      31.6,
+      34.6,
+      34.0,
+      34.1
+    ],
+    "temperature_2m_min": [
+      19.0,
+      15.1,
+      15.2,
+      18.7,
+      22.2,
+      19.8,
+      20.1
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      3,
+      5,
+      3,
+      13,
+      8,
+      9
+    ],
+    "wind_speed_10m_max": [
+      16.7,
+      12.3,
+      13.7,
+      12.3,
+      21.0,
+      16.3,
+      15.0
+    ],
+    "wind_gusts_10m_max": [
+      32.0,
+      23.4,
+      26.3,
+      25.6,
+      39.7,
+      29.2,
+      26.3
+    ],
+    "weather_code": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      1,
+      1
+    ]
+  },
+  "_city_name": "Tahannawt",
+  "_extracted_at": "2026-09-16T00:48:35"
+}

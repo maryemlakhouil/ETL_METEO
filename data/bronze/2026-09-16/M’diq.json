@@ -1,0 +1,95 @@
+{
+  "latitude": 35.625,
+  "longitude": -5.3125,
+  "generationtime_ms": 0.5658864974975586,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 23.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      32.2,
+      25.8,
+      24.6,
+      24.7,
+      25.4,
+      26.8,
+      27.4
+    ],
+    "temperature_2m_min": [
+      20.6,
+      17.3,
+      20.9,
+      22.1,
+      22.7,
+      22.6,
+      21.7
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      1.5,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      1,
+      5,
+      3,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      27.4,
+      12.9,
+      16.1,
+      26.7,
+      25.7,
+      32.4,
+      21.1
+    ],
+    "wind_gusts_10m_max": [
+      61.9,
+      29.5,
+      35.6,
+      59.8,
+      66.2,
+      67.3,
+      54.0
+    ],
+    "weather_code": [
+      3,
+      2,
+      3,
+      80,
+      80,
+      2,
+      2
+    ]
+  },
+  "_city_name": "M’diq",
+  "_extracted_at": "2026-09-16T00:48:01"
+}

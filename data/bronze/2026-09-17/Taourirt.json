@@ -1,0 +1,95 @@
+{
+  "latitude": 34.4375,
+  "longitude": -2.875,
+  "generationtime_ms": 133.36575031280518,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 401.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      29.6,
+      29.5,
+      30.0,
+      30.7,
+      29.9,
+      30.9,
+      31.7
+    ],
+    "temperature_2m_min": [
+      20.1,
+      18.6,
+      20.1,
+      21.3,
+      21.3,
+      19.8,
+      19.9
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      3,
+      10,
+      3,
+      3,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      24.8,
+      28.8,
+      30.8,
+      30.0,
+      27.8,
+      22.1,
+      25.2
+    ],
+    "wind_gusts_10m_max": [
+      40.3,
+      48.6,
+      54.4,
+      53.6,
+      47.5,
+      37.1,
+      43.2
+    ],
+    "weather_code": [
+      3,
+      45,
+      3,
+      3,
+      3,
+      45,
+      0
+    ]
+  },
+  "_city_name": "Taourirt",
+  "_extracted_at": "2026-09-17T13:00:41"
+}

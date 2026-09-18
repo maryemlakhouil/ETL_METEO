@@ -1,0 +1,95 @@
+{
+  "latitude": 31.625,
+  "longitude": -8.0,
+  "generationtime_ms": 2.232670783996582,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 469.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      35.0,
+      30.0,
+      31.6,
+      35.7,
+      39.1,
+      37.5,
+      37.7
+    ],
+    "temperature_2m_min": [
+      22.2,
+      18.9,
+      19.4,
+      20.9,
+      23.8,
+      23.6,
+      22.5
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      3,
+      5,
+      11,
+      3,
+      4
+    ],
+    "wind_speed_10m_max": [
+      13.0,
+      10.3,
+      9.0,
+      8.1,
+      19.5,
+      17.3,
+      13.5
+    ],
+    "wind_gusts_10m_max": [
+      34.6,
+      29.2,
+      25.6,
+      25.2,
+      38.0,
+      29.5,
+      24.5
+    ],
+    "weather_code": [
+      2,
+      3,
+      3,
+      2,
+      3,
+      1,
+      1
+    ]
+  },
+  "_city_name": "Marrakech",
+  "_extracted_at": "2026-09-16T00:46:35"
+}

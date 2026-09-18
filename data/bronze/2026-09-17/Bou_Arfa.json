@@ -1,0 +1,95 @@
+{
+  "latitude": 32.5,
+  "longitude": -1.9375,
+  "generationtime_ms": 1.4414787292480469,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 1161.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      31.5,
+      29.3,
+      27.4,
+      28.2,
+      22.6,
+      28.3,
+      29.5
+    ],
+    "temperature_2m_min": [
+      17.0,
+      17.8,
+      19.5,
+      16.7,
+      17.2,
+      16.0,
+      16.7
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.3,
+      1.1,
+      0.9,
+      10.5,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      5,
+      20,
+      50,
+      24,
+      43,
+      15,
+      13
+    ],
+    "wind_speed_10m_max": [
+      20.4,
+      21.4,
+      23.7,
+      15.3,
+      16.7,
+      11.8,
+      15.0
+    ],
+    "wind_gusts_10m_max": [
+      31.0,
+      50.8,
+      52.9,
+      23.8,
+      42.1,
+      18.7,
+      24.1
+    ],
+    "weather_code": [
+      3,
+      3,
+      80,
+      3,
+      95,
+      3,
+      2
+    ]
+  },
+  "_city_name": "Bou Arfa",
+  "_extracted_at": "2026-09-17T16:50:37"
+}

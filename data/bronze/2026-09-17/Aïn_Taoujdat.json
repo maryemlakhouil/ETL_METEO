@@ -1,0 +1,95 @@
+{
+  "latitude": 33.9375,
+  "longitude": -5.1875,
+  "generationtime_ms": 0.9899139404296875,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 470.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      27.6,
+      29.9,
+      33.5,
+      35.6,
+      35.2,
+      34.8,
+      35.3
+    ],
+    "temperature_2m_min": [
+      16.7,
+      16.3,
+      18.5,
+      20.8,
+      21.0,
+      20.0,
+      19.6
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      3,
+      0,
+      5,
+      1,
+      0
+    ],
+    "wind_speed_10m_max": [
+      14.9,
+      15.9,
+      16.4,
+      15.5,
+      14.0,
+      15.8,
+      18.8
+    ],
+    "wind_gusts_10m_max": [
+      29.2,
+      30.6,
+      32.0,
+      30.6,
+      27.0,
+      29.5,
+      34.9
+    ],
+    "weather_code": [
+      45,
+      3,
+      2,
+      2,
+      2,
+      0,
+      1
+    ]
+  },
+  "_city_name": "Aïn Taoujdat",
+  "_extracted_at": "2026-09-17T13:01:10"
+}

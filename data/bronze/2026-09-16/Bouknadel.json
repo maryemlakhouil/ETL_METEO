@@ -1,0 +1,95 @@
+{
+  "latitude": 34.1875,
+  "longitude": -6.6875,
+  "generationtime_ms": 0.23090839385986328,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 24.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      25.7,
+      25.1,
+      25.5,
+      29.6,
+      34.7,
+      30.3,
+      29.1
+    ],
+    "temperature_2m_min": [
+      21.2,
+      19.3,
+      17.2,
+      18.0,
+      23.9,
+      22.3,
+      20.8
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      19.0,
+      13.2,
+      14.5,
+      17.0,
+      16.0,
+      12.0,
+      11.5
+    ],
+    "wind_gusts_10m_max": [
+      32.0,
+      23.0,
+      25.6,
+      28.8,
+      30.2,
+      28.1,
+      27.0
+    ],
+    "weather_code": [
+      3,
+      3,
+      45,
+      45,
+      2,
+      2,
+      2
+    ]
+  },
+  "_city_name": "Bouknadel",
+  "_extracted_at": "2026-09-16T00:48:13"
+}

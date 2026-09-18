@@ -1,0 +1,95 @@
+{
+  "latitude": 27.170473,
+  "longitude": -13.229401,
+  "generationtime_ms": 1.8891096115112305,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/El_Aaiun",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 70.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      35.7,
+      28.4,
+      27.9,
+      28.8,
+      32.8,
+      35.3,
+      35.9
+    ],
+    "temperature_2m_min": [
+      21.9,
+      21.5,
+      20.3,
+      18.3,
+      18.7,
+      20.0,
+      20.8
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      3,
+      4
+    ],
+    "wind_speed_10m_max": [
+      26.4,
+      31.4,
+      27.7,
+      24.1,
+      22.0,
+      20.7,
+      22.1
+    ],
+    "wind_gusts_10m_max": [
+      51.1,
+      59.8,
+      54.0,
+      47.2,
+      43.9,
+      45.7,
+      47.5
+    ],
+    "weather_code": [
+      0,
+      3,
+      3,
+      1,
+      2,
+      0,
+      0
+    ]
+  },
+  "_city_name": "Laâyoune",
+  "_extracted_at": "2026-09-16T00:46:47"
+}

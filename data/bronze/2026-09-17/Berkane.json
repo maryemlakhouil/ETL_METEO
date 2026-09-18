@@ -1,0 +1,95 @@
+{
+  "latitude": 34.9375,
+  "longitude": -2.3125,
+  "generationtime_ms": 0.6884336471557617,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 184.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      26.3,
+      26.0,
+      26.2,
+      27.1,
+      26.4,
+      27.7,
+      28.0
+    ],
+    "temperature_2m_min": [
+      17.9,
+      18.2,
+      19.8,
+      21.2,
+      20.5,
+      19.9,
+      19.5
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      3,
+      5,
+      0,
+      5,
+      3,
+      0
+    ],
+    "wind_speed_10m_max": [
+      15.4,
+      19.1,
+      20.1,
+      18.3,
+      18.0,
+      14.6,
+      11.9
+    ],
+    "wind_gusts_10m_max": [
+      32.8,
+      39.6,
+      44.3,
+      37.8,
+      38.5,
+      27.4,
+      22.7
+    ],
+    "weather_code": [
+      3,
+      3,
+      45,
+      45,
+      45,
+      45,
+      45
+    ]
+  },
+  "_city_name": "Berkane",
+  "_extracted_at": "2026-09-17T13:00:52"
+}

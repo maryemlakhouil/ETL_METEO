@@ -1,0 +1,95 @@
+{
+  "latitude": 35.0,
+  "longitude": -5.875,
+  "generationtime_ms": 1.000523567199707,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 25.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      30.6,
+      29.4,
+      30.9,
+      36.3,
+      39.0,
+      39.0,
+      35.7
+    ],
+    "temperature_2m_min": [
+      19.8,
+      19.2,
+      16.9,
+      18.7,
+      22.4,
+      23.1,
+      20.6
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      1,
+      5,
+      3,
+      3,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      17.0,
+      16.6,
+      18.1,
+      9.0,
+      11.3,
+      12.5,
+      15.2
+    ],
+    "wind_gusts_10m_max": [
+      33.1,
+      32.4,
+      35.3,
+      19.8,
+      27.0,
+      25.6,
+      29.9
+    ],
+    "weather_code": [
+      3,
+      3,
+      45,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "_city_name": "Ksar El Kebir",
+  "_extracted_at": "2026-09-16T00:47:17"
+}

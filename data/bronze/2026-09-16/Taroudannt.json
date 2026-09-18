@@ -1,0 +1,95 @@
+{
+  "latitude": 30.5,
+  "longitude": -8.875,
+  "generationtime_ms": 1.1764764785766602,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 238.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      37.6,
+      30.5,
+      31.1,
+      33.3,
+      34.4,
+      40.7,
+      41.6
+    ],
+    "temperature_2m_min": [
+      25.0,
+      19.5,
+      18.6,
+      19.9,
+      21.2,
+      20.8,
+      21.2
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      3,
+      0,
+      3,
+      0,
+      0,
+      5,
+      7
+    ],
+    "wind_speed_10m_max": [
+      22.1,
+      26.5,
+      21.7,
+      23.5,
+      24.2,
+      21.6,
+      14.8
+    ],
+    "wind_gusts_10m_max": [
+      44.6,
+      53.6,
+      43.9,
+      49.0,
+      49.7,
+      45.7,
+      27.7
+    ],
+    "weather_code": [
+      2,
+      3,
+      1,
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "_city_name": "Taroudannt",
+  "_extracted_at": "2026-09-16T00:47:54"
+}

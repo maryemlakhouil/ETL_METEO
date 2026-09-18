@@ -1,0 +1,95 @@
+{
+  "latitude": 30.1875,
+  "longitude": -9.5,
+  "generationtime_ms": 2.290487289428711,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 90.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      26.5,
+      26.1,
+      26.4,
+      26.8,
+      29.8,
+      35.5,
+      34.0
+    ],
+    "temperature_2m_min": [
+      20.8,
+      19.5,
+      20.1,
+      20.4,
+      20.3,
+      20.5,
+      21.1
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      24.5,
+      22.5,
+      20.5,
+      19.5,
+      18.2,
+      18.0,
+      18.9
+    ],
+    "wind_gusts_10m_max": [
+      39.6,
+      36.4,
+      34.2,
+      32.4,
+      30.2,
+      32.8,
+      33.1
+    ],
+    "weather_code": [
+      3,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  "_city_name": "Ait Ali",
+  "_extracted_at": "2026-09-17T16:50:15"
+}

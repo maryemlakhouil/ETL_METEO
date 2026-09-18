@@ -1,0 +1,95 @@
+{
+  "latitude": 28.435852,
+  "longitude": -11.147736,
+  "generationtime_ms": 1.2764930725097656,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 58.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      30.9,
+      25.5,
+      25.7,
+      25.4,
+      29.8,
+      34.5,
+      38.0
+    ],
+    "temperature_2m_min": [
+      20.5,
+      20.1,
+      19.8,
+      19.5,
+      18.3,
+      18.2,
+      18.5
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "wind_speed_10m_max": [
+      25.1,
+      32.4,
+      26.9,
+      21.6,
+      17.4,
+      16.3,
+      15.8
+    ],
+    "wind_gusts_10m_max": [
+      46.4,
+      57.2,
+      49.0,
+      42.8,
+      34.6,
+      40.0,
+      38.2
+    ],
+    "weather_code": [
+      0,
+      3,
+      51,
+      3,
+      3,
+      0,
+      0
+    ]
+  },
+  "_city_name": "Tan-Tan",
+  "_extracted_at": "2026-09-16T00:48:00"
+}

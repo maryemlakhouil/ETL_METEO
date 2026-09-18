@@ -1,0 +1,95 @@
+{
+  "latitude": 32.25,
+  "longitude": -8.5,
+  "generationtime_ms": 0.29265880584716797,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 295.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      27.8,
+      30.2,
+      32.5,
+      35.4,
+      36.5,
+      35.9,
+      35.2
+    ],
+    "temperature_2m_min": [
+      17.2,
+      16.7,
+      16.6,
+      20.7,
+      21.7,
+      19.4,
+      18.9
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      18.6,
+      16.9,
+      16.4,
+      17.3,
+      17.9,
+      17.9,
+      18.3
+    ],
+    "wind_gusts_10m_max": [
+      38.9,
+      34.9,
+      34.6,
+      38.5,
+      39.2,
+      34.6,
+      36.7
+    ],
+    "weather_code": [
+      2,
+      1,
+      2,
+      2,
+      1,
+      0,
+      45
+    ]
+  },
+  "_city_name": "Youssoufia",
+  "_extracted_at": "2026-09-17T13:00:58"
+}

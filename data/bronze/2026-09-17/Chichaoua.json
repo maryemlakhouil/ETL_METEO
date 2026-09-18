@@ -1,0 +1,95 @@
+{
+  "latitude": 31.5625,
+  "longitude": -8.75,
+  "generationtime_ms": 0.4144906997680664,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 365.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      29.5,
+      31.2,
+      33.9,
+      34.3,
+      36.4,
+      36.2,
+      35.7
+    ],
+    "temperature_2m_min": [
+      18.3,
+      17.8,
+      18.5,
+      22.5,
+      22.5,
+      19.8,
+      19.7
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      16.2,
+      15.9,
+      19.1,
+      24.5,
+      24.0,
+      21.4,
+      18.9
+    ],
+    "wind_gusts_10m_max": [
+      27.0,
+      25.9,
+      35.3,
+      40.3,
+      41.0,
+      36.4,
+      30.6
+    ],
+    "weather_code": [
+      3,
+      2,
+      2,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  "_city_name": "Chichaoua",
+  "_extracted_at": "2026-09-17T16:50:32"
+}

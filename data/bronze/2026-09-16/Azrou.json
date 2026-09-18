@@ -1,0 +1,95 @@
+{
+  "latitude": 33.4375,
+  "longitude": -5.25,
+  "generationtime_ms": 0.7778406143188477,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 1277.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22"
+    ],
+    "temperature_2m_max": [
+      26.4,
+      26.3,
+      25.9,
+      28.9,
+      30.5,
+      29.8,
+      29.0
+    ],
+    "temperature_2m_min": [
+      14.1,
+      15.0,
+      14.1,
+      17.3,
+      19.6,
+      21.2,
+      18.4
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      18,
+      15,
+      10,
+      11,
+      17,
+      18
+    ],
+    "wind_speed_10m_max": [
+      17.5,
+      17.2,
+      15.6,
+      14.3,
+      14.7,
+      17.6,
+      19.5
+    ],
+    "wind_gusts_10m_max": [
+      41.4,
+      38.9,
+      37.1,
+      36.7,
+      42.5,
+      43.6,
+      47.2
+    ],
+    "weather_code": [
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1
+    ]
+  },
+  "_city_name": "Azrou",
+  "_extracted_at": "2026-09-16T00:47:56"
+}

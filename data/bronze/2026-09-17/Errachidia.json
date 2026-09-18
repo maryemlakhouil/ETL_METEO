@@ -1,0 +1,95 @@
+{
+  "latitude": 31.9375,
+  "longitude": -4.4375,
+  "generationtime_ms": 1.6412734985351562,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 1033.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      32.8,
+      32.7,
+      31.5,
+      30.6,
+      29.8,
+      30.4,
+      31.7
+    ],
+    "temperature_2m_min": [
+      20.8,
+      20.0,
+      22.3,
+      20.0,
+      21.5,
+      19.0,
+      20.2
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.4,
+      0.1,
+      3.3,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      28,
+      20,
+      19,
+      13,
+      38,
+      17,
+      18
+    ],
+    "wind_speed_10m_max": [
+      16.1,
+      21.9,
+      18.7,
+      11.0,
+      12.9,
+      12.3,
+      12.1
+    ],
+    "wind_gusts_10m_max": [
+      41.0,
+      67.3,
+      43.6,
+      24.8,
+      29.2,
+      23.8,
+      20.2
+    ],
+    "weather_code": [
+      3,
+      3,
+      61,
+      3,
+      80,
+      3,
+      2
+    ]
+  },
+  "_city_name": "Errachidia",
+  "_extracted_at": "2026-09-17T16:50:18"
+}

@@ -1,0 +1,95 @@
+{
+  "latitude": 30.3125,
+  "longitude": -9.4375,
+  "generationtime_ms": 0.5965232849121094,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 61.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      27.5,
+      26.7,
+      26.9,
+      27.5,
+      30.7,
+      36.2,
+      33.1
+    ],
+    "temperature_2m_min": [
+      20.7,
+      19.5,
+      19.9,
+      20.2,
+      19.5,
+      19.7,
+      19.6
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      18.0,
+      18.7,
+      20.5,
+      18.7,
+      17.7,
+      17.2,
+      17.0
+    ],
+    "wind_gusts_10m_max": [
+      39.6,
+      41.4,
+      45.0,
+      43.6,
+      38.2,
+      38.2,
+      37.4
+    ],
+    "weather_code": [
+      3,
+      2,
+      2,
+      2,
+      45,
+      45,
+      0
+    ]
+  },
+  "_city_name": "Lqoliaa",
+  "_extracted_at": "2026-09-17T16:50:16"
+}

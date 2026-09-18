@@ -1,0 +1,95 @@
+{
+  "latitude": 30.3125,
+  "longitude": -5.8125,
+  "generationtime_ms": 1.3641119003295898,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 733.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "temperature_2m_max": [
+      35.8,
+      35.8,
+      35.7,
+      34.7,
+      34.6,
+      32.2,
+      34.7
+    ],
+    "temperature_2m_min": [
+      25.7,
+      24.0,
+      26.8,
+      24.0,
+      25.0,
+      23.3,
+      22.5
+    ],
+    "precipitation_sum": [
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      1.5,
+      0.9,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      8,
+      3,
+      0,
+      0,
+      13,
+      4,
+      5
+    ],
+    "wind_speed_10m_max": [
+      17.6,
+      12.1,
+      20.7,
+      20.8,
+      16.5,
+      8.9,
+      8.5
+    ],
+    "wind_gusts_10m_max": [
+      31.3,
+      19.8,
+      32.4,
+      32.4,
+      31.3,
+      16.9,
+      15.1
+    ],
+    "weather_code": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "_city_name": "Zagora",
+  "_extracted_at": "2026-09-17T16:50:30"
+}
