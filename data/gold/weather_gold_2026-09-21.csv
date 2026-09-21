@@ -1,0 +1,841 @@
+city,latitude,longitude,forecast_date,temp_max,temp_min,precipitation_mm,precipitation_prob,wind_speed_max,wind_gust_max,weather_code,extracted_at,temp_category,precipitation_category,wind_category,risk_score,risk_level,data_quality_flag,day_of_week,is_weekend,days_ahead
+Ad Dakhla,23.725834,-15.966187,2026-09-21,21.8,20.5,0.0,3,30.2,38.9,0,2026-09-21 10:26:04,Normal,Aucune,Modéré,13.3,Faible,Complet,Monday,False,0
+Ad Dakhla,23.725834,-15.966187,2026-09-22,22.1,20.5,0.0,4,35.5,44.3,1,2026-09-21 10:26:04,Normal,Aucune,Modéré,15.2,Faible,Complet,Tuesday,False,1
+Ad Dakhla,23.725834,-15.966187,2026-09-23,23.5,21.3,0.1,8,29.5,40.0,51,2026-09-21 10:26:04,Normal,Faible,Modéré,19.2,Faible,Complet,Wednesday,False,2
+Ad Dakhla,23.725834,-15.966187,2026-09-24,32.2,23.7,0.0,0,35.0,43.9,3,2026-09-21 10:26:04,Chaud,Aucune,Modéré,14.6,Faible,Complet,Thursday,False,3
+Ad Dakhla,23.725834,-15.966187,2026-09-25,27.6,21.5,0.0,2,41.9,53.3,3,2026-09-21 10:26:04,Normal,Aucune,Fort,18.0,Faible,Complet,Friday,True,4
+Ad Dakhla,23.725834,-15.966187,2026-09-26,25.3,21.5,0.0,9,36.3,54.4,3,2026-09-21 10:26:04,Normal,Aucune,Fort,19.0,Faible,Complet,Saturday,True,5
+Ad Dakhla,23.725834,-15.966187,2026-09-27,25.9,23.0,0.6,16,27.1,40.0,51,2026-09-21 10:26:04,Normal,Faible,Modéré,20.4,Faible,Complet,Sunday,False,6
+Ad Darwa,33.4375,-7.5625,2026-09-21,37.6,20.6,0.0,0,18.6,36.4,1,2026-09-21 10:26:15,Chaud,Aucune,Modéré,12.1,Faible,Complet,Monday,False,0
+Ad Darwa,33.4375,-7.5625,2026-09-22,34.6,18.9,0.0,0,15.6,31.0,1,2026-09-21 10:26:15,Chaud,Aucune,Modéré,10.3,Faible,Complet,Tuesday,False,1
+Ad Darwa,33.4375,-7.5625,2026-09-23,33.5,18.2,0.0,0,15.9,31.3,45,2026-09-21 10:26:15,Chaud,Aucune,Modéré,20.4,Faible,Complet,Wednesday,False,2
+Ad Darwa,33.4375,-7.5625,2026-09-24,33.4,18.6,0.0,0,15.8,32.0,0,2026-09-21 10:26:15,Chaud,Aucune,Modéré,10.7,Faible,Complet,Thursday,False,3
+Ad Darwa,33.4375,-7.5625,2026-09-25,33.5,17.9,0.0,0,16.9,33.5,3,2026-09-21 10:26:15,Chaud,Aucune,Modéré,11.2,Faible,Complet,Friday,True,4
+Ad Darwa,33.4375,-7.5625,2026-09-26,33.4,18.5,0.0,0,17.1,33.5,3,2026-09-21 10:26:15,Chaud,Aucune,Modéré,11.2,Faible,Complet,Saturday,True,5
+Ad Darwa,33.4375,-7.5625,2026-09-27,33.3,20.3,0.0,0,16.1,31.7,45,2026-09-21 10:26:15,Chaud,Aucune,Modéré,20.6,Faible,Complet,Sunday,False,6
+Agadir,30.4375,-9.5625,2026-09-21,36.1,22.3,0.0,0,13.7,29.2,3,2026-09-21 10:25:57,Chaud,Aucune,Calme,9.7,Faible,Complet,Monday,False,0
+Agadir,30.4375,-9.5625,2026-09-22,35.0,26.4,0.0,0,13.1,40.3,3,2026-09-21 10:25:57,Chaud,Aucune,Modéré,13.4,Faible,Complet,Tuesday,False,1
+Agadir,30.4375,-9.5625,2026-09-23,36.3,25.6,0.0,0,14.6,36.7,1,2026-09-21 10:25:57,Chaud,Aucune,Modéré,12.2,Faible,Complet,Wednesday,False,2
+Agadir,30.4375,-9.5625,2026-09-24,34.2,22.1,0.0,0,9.8,28.1,0,2026-09-21 10:25:57,Chaud,Aucune,Calme,9.4,Faible,Complet,Thursday,False,3
+Agadir,30.4375,-9.5625,2026-09-25,27.7,20.0,0.0,0,9.7,32.4,45,2026-09-21 10:25:57,Normal,Aucune,Modéré,20.8,Faible,Complet,Friday,True,4
+Agadir,30.4375,-9.5625,2026-09-26,27.7,19.7,0.0,0,13.8,27.7,45,2026-09-21 10:25:57,Normal,Aucune,Calme,19.2,Faible,Complet,Saturday,True,5
+Agadir,30.4375,-9.5625,2026-09-27,28.9,20.4,0.0,0,14.8,30.2,3,2026-09-21 10:25:57,Normal,Aucune,Modéré,10.1,Faible,Complet,Sunday,False,6
+Aguelmous,33.125,-5.8125,2026-09-21,32.4,20.0,0.0,0,22.9,45.4,3,2026-09-21 10:26:36,Chaud,Aucune,Modéré,15.1,Faible,Complet,Monday,False,0
+Aguelmous,33.125,-5.8125,2026-09-22,31.1,18.2,0.0,0,18.9,37.4,1,2026-09-21 10:26:36,Chaud,Aucune,Modéré,12.5,Faible,Complet,Tuesday,False,1
+Aguelmous,33.125,-5.8125,2026-09-23,31.5,17.8,0.0,0,13.4,38.5,1,2026-09-21 10:26:36,Chaud,Aucune,Modéré,12.8,Faible,Complet,Wednesday,False,2
+Aguelmous,33.125,-5.8125,2026-09-24,33.0,18.9,0.0,0,16.0,40.0,0,2026-09-21 10:26:36,Chaud,Aucune,Modéré,13.3,Faible,Complet,Thursday,False,3
+Aguelmous,33.125,-5.8125,2026-09-25,32.4,19.0,0.0,0,15.5,40.3,2,2026-09-21 10:26:36,Chaud,Aucune,Modéré,13.4,Faible,Complet,Friday,True,4
+Aguelmous,33.125,-5.8125,2026-09-26,33.0,18.5,0.0,0,16.6,40.3,3,2026-09-21 10:26:36,Chaud,Aucune,Modéré,13.4,Faible,Complet,Saturday,True,5
+Aguelmous,33.125,-5.8125,2026-09-27,31.2,18.6,0.0,7,9.3,19.8,3,2026-09-21 10:26:36,Chaud,Aucune,Calme,7.3,Faible,Complet,Sunday,False,6
+Ain El Aouda,33.8125,-6.8125,2026-09-21,36.6,18.6,0.0,0,17.7,35.3,2,2026-09-21 10:26:13,Chaud,Aucune,Modéré,11.8,Faible,Complet,Monday,False,0
+Ain El Aouda,33.8125,-6.8125,2026-09-22,34.3,18.0,0.0,0,15.5,31.3,0,2026-09-21 10:26:13,Chaud,Aucune,Modéré,10.4,Faible,Complet,Tuesday,False,1
+Ain El Aouda,33.8125,-6.8125,2026-09-23,33.6,16.2,0.0,0,16.9,33.5,1,2026-09-21 10:26:13,Chaud,Aucune,Modéré,11.2,Faible,Complet,Wednesday,False,2
+Ain El Aouda,33.8125,-6.8125,2026-09-24,33.8,17.1,0.0,0,14.5,32.8,0,2026-09-21 10:26:13,Chaud,Aucune,Modéré,10.9,Faible,Complet,Thursday,False,3
+Ain El Aouda,33.8125,-6.8125,2026-09-25,34.4,17.6,0.0,0,15.9,33.5,0,2026-09-21 10:26:13,Chaud,Aucune,Modéré,11.2,Faible,Complet,Friday,True,4
+Ain El Aouda,33.8125,-6.8125,2026-09-26,35.0,16.0,0.0,0,16.3,31.3,3,2026-09-21 10:26:13,Chaud,Aucune,Modéré,10.4,Faible,Complet,Saturday,True,5
+Ain El Aouda,33.8125,-6.8125,2026-09-27,32.4,18.5,0.0,0,13.8,27.0,45,2026-09-21 10:26:13,Chaud,Aucune,Calme,19.0,Faible,Complet,Sunday,False,6
+Ait Ali,30.1875,-9.5,2026-09-21,40.5,21.9,0.0,0,17.1,30.6,3,2026-09-21 10:26:10,Extrême,Aucune,Modéré,14.0,Faible,Complet,Monday,False,0
+Ait Ali,30.1875,-9.5,2026-09-22,38.0,24.6,0.0,0,25.0,41.4,3,2026-09-21 10:26:10,Extrême,Aucune,Modéré,13.8,Faible,Complet,Tuesday,False,1
+Ait Ali,30.1875,-9.5,2026-09-23,40.1,24.0,0.0,0,22.3,38.2,1,2026-09-21 10:26:10,Extrême,Aucune,Modéré,15.9,Faible,Complet,Wednesday,False,2
+Ait Ali,30.1875,-9.5,2026-09-24,36.5,22.8,0.0,0,18.7,31.0,0,2026-09-21 10:26:10,Chaud,Aucune,Modéré,10.3,Faible,Complet,Thursday,False,3
+Ait Ali,30.1875,-9.5,2026-09-25,27.6,19.2,0.0,0,16.6,30.6,3,2026-09-21 10:26:10,Normal,Aucune,Modéré,10.2,Faible,Complet,Friday,True,4
+Ait Ali,30.1875,-9.5,2026-09-26,26.0,19.2,0.0,0,17.0,30.2,3,2026-09-21 10:26:10,Normal,Aucune,Modéré,10.1,Faible,Complet,Saturday,True,5
+Ait Ali,30.1875,-9.5,2026-09-27,27.0,20.5,0.0,0,19.2,33.1,3,2026-09-21 10:26:10,Normal,Aucune,Modéré,11.0,Faible,Complet,Sunday,False,6
+Ait Melloul,30.3125,-9.5,2026-09-21,39.8,21.7,0.0,0,16.6,32.8,3,2026-09-21 10:26:01,Extrême,Aucune,Modéré,13.6,Faible,Complet,Monday,False,0
+Ait Melloul,30.3125,-9.5,2026-09-22,36.3,23.6,0.0,0,19.6,38.9,3,2026-09-21 10:26:01,Chaud,Aucune,Modéré,13.0,Faible,Complet,Tuesday,False,1
+Ait Melloul,30.3125,-9.5,2026-09-23,38.4,22.8,0.0,0,17.5,35.3,1,2026-09-21 10:26:01,Extrême,Aucune,Modéré,12.4,Faible,Complet,Wednesday,False,2
+Ait Melloul,30.3125,-9.5,2026-09-24,34.1,21.8,0.0,0,13.9,29.9,0,2026-09-21 10:26:01,Chaud,Aucune,Calme,10.0,Faible,Complet,Thursday,False,3
+Ait Melloul,30.3125,-9.5,2026-09-25,26.3,18.7,0.0,0,18.1,37.1,3,2026-09-21 10:26:01,Normal,Aucune,Modéré,12.4,Faible,Complet,Friday,True,4
+Ait Melloul,30.3125,-9.5,2026-09-26,28.0,19.4,0.0,0,13.8,27.7,45,2026-09-21 10:26:01,Normal,Aucune,Calme,19.2,Faible,Complet,Saturday,True,5
+Ait Melloul,30.3125,-9.5,2026-09-27,29.2,20.6,0.0,0,14.8,30.2,3,2026-09-21 10:26:01,Normal,Aucune,Modéré,10.1,Faible,Complet,Sunday,False,6
+Ait Ourir,31.5625,-7.6875,2026-09-21,36.3,24.1,0.0,0,21.0,38.5,3,2026-09-21 10:26:25,Chaud,Aucune,Modéré,12.8,Faible,Complet,Monday,False,0
+Ait Ourir,31.5625,-7.6875,2026-09-22,35.4,21.9,0.0,0,17.5,34.2,0,2026-09-21 10:26:25,Chaud,Aucune,Modéré,11.4,Faible,Complet,Tuesday,False,1
+Ait Ourir,31.5625,-7.6875,2026-09-23,35.0,20.6,0.0,0,13.0,24.5,0,2026-09-21 10:26:25,Chaud,Aucune,Calme,8.2,Faible,Complet,Wednesday,False,2
+Ait Ourir,31.5625,-7.6875,2026-09-24,35.5,20.6,0.0,0,14.7,28.1,0,2026-09-21 10:26:25,Chaud,Aucune,Calme,9.4,Faible,Complet,Thursday,False,3
+Ait Ourir,31.5625,-7.6875,2026-09-25,35.1,20.7,0.0,0,10.0,19.1,3,2026-09-21 10:26:25,Chaud,Aucune,Calme,6.4,Faible,Complet,Friday,True,4
+Ait Ourir,31.5625,-7.6875,2026-09-26,32.7,20.0,0.0,0,9.2,19.8,3,2026-09-21 10:26:25,Chaud,Aucune,Calme,6.6,Faible,Complet,Saturday,True,5
+Ait Ourir,31.5625,-7.6875,2026-09-27,32.7,21.7,0.3,0,14.8,39.2,3,2026-09-21 10:26:25,Chaud,Faible,Modéré,13.3,Faible,Complet,Sunday,False,6
+Al Aaroui,35.0,-3.0,2026-09-21,25.8,19.6,0.0,0,24.2,41.8,2,2026-09-21 10:26:29,Normal,Aucune,Modéré,13.9,Faible,Complet,Monday,False,0
+Al Aaroui,35.0,-3.0,2026-09-22,26.5,16.9,0.0,0,20.2,34.6,45,2026-09-21 10:26:29,Normal,Aucune,Modéré,21.5,Faible,Complet,Tuesday,False,1
+Al Aaroui,35.0,-3.0,2026-09-23,26.8,16.6,0.0,0,20.9,36.4,45,2026-09-21 10:26:29,Normal,Aucune,Modéré,22.1,Faible,Complet,Wednesday,False,2
+Al Aaroui,35.0,-3.0,2026-09-24,26.8,16.9,0.0,0,25.0,43.6,45,2026-09-21 10:26:29,Normal,Aucune,Modéré,24.5,Faible,Complet,Thursday,False,3
+Al Aaroui,35.0,-3.0,2026-09-25,29.5,17.1,0.0,0,15.5,26.6,45,2026-09-21 10:26:29,Normal,Aucune,Calme,18.9,Faible,Complet,Friday,True,4
+Al Aaroui,35.0,-3.0,2026-09-26,33.1,16.0,0.0,0,16.6,32.0,3,2026-09-21 10:26:29,Chaud,Aucune,Modéré,10.7,Faible,Complet,Saturday,True,5
+Al Aaroui,35.0,-3.0,2026-09-27,28.5,15.8,0.0,0,14.3,28.8,3,2026-09-21 10:26:29,Normal,Aucune,Calme,9.6,Faible,Complet,Sunday,False,6
+Al Fqih Ben Çalah,32.5,-6.6875,2026-09-21,38.2,22.3,0.0,0,17.4,34.2,2,2026-09-21 10:26:14,Extrême,Aucune,Modéré,11.7,Faible,Complet,Monday,False,0
+Al Fqih Ben Çalah,32.5,-6.6875,2026-09-22,36.9,18.9,0.0,0,18.6,34.2,1,2026-09-21 10:26:14,Chaud,Aucune,Modéré,11.4,Faible,Complet,Tuesday,False,1
+Al Fqih Ben Çalah,32.5,-6.6875,2026-09-23,36.7,17.6,0.0,0,8.7,16.6,1,2026-09-21 10:26:14,Chaud,Aucune,Calme,5.5,Faible,Complet,Wednesday,False,2
+Al Fqih Ben Çalah,32.5,-6.6875,2026-09-24,38.2,19.2,0.0,0,13.9,33.1,0,2026-09-21 10:26:14,Extrême,Aucune,Modéré,11.3,Faible,Complet,Thursday,False,3
+Al Fqih Ben Çalah,32.5,-6.6875,2026-09-25,38.0,18.2,0.0,0,12.7,25.2,3,2026-09-21 10:26:14,Extrême,Aucune,Calme,8.4,Faible,Complet,Friday,True,4
+Al Fqih Ben Çalah,32.5,-6.6875,2026-09-26,37.5,18.6,0.0,0,12.4,22.0,3,2026-09-21 10:26:14,Chaud,Aucune,Calme,7.3,Faible,Complet,Saturday,True,5
+Al Fqih Ben Çalah,32.5,-6.6875,2026-09-27,36.3,21.2,0.0,0,12.9,20.9,3,2026-09-21 10:26:14,Chaud,Aucune,Calme,7.0,Faible,Complet,Sunday,False,6
+Al Hoceïma,35.1875,-3.875,2026-09-21,28.4,19.9,0.0,0,23.8,42.1,1,2026-09-21 10:26:27,Normal,Aucune,Modéré,14.0,Faible,Complet,Monday,False,0
+Al Hoceïma,35.1875,-3.875,2026-09-22,26.4,17.4,0.0,0,13.9,24.8,3,2026-09-21 10:26:27,Normal,Aucune,Calme,8.3,Faible,Complet,Tuesday,False,1
+Al Hoceïma,35.1875,-3.875,2026-09-23,26.3,17.1,0.0,0,12.8,22.7,2,2026-09-21 10:26:27,Normal,Aucune,Calme,7.6,Faible,Complet,Wednesday,False,2
+Al Hoceïma,35.1875,-3.875,2026-09-24,27.4,18.8,0.0,0,13.9,25.6,45,2026-09-21 10:26:27,Normal,Aucune,Calme,18.5,Faible,Complet,Thursday,False,3
+Al Hoceïma,35.1875,-3.875,2026-09-25,26.9,17.6,0.0,0,9.2,19.1,1,2026-09-21 10:26:27,Normal,Aucune,Calme,6.4,Faible,Complet,Friday,True,4
+Al Hoceïma,35.1875,-3.875,2026-09-26,27.0,19.1,0.0,0,9.2,16.6,45,2026-09-21 10:26:27,Normal,Aucune,Calme,15.5,Faible,Complet,Saturday,True,5
+Al Hoceïma,35.1875,-3.875,2026-09-27,25.9,19.2,0.0,0,10.6,19.8,45,2026-09-21 10:26:27,Normal,Aucune,Calme,16.6,Faible,Complet,Sunday,False,6
+Al Khmissat,33.8125,-6.0625,2026-09-21,36.8,20.4,0.0,0,18.0,36.7,3,2026-09-21 10:26:06,Chaud,Aucune,Modéré,12.2,Faible,Complet,Monday,False,0
+Al Khmissat,33.8125,-6.0625,2026-09-22,35.4,19.2,0.0,0,14.5,28.8,0,2026-09-21 10:26:06,Chaud,Aucune,Calme,9.6,Faible,Complet,Tuesday,False,1
+Al Khmissat,33.8125,-6.0625,2026-09-23,34.8,19.0,0.0,0,16.9,36.0,3,2026-09-21 10:26:06,Chaud,Aucune,Modéré,12.0,Faible,Complet,Wednesday,False,2
+Al Khmissat,33.8125,-6.0625,2026-09-24,36.1,19.2,0.0,0,17.3,32.8,0,2026-09-21 10:26:06,Chaud,Aucune,Modéré,10.9,Faible,Complet,Thursday,False,3
+Al Khmissat,33.8125,-6.0625,2026-09-25,35.6,19.3,0.0,0,15.6,35.6,0,2026-09-21 10:26:06,Chaud,Aucune,Modéré,11.9,Faible,Complet,Friday,True,4
+Al Khmissat,33.8125,-6.0625,2026-09-26,36.3,17.8,0.0,0,15.7,31.0,3,2026-09-21 10:26:06,Chaud,Aucune,Modéré,10.3,Faible,Complet,Saturday,True,5
+Al Khmissat,33.8125,-6.0625,2026-09-27,34.0,18.0,0.0,0,14.8,27.4,3,2026-09-21 10:26:06,Chaud,Aucune,Calme,9.1,Faible,Complet,Sunday,False,6
+Al ’Attawia,31.8125,-7.3125,2026-09-21,36.2,22.1,0.0,3,19.2,35.3,3,2026-09-21 10:26:35,Chaud,Aucune,Modéré,12.1,Faible,Complet,Monday,False,0
+Al ’Attawia,31.8125,-7.3125,2026-09-22,35.3,21.1,0.0,0,15.7,28.4,0,2026-09-21 10:26:35,Chaud,Aucune,Calme,9.5,Faible,Complet,Tuesday,False,1
+Al ’Attawia,31.8125,-7.3125,2026-09-23,34.8,19.3,0.0,0,12.1,22.0,2,2026-09-21 10:26:35,Chaud,Aucune,Calme,7.3,Faible,Complet,Wednesday,False,2
+Al ’Attawia,31.8125,-7.3125,2026-09-24,35.8,19.2,0.0,0,14.6,26.6,0,2026-09-21 10:26:35,Chaud,Aucune,Calme,8.9,Faible,Complet,Thursday,False,3
+Al ’Attawia,31.8125,-7.3125,2026-09-25,35.2,19.1,0.0,0,14.4,27.7,3,2026-09-21 10:26:35,Chaud,Aucune,Calme,9.2,Faible,Complet,Friday,True,4
+Al ’Attawia,31.8125,-7.3125,2026-09-26,33.4,17.6,0.0,3,13.5,25.2,3,2026-09-21 10:26:35,Chaud,Aucune,Calme,8.7,Faible,Complet,Saturday,True,5
+Al ’Attawia,31.8125,-7.3125,2026-09-27,33.2,19.6,0.0,4,14.9,34.9,3,2026-09-21 10:26:35,Chaud,Aucune,Modéré,12.0,Faible,Complet,Sunday,False,6
+Arfoud,31.4375,-4.25,2026-09-21,32.9,21.0,0.0,13,11.8,20.2,3,2026-09-21 10:26:42,Chaud,Aucune,Calme,8.0,Faible,Complet,Monday,False,0
+Arfoud,31.4375,-4.25,2026-09-22,32.4,22.1,0.0,0,13.0,19.8,3,2026-09-21 10:26:42,Chaud,Aucune,Calme,6.6,Faible,Complet,Tuesday,False,1
+Arfoud,31.4375,-4.25,2026-09-23,31.6,20.5,0.0,0,9.2,13.7,3,2026-09-21 10:26:42,Chaud,Aucune,Calme,4.6,Faible,Complet,Wednesday,False,2
+Arfoud,31.4375,-4.25,2026-09-24,32.1,21.3,0.0,0,9.8,15.8,2,2026-09-21 10:26:42,Chaud,Aucune,Calme,5.3,Faible,Complet,Thursday,False,3
+Arfoud,31.4375,-4.25,2026-09-25,33.4,21.9,0.0,0,12.4,21.6,2,2026-09-21 10:26:42,Chaud,Aucune,Calme,7.2,Faible,Complet,Friday,True,4
+Arfoud,31.4375,-4.25,2026-09-26,33.5,21.4,0.0,0,10.5,19.1,3,2026-09-21 10:26:42,Chaud,Aucune,Calme,6.4,Faible,Complet,Saturday,True,5
+Arfoud,31.4375,-4.25,2026-09-27,31.4,23.8,0.0,0,13.1,20.5,3,2026-09-21 10:26:42,Chaud,Aucune,Calme,6.8,Faible,Complet,Sunday,False,6
+Asilah,35.5,-6.0,2026-09-21,30.5,23.2,0.0,0,23.7,41.8,1,2026-09-21 10:26:37,Chaud,Aucune,Modéré,13.9,Faible,Complet,Monday,False,0
+Asilah,35.5,-6.0,2026-09-22,30.8,22.2,0.0,0,20.4,36.4,1,2026-09-21 10:26:37,Chaud,Aucune,Modéré,12.1,Faible,Complet,Tuesday,False,1
+Asilah,35.5,-6.0,2026-09-23,31.3,20.6,0.0,0,26.2,46.4,1,2026-09-21 10:26:37,Chaud,Aucune,Modéré,15.5,Faible,Complet,Wednesday,False,2
+Asilah,35.5,-6.0,2026-09-24,31.7,22.2,0.0,0,26.4,47.2,0,2026-09-21 10:26:37,Chaud,Aucune,Modéré,15.7,Faible,Complet,Thursday,False,3
+Asilah,35.5,-6.0,2026-09-25,34.4,21.4,0.0,0,24.1,42.1,0,2026-09-21 10:26:37,Chaud,Aucune,Modéré,14.0,Faible,Complet,Friday,True,4
+Asilah,35.5,-6.0,2026-09-26,39.2,20.4,0.0,0,22.4,42.1,3,2026-09-21 10:26:37,Extrême,Aucune,Modéré,15.8,Faible,Complet,Saturday,True,5
+Asilah,35.5,-6.0,2026-09-27,35.0,22.5,0.0,0,10.7,20.9,3,2026-09-21 10:26:37,Chaud,Aucune,Calme,7.0,Faible,Complet,Sunday,False,6
+Azemmour,33.3125,-8.3125,2026-09-21,30.5,19.7,0.0,0,17.3,32.0,45,2026-09-21 10:26:32,Chaud,Aucune,Modéré,20.7,Faible,Complet,Monday,False,0
+Azemmour,33.3125,-8.3125,2026-09-22,29.2,18.1,0.0,0,15.6,28.8,45,2026-09-21 10:26:32,Normal,Aucune,Calme,19.6,Faible,Complet,Tuesday,False,1
+Azemmour,33.3125,-8.3125,2026-09-23,27.3,19.8,0.0,0,15.5,28.8,45,2026-09-21 10:26:32,Normal,Aucune,Calme,19.6,Faible,Complet,Wednesday,False,2
+Azemmour,33.3125,-8.3125,2026-09-24,28.4,18.7,0.0,0,13.2,25.2,45,2026-09-21 10:26:32,Normal,Aucune,Calme,18.4,Faible,Complet,Thursday,False,3
+Azemmour,33.3125,-8.3125,2026-09-25,28.0,19.3,0.0,0,15.7,29.5,45,2026-09-21 10:26:32,Normal,Aucune,Calme,19.8,Faible,Complet,Friday,True,4
+Azemmour,33.3125,-8.3125,2026-09-26,27.0,20.2,0.0,0,10.5,22.0,3,2026-09-21 10:26:32,Normal,Aucune,Calme,7.3,Faible,Complet,Saturday,True,5
+Azemmour,33.3125,-8.3125,2026-09-27,27.4,21.2,0.0,0,13.0,27.0,45,2026-09-21 10:26:32,Normal,Aucune,Calme,19.0,Faible,Complet,Sunday,False,6
+Aziylal,31.9375,-6.5625,2026-09-21,28.2,18.8,0.0,5,19.4,42.8,3,2026-09-21 10:26:28,Normal,Aucune,Modéré,14.8,Faible,Complet,Monday,False,0
+Aziylal,31.9375,-6.5625,2026-09-22,28.1,17.0,0.0,0,18.8,40.3,1,2026-09-21 10:26:28,Normal,Aucune,Modéré,13.4,Faible,Complet,Tuesday,False,1
+Aziylal,31.9375,-6.5625,2026-09-23,28.3,17.1,0.0,0,16.9,35.6,2,2026-09-21 10:26:28,Normal,Aucune,Modéré,11.9,Faible,Complet,Wednesday,False,2
+Aziylal,31.9375,-6.5625,2026-09-24,29.6,19.1,0.0,0,20.2,42.5,0,2026-09-21 10:26:28,Normal,Aucune,Modéré,14.2,Faible,Complet,Thursday,False,3
+Aziylal,31.9375,-6.5625,2026-09-25,29.5,18.4,0.0,0,17.5,36.4,3,2026-09-21 10:26:28,Normal,Aucune,Modéré,12.1,Faible,Complet,Friday,True,4
+Aziylal,31.9375,-6.5625,2026-09-26,29.4,18.7,0.0,0,18.2,36.4,3,2026-09-21 10:26:28,Normal,Aucune,Modéré,12.1,Faible,Complet,Saturday,True,5
+Aziylal,31.9375,-6.5625,2026-09-27,27.5,18.5,0.6,10,14.7,31.7,3,2026-09-21 10:26:28,Normal,Faible,Modéré,12.1,Faible,Complet,Sunday,False,6
+Azrou,33.4375,-5.25,2026-09-21,28.3,18.2,0.0,0,17.9,40.0,2,2026-09-21 10:26:18,Normal,Aucune,Modéré,13.3,Faible,Complet,Monday,False,0
+Azrou,33.4375,-5.25,2026-09-22,27.3,15.2,0.0,0,15.5,36.4,1,2026-09-21 10:26:18,Normal,Aucune,Modéré,12.1,Faible,Complet,Tuesday,False,1
+Azrou,33.4375,-5.25,2026-09-23,28.2,16.5,0.0,0,16.5,35.6,3,2026-09-21 10:26:18,Normal,Aucune,Modéré,11.9,Faible,Complet,Wednesday,False,2
+Azrou,33.4375,-5.25,2026-09-24,29.4,18.0,0.0,0,12.9,29.9,0,2026-09-21 10:26:18,Normal,Aucune,Calme,10.0,Faible,Complet,Thursday,False,3
+Azrou,33.4375,-5.25,2026-09-25,28.6,17.2,0.0,0,12.7,31.3,0,2026-09-21 10:26:18,Normal,Aucune,Modéré,10.4,Faible,Complet,Friday,True,4
+Azrou,33.4375,-5.25,2026-09-26,29.6,19.0,0.0,0,13.7,33.8,3,2026-09-21 10:26:18,Normal,Aucune,Modéré,11.3,Faible,Complet,Saturday,True,5
+Azrou,33.4375,-5.25,2026-09-27,27.4,20.0,0.3,12,11.0,31.3,3,2026-09-21 10:26:18,Normal,Faible,Modéré,11.9,Faible,Complet,Sunday,False,6
+Aïn Harrouda,33.625,-7.4375,2026-09-21,31.7,19.8,0.0,0,13.0,34.9,45,2026-09-21 10:26:22,Chaud,Aucune,Modéré,21.6,Faible,Complet,Monday,False,0
+Aïn Harrouda,33.625,-7.4375,2026-09-22,30.6,19.0,0.0,0,11.1,30.2,45,2026-09-21 10:26:22,Chaud,Aucune,Modéré,20.1,Faible,Complet,Tuesday,False,1
+Aïn Harrouda,33.625,-7.4375,2026-09-23,28.6,20.2,0.0,0,11.7,32.0,45,2026-09-21 10:26:22,Normal,Aucune,Modéré,20.7,Faible,Complet,Wednesday,False,2
+Aïn Harrouda,33.625,-7.4375,2026-09-24,29.4,18.6,0.0,0,11.1,30.6,1,2026-09-21 10:26:22,Normal,Aucune,Modéré,10.2,Faible,Complet,Thursday,False,3
+Aïn Harrouda,33.625,-7.4375,2026-09-25,29.4,18.4,0.0,0,11.6,31.7,3,2026-09-21 10:26:22,Normal,Aucune,Modéré,10.6,Faible,Complet,Friday,True,4
+Aïn Harrouda,33.625,-7.4375,2026-09-26,28.7,18.4,0.0,0,12.0,28.4,3,2026-09-21 10:26:22,Normal,Aucune,Calme,9.5,Faible,Complet,Saturday,True,5
+Aïn Harrouda,33.625,-7.4375,2026-09-27,29.3,21.6,0.0,0,12.3,32.0,3,2026-09-21 10:26:22,Normal,Aucune,Modéré,10.7,Faible,Complet,Sunday,False,6
+Aïn Taoujdat,33.9375,-5.1875,2026-09-21,35.1,19.8,0.0,0,19.0,36.4,2,2026-09-21 10:26:38,Chaud,Aucune,Modéré,12.1,Faible,Complet,Monday,False,0
+Aïn Taoujdat,33.9375,-5.1875,2026-09-22,33.5,19.2,0.0,0,16.5,31.3,0,2026-09-21 10:26:38,Chaud,Aucune,Modéré,10.4,Faible,Complet,Tuesday,False,1
+Aïn Taoujdat,33.9375,-5.1875,2026-09-23,34.1,18.5,0.0,0,15.5,29.9,1,2026-09-21 10:26:38,Chaud,Aucune,Calme,10.0,Faible,Complet,Wednesday,False,2
+Aïn Taoujdat,33.9375,-5.1875,2026-09-24,35.2,19.3,0.0,0,14.6,26.6,0,2026-09-21 10:26:38,Chaud,Aucune,Calme,8.9,Faible,Complet,Thursday,False,3
+Aïn Taoujdat,33.9375,-5.1875,2026-09-25,34.8,18.9,0.0,0,13.6,26.3,0,2026-09-21 10:26:38,Chaud,Aucune,Calme,8.8,Faible,Complet,Friday,True,4
+Aïn Taoujdat,33.9375,-5.1875,2026-09-26,36.3,20.3,0.0,0,23.5,47.5,3,2026-09-21 10:26:38,Chaud,Aucune,Modéré,15.8,Faible,Complet,Saturday,True,5
+Aïn Taoujdat,33.9375,-5.1875,2026-09-27,34.1,21.0,0.0,0,13.8,25.2,3,2026-09-21 10:26:38,Chaud,Aucune,Calme,8.4,Faible,Complet,Sunday,False,6
+Barrechid,33.25,-7.5625,2026-09-21,39.2,20.8,0.0,0,24.5,44.3,2,2026-09-21 10:26:04,Extrême,Aucune,Modéré,16.6,Faible,Complet,Monday,False,0
+Barrechid,33.25,-7.5625,2026-09-22,36.6,19.0,0.0,0,20.1,36.4,0,2026-09-21 10:26:04,Chaud,Aucune,Modéré,12.1,Faible,Complet,Tuesday,False,1
+Barrechid,33.25,-7.5625,2026-09-23,35.8,17.2,0.0,0,20.3,37.8,45,2026-09-21 10:26:04,Chaud,Aucune,Modéré,22.6,Faible,Complet,Wednesday,False,2
+Barrechid,33.25,-7.5625,2026-09-24,35.7,18.3,0.0,0,18.7,35.3,0,2026-09-21 10:26:04,Chaud,Aucune,Modéré,11.8,Faible,Complet,Thursday,False,3
+Barrechid,33.25,-7.5625,2026-09-25,35.5,18.3,0.0,0,20.9,38.5,3,2026-09-21 10:26:04,Chaud,Aucune,Modéré,12.8,Faible,Complet,Friday,True,4
+Barrechid,33.25,-7.5625,2026-09-26,32.8,18.8,0.0,0,17.3,32.8,3,2026-09-21 10:26:04,Chaud,Aucune,Modéré,10.9,Faible,Complet,Saturday,True,5
+Barrechid,33.25,-7.5625,2026-09-27,33.2,19.9,0.0,0,16.4,32.0,45,2026-09-21 10:26:04,Chaud,Aucune,Modéré,20.7,Faible,Complet,Sunday,False,6
+Ben Guerir,32.25,-7.9375,2026-09-21,38.0,23.8,0.0,0,20.2,40.3,1,2026-09-21 10:26:09,Extrême,Aucune,Modéré,13.4,Faible,Complet,Monday,False,0
+Ben Guerir,32.25,-7.9375,2026-09-22,36.6,22.4,0.0,0,14.5,29.9,0,2026-09-21 10:26:09,Chaud,Aucune,Calme,10.0,Faible,Complet,Tuesday,False,1
+Ben Guerir,32.25,-7.9375,2026-09-23,36.1,19.9,0.0,0,14.0,34.2,0,2026-09-21 10:26:09,Chaud,Aucune,Modéré,11.4,Faible,Complet,Wednesday,False,2
+Ben Guerir,32.25,-7.9375,2026-09-24,36.6,19.7,0.0,0,14.8,29.5,0,2026-09-21 10:26:09,Chaud,Aucune,Calme,9.8,Faible,Complet,Thursday,False,3
+Ben Guerir,32.25,-7.9375,2026-09-25,36.3,20.1,0.0,0,17.2,36.4,3,2026-09-21 10:26:09,Chaud,Aucune,Modéré,12.1,Faible,Complet,Friday,True,4
+Ben Guerir,32.25,-7.9375,2026-09-26,33.3,20.8,0.0,0,16.0,29.5,3,2026-09-21 10:26:09,Chaud,Aucune,Calme,9.8,Faible,Complet,Saturday,True,5
+Ben Guerir,32.25,-7.9375,2026-09-27,34.2,20.9,0.0,0,16.3,28.8,3,2026-09-21 10:26:09,Chaud,Aucune,Calme,9.6,Faible,Complet,Sunday,False,6
+Beni Yakhlef,33.625,-7.3125,2026-09-21,34.4,19.4,0.0,0,18.8,35.3,2,2026-09-21 10:26:08,Chaud,Aucune,Modéré,11.8,Faible,Complet,Monday,False,0
+Beni Yakhlef,33.625,-7.3125,2026-09-22,32.5,18.2,0.0,0,15.0,28.4,45,2026-09-21 10:26:08,Chaud,Aucune,Calme,19.5,Faible,Complet,Tuesday,False,1
+Beni Yakhlef,33.625,-7.3125,2026-09-23,30.2,19.0,0.0,0,17.3,32.4,45,2026-09-21 10:26:08,Chaud,Aucune,Modéré,20.8,Faible,Complet,Wednesday,False,2
+Beni Yakhlef,33.625,-7.3125,2026-09-24,31.2,17.8,0.0,0,15.9,29.9,0,2026-09-21 10:26:08,Chaud,Aucune,Calme,10.0,Faible,Complet,Thursday,False,3
+Beni Yakhlef,33.625,-7.3125,2026-09-25,31.2,17.7,0.0,0,17.7,32.8,3,2026-09-21 10:26:08,Chaud,Aucune,Modéré,10.9,Faible,Complet,Friday,True,4
+Beni Yakhlef,33.625,-7.3125,2026-09-26,30.6,17.4,0.0,0,15.7,29.9,3,2026-09-21 10:26:08,Chaud,Aucune,Calme,10.0,Faible,Complet,Saturday,True,5
+Beni Yakhlef,33.625,-7.3125,2026-09-27,30.8,20.9,0.0,0,15.0,29.5,45,2026-09-21 10:26:08,Chaud,Aucune,Calme,19.8,Faible,Complet,Sunday,False,6
+Berkane,34.9375,-2.3125,2026-09-21,25.9,19.1,0.0,0,17.1,35.6,45,2026-09-21 10:26:13,Normal,Aucune,Modéré,21.9,Faible,Complet,Monday,False,0
+Berkane,34.9375,-2.3125,2026-09-22,26.1,16.8,0.0,0,15.3,31.7,3,2026-09-21 10:26:13,Normal,Aucune,Modéré,10.6,Faible,Complet,Tuesday,False,1
+Berkane,34.9375,-2.3125,2026-09-23,26.3,17.3,0.0,0,14.8,31.0,2,2026-09-21 10:26:13,Normal,Aucune,Modéré,10.3,Faible,Complet,Wednesday,False,2
+Berkane,34.9375,-2.3125,2026-09-24,27.1,17.1,0.0,0,17.7,37.8,45,2026-09-21 10:26:13,Normal,Aucune,Modéré,22.6,Faible,Complet,Thursday,False,3
+Berkane,34.9375,-2.3125,2026-09-25,28.1,17.4,0.0,0,11.6,26.3,45,2026-09-21 10:26:13,Normal,Aucune,Calme,18.8,Faible,Complet,Friday,True,4
+Berkane,34.9375,-2.3125,2026-09-26,29.9,17.5,0.0,0,12.5,26.3,3,2026-09-21 10:26:13,Normal,Aucune,Calme,8.8,Faible,Complet,Saturday,True,5
+Berkane,34.9375,-2.3125,2026-09-27,27.3,18.1,0.0,0,11.9,22.0,3,2026-09-21 10:26:13,Normal,Aucune,Calme,7.3,Faible,Complet,Sunday,False,6
+Biougra,30.1875,-9.375,2026-09-21,40.8,22.6,0.0,0,18.9,31.7,3,2026-09-21 10:26:27,Extrême,Aucune,Modéré,14.8,Faible,Complet,Monday,False,0
+Biougra,30.1875,-9.375,2026-09-22,38.5,25.4,0.0,0,25.7,44.3,3,2026-09-21 10:26:27,Extrême,Aucune,Modéré,15.5,Faible,Complet,Tuesday,False,1
+Biougra,30.1875,-9.375,2026-09-23,39.9,24.9,0.0,0,25.4,42.8,1,2026-09-21 10:26:27,Extrême,Aucune,Modéré,17.1,Faible,Complet,Wednesday,False,2
+Biougra,30.1875,-9.375,2026-09-24,37.5,24.3,0.0,0,20.1,33.1,0,2026-09-21 10:26:27,Chaud,Aucune,Modéré,11.0,Faible,Complet,Thursday,False,3
+Biougra,30.1875,-9.375,2026-09-25,30.2,20.7,0.0,0,19.1,32.0,3,2026-09-21 10:26:27,Chaud,Aucune,Modéré,10.7,Faible,Complet,Friday,True,4
+Biougra,30.1875,-9.375,2026-09-26,26.6,18.5,0.0,0,22.9,38.2,3,2026-09-21 10:26:27,Normal,Aucune,Modéré,12.7,Faible,Complet,Saturday,True,5
+Biougra,30.1875,-9.375,2026-09-27,27.6,18.9,0.0,3,25.0,42.1,3,2026-09-21 10:26:27,Normal,Aucune,Modéré,14.3,Faible,Complet,Sunday,False,6
+Bir Jdid,33.375,-8.0,2026-09-21,32.8,20.0,0.0,0,17.1,33.8,2,2026-09-21 10:26:41,Chaud,Aucune,Modéré,11.3,Faible,Complet,Monday,False,0
+Bir Jdid,33.375,-8.0,2026-09-22,30.6,19.4,0.0,0,14.8,28.8,0,2026-09-21 10:26:41,Chaud,Aucune,Calme,9.6,Faible,Complet,Tuesday,False,1
+Bir Jdid,33.375,-8.0,2026-09-23,28.8,19.1,0.0,0,16.2,31.3,45,2026-09-21 10:26:41,Normal,Aucune,Modéré,20.4,Faible,Complet,Wednesday,False,2
+Bir Jdid,33.375,-8.0,2026-09-24,30.3,18.8,0.0,0,14.9,29.2,0,2026-09-21 10:26:41,Chaud,Aucune,Calme,9.7,Faible,Complet,Thursday,False,3
+Bir Jdid,33.375,-8.0,2026-09-25,29.9,18.5,0.0,0,15.5,32.0,45,2026-09-21 10:26:41,Normal,Aucune,Modéré,20.7,Faible,Complet,Friday,True,4
+Bir Jdid,33.375,-8.0,2026-09-26,28.4,19.0,0.0,0,13.8,29.2,3,2026-09-21 10:26:41,Normal,Aucune,Calme,9.7,Faible,Complet,Saturday,True,5
+Bir Jdid,33.375,-8.0,2026-09-27,28.6,20.5,0.0,0,15.1,32.0,45,2026-09-21 10:26:41,Normal,Aucune,Modéré,20.7,Faible,Complet,Sunday,False,6
+Bou Arfa,32.5,-1.9375,2026-09-21,28.5,15.7,0.0,0,18.4,28.4,3,2026-09-21 10:26:41,Normal,Aucune,Calme,9.5,Faible,Complet,Monday,False,0
+Bou Arfa,32.5,-1.9375,2026-09-22,27.0,14.3,0.0,0,15.9,24.1,3,2026-09-21 10:26:41,Normal,Aucune,Calme,8.0,Faible,Complet,Tuesday,False,1
+Bou Arfa,32.5,-1.9375,2026-09-23,27.6,14.4,0.0,0,13.3,20.5,2,2026-09-21 10:26:41,Normal,Aucune,Calme,6.8,Faible,Complet,Wednesday,False,2
+Bou Arfa,32.5,-1.9375,2026-09-24,28.4,15.1,0.0,0,13.0,21.2,2,2026-09-21 10:26:41,Normal,Aucune,Calme,7.1,Faible,Complet,Thursday,False,3
+Bou Arfa,32.5,-1.9375,2026-09-25,28.4,16.7,0.0,0,11.6,21.6,2,2026-09-21 10:26:41,Normal,Aucune,Calme,7.2,Faible,Complet,Friday,True,4
+Bou Arfa,32.5,-1.9375,2026-09-26,29.4,14.3,0.0,0,11.0,16.9,2,2026-09-21 10:26:41,Normal,Aucune,Calme,5.6,Faible,Complet,Saturday,True,5
+Bou Arfa,32.5,-1.9375,2026-09-27,28.4,13.0,0.0,7,16.8,25.6,3,2026-09-21 10:26:41,Normal,Aucune,Calme,9.2,Faible,Complet,Sunday,False,6
+Boujad,32.75,-6.375,2026-09-21,35.3,22.2,0.0,3,20.2,39.6,3,2026-09-21 10:26:29,Chaud,Aucune,Modéré,13.5,Faible,Complet,Monday,False,0
+Boujad,32.75,-6.375,2026-09-22,34.1,19.7,0.0,0,15.1,27.7,2,2026-09-21 10:26:29,Chaud,Aucune,Calme,9.2,Faible,Complet,Tuesday,False,1
+Boujad,32.75,-6.375,2026-09-23,34.2,18.9,0.0,0,11.4,22.3,2,2026-09-21 10:26:29,Chaud,Aucune,Calme,7.4,Faible,Complet,Wednesday,False,2
+Boujad,32.75,-6.375,2026-09-24,35.7,19.4,0.0,0,15.9,32.8,0,2026-09-21 10:26:29,Chaud,Aucune,Modéré,10.9,Faible,Complet,Thursday,False,3
+Boujad,32.75,-6.375,2026-09-25,35.4,18.9,0.0,0,14.2,30.2,3,2026-09-21 10:26:29,Chaud,Aucune,Modéré,10.1,Faible,Complet,Friday,True,4
+Boujad,32.75,-6.375,2026-09-26,35.5,21.0,0.0,0,11.9,27.0,3,2026-09-21 10:26:29,Chaud,Aucune,Calme,9.0,Faible,Complet,Saturday,True,5
+Boujad,32.75,-6.375,2026-09-27,33.9,21.8,0.0,3,5.1,19.4,3,2026-09-21 10:26:29,Chaud,Aucune,Calme,6.8,Faible,Complet,Sunday,False,6
+Bouknadel,34.1875,-6.6875,2026-09-21,30.1,19.9,0.0,0,11.8,22.3,2,2026-09-21 10:26:31,Chaud,Aucune,Calme,7.4,Faible,Complet,Monday,False,0
+Bouknadel,34.1875,-6.6875,2026-09-22,28.9,20.3,0.0,0,9.6,18.0,45,2026-09-21 10:26:31,Normal,Aucune,Calme,16.0,Faible,Complet,Tuesday,False,1
+Bouknadel,34.1875,-6.6875,2026-09-23,27.4,20.4,0.0,0,16.7,28.8,45,2026-09-21 10:26:31,Normal,Aucune,Calme,19.6,Faible,Complet,Wednesday,False,2
+Bouknadel,34.1875,-6.6875,2026-09-24,30.0,19.9,0.0,0,13.1,22.7,0,2026-09-21 10:26:31,Chaud,Aucune,Calme,7.6,Faible,Complet,Thursday,False,3
+Bouknadel,34.1875,-6.6875,2026-09-25,29.4,19.3,0.0,0,14.2,27.0,0,2026-09-21 10:26:31,Normal,Aucune,Calme,9.0,Faible,Complet,Friday,True,4
+Bouknadel,34.1875,-6.6875,2026-09-26,32.7,17.1,0.0,0,15.0,33.8,3,2026-09-21 10:26:31,Chaud,Aucune,Modéré,11.3,Faible,Complet,Saturday,True,5
+Bouknadel,34.1875,-6.6875,2026-09-27,28.0,20.7,0.0,0,11.2,26.3,45,2026-09-21 10:26:31,Normal,Aucune,Calme,18.8,Faible,Complet,Sunday,False,6
+Bouskoura,33.4375,-7.625,2026-09-21,37.0,20.7,0.0,0,16.1,40.0,1,2026-09-21 10:26:01,Chaud,Aucune,Modéré,13.3,Faible,Complet,Monday,False,0
+Bouskoura,33.4375,-7.625,2026-09-22,33.9,19.6,0.0,0,13.8,35.3,0,2026-09-21 10:26:01,Chaud,Aucune,Modéré,11.8,Faible,Complet,Tuesday,False,1
+Bouskoura,33.4375,-7.625,2026-09-23,32.5,18.6,0.0,0,13.9,34.9,45,2026-09-21 10:26:01,Chaud,Aucune,Modéré,21.6,Faible,Complet,Wednesday,False,2
+Bouskoura,33.4375,-7.625,2026-09-24,32.9,18.9,0.0,0,14.1,35.3,0,2026-09-21 10:26:01,Chaud,Aucune,Modéré,11.8,Faible,Complet,Thursday,False,3
+Bouskoura,33.4375,-7.625,2026-09-25,32.8,18.3,0.0,0,14.8,36.4,3,2026-09-21 10:26:01,Chaud,Aucune,Modéré,12.1,Faible,Complet,Friday,True,4
+Bouskoura,33.4375,-7.625,2026-09-26,28.9,18.9,0.0,0,11.4,30.6,3,2026-09-21 10:26:01,Normal,Aucune,Modéré,10.2,Faible,Complet,Saturday,True,5
+Bouskoura,33.4375,-7.625,2026-09-27,28.3,20.7,0.0,0,12.2,33.8,3,2026-09-21 10:26:01,Normal,Aucune,Modéré,11.3,Faible,Complet,Sunday,False,6
+Béni Mellal,32.3125,-6.375,2026-09-21,35.4,25.2,0.0,0,17.1,36.4,2,2026-09-21 10:26:01,Chaud,Aucune,Modéré,12.1,Faible,Complet,Monday,False,0
+Béni Mellal,32.3125,-6.375,2026-09-22,34.2,22.9,0.0,0,16.9,34.9,1,2026-09-21 10:26:01,Chaud,Aucune,Modéré,11.6,Faible,Complet,Tuesday,False,1
+Béni Mellal,32.3125,-6.375,2026-09-23,34.6,22.6,0.0,0,14.8,29.9,1,2026-09-21 10:26:01,Chaud,Aucune,Calme,10.0,Faible,Complet,Wednesday,False,2
+Béni Mellal,32.3125,-6.375,2026-09-24,35.9,22.8,0.0,0,14.4,31.0,0,2026-09-21 10:26:01,Chaud,Aucune,Modéré,10.3,Faible,Complet,Thursday,False,3
+Béni Mellal,32.3125,-6.375,2026-09-25,35.5,23.1,0.0,0,16.7,34.6,3,2026-09-21 10:26:01,Chaud,Aucune,Modéré,11.5,Faible,Complet,Friday,True,4
+Béni Mellal,32.3125,-6.375,2026-09-26,36.3,24.7,0.0,0,17.2,32.4,3,2026-09-21 10:26:01,Chaud,Aucune,Modéré,10.8,Faible,Complet,Saturday,True,5
+Béni Mellal,32.3125,-6.375,2026-09-27,34.8,24.2,0.0,0,11.1,20.5,3,2026-09-21 10:26:01,Chaud,Aucune,Calme,6.8,Faible,Complet,Sunday,False,6
+Cabo Bojador,26.115992,-14.490692,2026-09-21,27.4,20.8,0.0,0,29.2,49.0,3,2026-09-21 10:26:31,Normal,Aucune,Modéré,16.3,Faible,Complet,Monday,False,0
+Cabo Bojador,26.115992,-14.490692,2026-09-22,27.6,20.9,0.0,2,27.2,45.7,3,2026-09-21 10:26:31,Normal,Aucune,Modéré,15.4,Faible,Complet,Tuesday,False,1
+Cabo Bojador,26.115992,-14.490692,2026-09-23,32.7,21.1,0.0,6,28.3,43.9,1,2026-09-21 10:26:31,Chaud,Aucune,Modéré,15.2,Faible,Complet,Wednesday,False,2
+Cabo Bojador,26.115992,-14.490692,2026-09-24,39.8,23.9,0.0,0,32.5,53.3,3,2026-09-21 10:26:31,Extrême,Aucune,Fort,20.5,Faible,Complet,Thursday,False,3
+Cabo Bojador,26.115992,-14.490692,2026-09-25,27.7,21.4,0.0,0,35.1,54.7,3,2026-09-21 10:26:31,Normal,Aucune,Fort,18.2,Faible,Complet,Friday,True,4
+Cabo Bojador,26.115992,-14.490692,2026-09-26,24.8,20.2,0.0,3,25.2,45.4,3,2026-09-21 10:26:31,Normal,Aucune,Modéré,15.4,Faible,Complet,Saturday,True,5
+Cabo Bojador,26.115992,-14.490692,2026-09-27,28.7,20.9,0.0,4,19.7,33.8,3,2026-09-21 10:26:31,Normal,Aucune,Modéré,11.7,Faible,Complet,Sunday,False,6
+Casablanca,33.5625,-7.625,2026-09-21,31.3,20.9,0.0,0,11.5,33.1,2,2026-09-21 10:25:54,Chaud,Aucune,Modéré,11.0,Faible,Complet,Monday,False,0
+Casablanca,33.5625,-7.625,2026-09-22,29.7,19.8,0.0,0,9.9,28.8,1,2026-09-21 10:25:54,Normal,Aucune,Calme,9.6,Faible,Complet,Tuesday,False,1
+Casablanca,33.5625,-7.625,2026-09-23,28.1,20.0,0.0,0,10.8,31.0,45,2026-09-21 10:25:54,Normal,Aucune,Modéré,20.3,Faible,Complet,Wednesday,False,2
+Casablanca,33.5625,-7.625,2026-09-24,28.7,19.6,0.0,0,9.9,29.9,45,2026-09-21 10:25:54,Normal,Aucune,Calme,20.0,Faible,Complet,Thursday,False,3
+Casablanca,33.5625,-7.625,2026-09-25,28.6,19.4,0.0,0,10.1,30.6,3,2026-09-21 10:25:54,Normal,Aucune,Modéré,10.2,Faible,Complet,Friday,True,4
+Casablanca,33.5625,-7.625,2026-09-26,29.7,19.6,0.0,0,11.4,30.6,3,2026-09-21 10:25:54,Normal,Aucune,Modéré,10.2,Faible,Complet,Saturday,True,5
+Casablanca,33.5625,-7.625,2026-09-27,29.1,21.5,0.0,0,12.2,33.8,3,2026-09-21 10:25:54,Normal,Aucune,Modéré,11.3,Faible,Complet,Sunday,False,6
+Chichaoua,31.5625,-8.75,2026-09-21,38.4,22.8,0.0,0,25.8,42.5,3,2026-09-21 10:26:35,Extrême,Aucune,Modéré,14.8,Faible,Complet,Monday,False,0
+Chichaoua,31.5625,-8.75,2026-09-22,37.9,21.4,0.0,3,24.2,40.0,1,2026-09-21 10:26:35,Chaud,Aucune,Modéré,13.6,Faible,Complet,Tuesday,False,1
+Chichaoua,31.5625,-8.75,2026-09-23,37.0,21.0,0.0,0,20.6,34.2,0,2026-09-21 10:26:35,Chaud,Aucune,Modéré,11.4,Faible,Complet,Wednesday,False,2
+Chichaoua,31.5625,-8.75,2026-09-24,36.3,19.8,0.0,0,18.9,32.8,0,2026-09-21 10:26:35,Chaud,Aucune,Modéré,10.9,Faible,Complet,Thursday,False,3
+Chichaoua,31.5625,-8.75,2026-09-25,36.5,20.5,0.0,0,20.2,34.2,3,2026-09-21 10:26:35,Chaud,Aucune,Modéré,11.4,Faible,Complet,Friday,True,4
+Chichaoua,31.5625,-8.75,2026-09-26,32.4,21.7,0.0,0,20.7,33.5,3,2026-09-21 10:26:35,Chaud,Aucune,Modéré,11.2,Faible,Complet,Saturday,True,5
+Chichaoua,31.5625,-8.75,2026-09-27,33.4,19.8,0.0,0,16.8,31.0,3,2026-09-21 10:26:35,Chaud,Aucune,Modéré,10.3,Faible,Complet,Sunday,False,6
+Demnat,31.75,-7.0625,2026-09-21,32.8,21.2,0.0,3,16.9,31.3,2,2026-09-21 10:26:38,Chaud,Aucune,Modéré,10.7,Faible,Complet,Monday,False,0
+Demnat,31.75,-7.0625,2026-09-22,32.0,19.9,0.0,0,15.3,28.8,1,2026-09-21 10:26:38,Chaud,Aucune,Calme,9.6,Faible,Complet,Tuesday,False,1
+Demnat,31.75,-7.0625,2026-09-23,31.9,18.9,0.0,0,15.3,29.5,1,2026-09-21 10:26:38,Chaud,Aucune,Calme,9.8,Faible,Complet,Wednesday,False,2
+Demnat,31.75,-7.0625,2026-09-24,32.5,19.5,0.0,0,17.6,34.9,0,2026-09-21 10:26:38,Chaud,Aucune,Modéré,11.6,Faible,Complet,Thursday,False,3
+Demnat,31.75,-7.0625,2026-09-25,32.5,19.1,0.0,0,15.0,30.6,3,2026-09-21 10:26:38,Chaud,Aucune,Modéré,10.2,Faible,Complet,Friday,True,4
+Demnat,31.75,-7.0625,2026-09-26,31.2,18.4,0.0,8,16.4,32.0,3,2026-09-21 10:26:38,Chaud,Aucune,Modéré,11.5,Faible,Complet,Saturday,True,5
+Demnat,31.75,-7.0625,2026-09-27,29.5,18.1,0.3,14,13.8,36.4,3,2026-09-21 10:26:38,Normal,Faible,Modéré,13.8,Faible,Complet,Sunday,False,6
+Douar Toulal,33.875,-5.625,2026-09-21,35.8,20.9,0.0,0,17.6,38.5,2,2026-09-21 10:26:43,Chaud,Aucune,Modéré,12.8,Faible,Complet,Monday,False,0
+Douar Toulal,33.875,-5.625,2026-09-22,34.2,19.1,0.0,0,15.1,34.6,0,2026-09-21 10:26:43,Chaud,Aucune,Modéré,11.5,Faible,Complet,Tuesday,False,1
+Douar Toulal,33.875,-5.625,2026-09-23,34.5,18.7,0.0,0,15.4,35.6,1,2026-09-21 10:26:43,Chaud,Aucune,Modéré,11.9,Faible,Complet,Wednesday,False,2
+Douar Toulal,33.875,-5.625,2026-09-24,35.5,19.7,0.0,0,13.1,29.9,0,2026-09-21 10:26:43,Chaud,Aucune,Calme,10.0,Faible,Complet,Thursday,False,3
+Douar Toulal,33.875,-5.625,2026-09-25,35.3,18.6,0.0,0,13.3,31.0,0,2026-09-21 10:26:43,Chaud,Aucune,Modéré,10.3,Faible,Complet,Friday,True,4
+Douar Toulal,33.875,-5.625,2026-09-26,36.3,19.3,0.0,0,16.6,37.8,3,2026-09-21 10:26:43,Chaud,Aucune,Modéré,12.6,Faible,Complet,Saturday,True,5
+Douar Toulal,33.875,-5.625,2026-09-27,33.9,21.2,0.0,0,14.0,27.4,3,2026-09-21 10:26:43,Chaud,Aucune,Calme,9.1,Faible,Complet,Sunday,False,6
+El Aïoun,34.5625,-2.5,2026-09-21,29.3,18.0,0.0,0,16.6,28.4,45,2026-09-21 10:26:33,Normal,Aucune,Calme,19.5,Faible,Complet,Monday,False,0
+El Aïoun,34.5625,-2.5,2026-09-22,29.5,14.8,0.0,0,14.5,24.1,45,2026-09-21 10:26:33,Normal,Aucune,Calme,18.0,Faible,Complet,Tuesday,False,1
+El Aïoun,34.5625,-2.5,2026-09-23,30.9,15.8,0.0,0,18.1,29.9,1,2026-09-21 10:26:33,Chaud,Aucune,Calme,10.0,Faible,Complet,Wednesday,False,2
+El Aïoun,34.5625,-2.5,2026-09-24,31.2,16.5,0.0,0,18.4,33.5,0,2026-09-21 10:26:33,Chaud,Aucune,Modéré,11.2,Faible,Complet,Thursday,False,3
+El Aïoun,34.5625,-2.5,2026-09-25,31.8,14.1,0.0,0,11.9,25.9,0,2026-09-21 10:26:33,Chaud,Aucune,Calme,8.6,Faible,Complet,Friday,True,4
+El Aïoun,34.5625,-2.5,2026-09-26,33.1,14.4,0.0,0,16.7,36.7,3,2026-09-21 10:26:33,Chaud,Aucune,Modéré,12.2,Faible,Complet,Saturday,True,5
+El Aïoun,34.5625,-2.5,2026-09-27,32.4,15.3,0.0,0,19.2,32.0,3,2026-09-21 10:26:33,Chaud,Aucune,Modéré,10.7,Faible,Complet,Sunday,False,6
+El Hajeb,33.6875,-5.375,2026-09-21,32.3,21.7,0.0,0,21.8,45.7,2,2026-09-21 10:26:33,Chaud,Aucune,Modéré,15.2,Faible,Complet,Monday,False,0
+El Hajeb,33.6875,-5.375,2026-09-22,30.7,20.5,0.0,0,18.9,39.6,2,2026-09-21 10:26:33,Chaud,Aucune,Modéré,13.2,Faible,Complet,Tuesday,False,1
+El Hajeb,33.6875,-5.375,2026-09-23,31.1,19.5,0.0,0,17.7,37.1,3,2026-09-21 10:26:33,Chaud,Aucune,Modéré,12.4,Faible,Complet,Wednesday,False,2
+El Hajeb,33.6875,-5.375,2026-09-24,32.3,20.9,0.0,0,18.8,36.7,0,2026-09-21 10:26:33,Chaud,Aucune,Modéré,12.2,Faible,Complet,Thursday,False,3
+El Hajeb,33.6875,-5.375,2026-09-25,31.7,19.7,0.0,0,17.0,34.9,0,2026-09-21 10:26:33,Chaud,Aucune,Modéré,11.6,Faible,Complet,Friday,True,4
+El Hajeb,33.6875,-5.375,2026-09-26,32.9,20.4,0.0,0,22.5,49.7,3,2026-09-21 10:26:33,Chaud,Aucune,Modéré,16.6,Faible,Complet,Saturday,True,5
+El Hajeb,33.6875,-5.375,2026-09-27,30.7,20.3,0.0,4,15.6,31.3,3,2026-09-21 10:26:33,Chaud,Aucune,Modéré,10.8,Faible,Complet,Sunday,False,6
+El Jadid,33.25,-8.4375,2026-09-21,27.9,21.0,0.0,0,15.1,27.7,2,2026-09-21 10:26:00,Normal,Aucune,Calme,9.2,Faible,Complet,Monday,False,0
+El Jadid,33.25,-8.4375,2026-09-22,27.0,19.6,0.0,0,15.5,28.1,45,2026-09-21 10:26:00,Normal,Aucune,Calme,19.4,Faible,Complet,Tuesday,False,1
+El Jadid,33.25,-8.4375,2026-09-23,25.9,20.5,0.0,0,15.4,27.7,45,2026-09-21 10:26:00,Normal,Aucune,Calme,19.2,Faible,Complet,Wednesday,False,2
+El Jadid,33.25,-8.4375,2026-09-24,27.5,20.1,0.0,0,12.8,23.4,45,2026-09-21 10:26:00,Normal,Aucune,Calme,17.8,Faible,Complet,Thursday,False,3
+El Jadid,33.25,-8.4375,2026-09-25,26.8,20.9,0.0,0,14.9,27.7,45,2026-09-21 10:26:00,Normal,Aucune,Calme,19.2,Faible,Complet,Friday,True,4
+El Jadid,33.25,-8.4375,2026-09-26,26.9,20.6,0.0,0,10.5,22.0,3,2026-09-21 10:26:00,Normal,Aucune,Calme,7.3,Faible,Complet,Saturday,True,5
+El Jadid,33.25,-8.4375,2026-09-27,27.4,21.2,0.0,0,13.0,27.0,45,2026-09-21 10:26:00,Normal,Aucune,Calme,19.0,Faible,Complet,Sunday,False,6
+El Kelaa des Srarhna,32.0625,-7.375,2026-09-21,38.0,23.4,0.0,0,18.4,33.5,2,2026-09-21 10:26:11,Extrême,Aucune,Modéré,11.2,Faible,Complet,Monday,False,0
+El Kelaa des Srarhna,32.0625,-7.375,2026-09-22,36.6,22.5,0.0,0,15.3,26.3,0,2026-09-21 10:26:11,Chaud,Aucune,Calme,8.8,Faible,Complet,Tuesday,False,1
+El Kelaa des Srarhna,32.0625,-7.375,2026-09-23,36.3,20.4,0.0,0,11.2,19.1,2,2026-09-21 10:26:11,Chaud,Aucune,Calme,6.4,Faible,Complet,Wednesday,False,2
+El Kelaa des Srarhna,32.0625,-7.375,2026-09-24,37.2,20.0,0.0,0,14.8,26.3,0,2026-09-21 10:26:11,Chaud,Aucune,Calme,8.8,Faible,Complet,Thursday,False,3
+El Kelaa des Srarhna,32.0625,-7.375,2026-09-25,36.8,20.7,0.0,0,14.7,25.2,1,2026-09-21 10:26:11,Chaud,Aucune,Calme,8.4,Faible,Complet,Friday,True,4
+El Kelaa des Srarhna,32.0625,-7.375,2026-09-26,34.3,19.6,0.0,3,14.0,25.2,3,2026-09-21 10:26:11,Chaud,Aucune,Calme,8.7,Faible,Complet,Saturday,True,5
+El Kelaa des Srarhna,32.0625,-7.375,2026-09-27,34.2,21.9,0.0,3,18.1,30.6,3,2026-09-21 10:26:11,Chaud,Aucune,Modéré,10.5,Faible,Complet,Sunday,False,6
+Errachidia,31.9375,-4.4375,2026-09-21,30.2,19.7,0.1,18,16.1,33.1,2,2026-09-21 10:26:14,Chaud,Faible,Modéré,12.9,Faible,Complet,Monday,False,0
+Errachidia,31.9375,-4.4375,2026-09-22,30.4,19.5,0.0,0,10.4,22.7,3,2026-09-21 10:26:14,Chaud,Aucune,Calme,7.6,Faible,Complet,Tuesday,False,1
+Errachidia,31.9375,-4.4375,2026-09-23,29.7,18.6,0.0,0,8.5,19.1,3,2026-09-21 10:26:14,Normal,Aucune,Calme,6.4,Faible,Complet,Wednesday,False,2
+Errachidia,31.9375,-4.4375,2026-09-24,29.8,18.9,0.0,0,11.2,24.8,2,2026-09-21 10:26:14,Normal,Aucune,Calme,8.3,Faible,Complet,Thursday,False,3
+Errachidia,31.9375,-4.4375,2026-09-25,31.7,19.6,0.0,0,10.0,19.4,2,2026-09-21 10:26:14,Chaud,Aucune,Calme,6.5,Faible,Complet,Friday,True,4
+Errachidia,31.9375,-4.4375,2026-09-26,31.0,20.0,0.0,2,14.8,25.2,3,2026-09-21 10:26:14,Chaud,Aucune,Calme,8.6,Faible,Complet,Saturday,True,5
+Errachidia,31.9375,-4.4375,2026-09-27,28.4,21.0,0.3,7,9.9,21.6,3,2026-09-21 10:26:14,Normal,Faible,Calme,8.2,Faible,Complet,Sunday,False,6
+Essaouira,31.5,-9.75,2026-09-21,27.2,18.6,0.0,0,9.4,17.3,45,2026-09-21 10:26:18,Normal,Aucune,Calme,15.8,Faible,Complet,Monday,False,0
+Essaouira,31.5,-9.75,2026-09-22,27.7,19.6,0.0,0,15.3,29.2,3,2026-09-21 10:26:18,Normal,Aucune,Calme,9.7,Faible,Complet,Tuesday,False,1
+Essaouira,31.5,-9.75,2026-09-23,27.3,19.5,0.0,0,18.8,36.7,3,2026-09-21 10:26:18,Normal,Aucune,Modéré,12.2,Faible,Complet,Wednesday,False,2
+Essaouira,31.5,-9.75,2026-09-24,25.2,16.6,0.0,0,14.1,27.0,45,2026-09-21 10:26:18,Normal,Aucune,Calme,19.0,Faible,Complet,Thursday,False,3
+Essaouira,31.5,-9.75,2026-09-25,24.6,17.2,0.0,0,17.0,32.8,45,2026-09-21 10:26:18,Normal,Aucune,Modéré,20.9,Faible,Complet,Friday,True,4
+Essaouira,31.5,-9.75,2026-09-26,25.6,18.3,0.0,0,9.8,19.1,45,2026-09-21 10:26:18,Normal,Aucune,Calme,16.4,Faible,Complet,Saturday,True,5
+Essaouira,31.5,-9.75,2026-09-27,26.7,19.6,0.0,0,12.9,25.9,3,2026-09-21 10:26:18,Normal,Aucune,Calme,8.6,Faible,Complet,Sunday,False,6
+Fnidq,35.8125,-5.375,2026-09-21,25.1,21.7,0.1,0,26.6,49.7,2,2026-09-21 10:26:20,Normal,Faible,Modéré,16.7,Faible,Complet,Monday,False,0
+Fnidq,35.8125,-5.375,2026-09-22,24.8,20.5,0.0,0,22.1,41.8,3,2026-09-21 10:26:20,Normal,Aucune,Modéré,13.9,Faible,Complet,Tuesday,False,1
+Fnidq,35.8125,-5.375,2026-09-23,24.2,20.6,0.0,0,20.3,38.5,3,2026-09-21 10:26:20,Normal,Aucune,Modéré,12.8,Faible,Complet,Wednesday,False,2
+Fnidq,35.8125,-5.375,2026-09-24,24.9,21.4,0.0,0,20.6,39.6,45,2026-09-21 10:26:20,Normal,Aucune,Modéré,23.2,Faible,Complet,Thursday,False,3
+Fnidq,35.8125,-5.375,2026-09-25,26.0,20.2,0.0,0,8.2,18.7,45,2026-09-21 10:26:20,Normal,Aucune,Calme,16.2,Faible,Complet,Friday,True,4
+Fnidq,35.8125,-5.375,2026-09-26,24.3,19.2,0.0,0,14.3,24.8,45,2026-09-21 10:26:20,Normal,Aucune,Calme,18.3,Faible,Complet,Saturday,True,5
+Fnidq,35.8125,-5.375,2026-09-27,24.8,21.3,0.0,2,19.1,34.2,3,2026-09-21 10:26:20,Normal,Aucune,Modéré,11.6,Faible,Complet,Sunday,False,6
+Fès,34.0625,-5.0,2026-09-21,35.9,21.6,0.0,0,11.7,30.2,1,2026-09-21 10:25:55,Chaud,Aucune,Modéré,10.1,Faible,Complet,Monday,False,0
+Fès,34.0625,-5.0,2026-09-22,34.5,20.3,0.0,0,11.7,31.3,1,2026-09-21 10:25:55,Chaud,Aucune,Modéré,10.4,Faible,Complet,Tuesday,False,1
+Fès,34.0625,-5.0,2026-09-23,34.9,20.0,0.0,0,10.2,26.6,0,2026-09-21 10:25:55,Chaud,Aucune,Calme,8.9,Faible,Complet,Wednesday,False,2
+Fès,34.0625,-5.0,2026-09-24,35.9,21.3,0.0,0,11.0,29.2,0,2026-09-21 10:25:55,Chaud,Aucune,Calme,9.7,Faible,Complet,Thursday,False,3
+Fès,34.0625,-5.0,2026-09-25,35.4,21.2,0.0,0,11.3,29.2,0,2026-09-21 10:25:55,Chaud,Aucune,Calme,9.7,Faible,Complet,Friday,True,4
+Fès,34.0625,-5.0,2026-09-26,36.4,20.6,0.0,0,22.1,50.4,3,2026-09-21 10:25:55,Chaud,Aucune,Fort,16.8,Faible,Complet,Saturday,True,5
+Fès,34.0625,-5.0,2026-09-27,35.1,23.4,0.0,0,8.1,22.0,3,2026-09-21 10:25:55,Chaud,Aucune,Calme,7.3,Faible,Complet,Sunday,False,6
+Guelmim,28.998241,-10.114685,2026-09-21,40.1,22.2,0.0,0,22.3,37.8,3,2026-09-21 10:26:07,Extrême,Aucune,Modéré,15.8,Faible,Complet,Monday,False,0
+Guelmim,28.998241,-10.114685,2026-09-22,39.4,27.2,0.0,12,19.3,35.6,3,2026-09-21 10:26:07,Extrême,Aucune,Modéré,15.2,Faible,Complet,Tuesday,False,1
+Guelmim,28.998241,-10.114685,2026-09-23,40.4,24.9,0.0,0,26.4,43.6,3,2026-09-21 10:26:07,Extrême,Aucune,Modéré,18.1,Faible,Complet,Wednesday,False,2
+Guelmim,28.998241,-10.114685,2026-09-24,38.6,20.6,0.0,0,24.0,40.3,0,2026-09-21 10:26:07,Extrême,Aucune,Modéré,14.3,Faible,Complet,Thursday,False,3
+Guelmim,28.998241,-10.114685,2026-09-25,34.9,17.1,0.0,0,17.6,34.2,3,2026-09-21 10:26:07,Chaud,Aucune,Modéré,11.4,Faible,Complet,Friday,True,4
+Guelmim,28.998241,-10.114685,2026-09-26,34.6,17.7,0.0,0,19.9,37.4,3,2026-09-21 10:26:07,Chaud,Aucune,Modéré,12.5,Faible,Complet,Saturday,True,5
+Guelmim,28.998241,-10.114685,2026-09-27,29.6,20.2,0.0,0,11.8,27.0,3,2026-09-21 10:26:07,Normal,Aucune,Calme,9.0,Faible,Complet,Sunday,False,6
+Guercif,34.25,-3.375,2026-09-21,30.7,20.5,0.0,0,26.8,49.7,3,2026-09-21 10:26:19,Chaud,Aucune,Modéré,16.6,Faible,Complet,Monday,False,0
+Guercif,34.25,-3.375,2026-09-22,31.3,17.2,0.0,0,20.0,37.1,3,2026-09-21 10:26:19,Chaud,Aucune,Modéré,12.4,Faible,Complet,Tuesday,False,1
+Guercif,34.25,-3.375,2026-09-23,31.8,15.6,0.0,0,26.0,47.5,3,2026-09-21 10:26:19,Chaud,Aucune,Modéré,15.8,Faible,Complet,Wednesday,False,2
+Guercif,34.25,-3.375,2026-09-24,32.3,17.9,0.0,0,26.5,55.4,0,2026-09-21 10:26:19,Chaud,Aucune,Fort,18.5,Faible,Complet,Thursday,False,3
+Guercif,34.25,-3.375,2026-09-25,33.1,16.4,0.0,0,20.6,41.4,0,2026-09-21 10:26:19,Chaud,Aucune,Modéré,13.8,Faible,Complet,Friday,True,4
+Guercif,34.25,-3.375,2026-09-26,34.3,15.0,0.0,0,28.1,47.5,3,2026-09-21 10:26:19,Chaud,Aucune,Modéré,15.8,Faible,Complet,Saturday,True,5
+Guercif,34.25,-3.375,2026-09-27,32.4,16.3,0.0,0,23.3,39.6,3,2026-09-21 10:26:19,Chaud,Aucune,Modéré,13.2,Faible,Complet,Sunday,False,6
+Imi-n-Tanout,31.1875,-8.875,2026-09-21,34.7,23.6,0.0,0,25.8,44.6,3,2026-09-21 10:26:44,Chaud,Aucune,Modéré,14.9,Faible,Complet,Monday,False,0
+Imi-n-Tanout,31.1875,-8.875,2026-09-22,33.4,23.2,0.0,0,23.1,39.6,2,2026-09-21 10:26:44,Chaud,Aucune,Modéré,13.2,Faible,Complet,Tuesday,False,1
+Imi-n-Tanout,31.1875,-8.875,2026-09-23,33.0,22.2,0.0,0,20.1,33.8,0,2026-09-21 10:26:44,Chaud,Aucune,Modéré,11.3,Faible,Complet,Wednesday,False,2
+Imi-n-Tanout,31.1875,-8.875,2026-09-24,33.1,21.8,0.0,0,17.7,33.5,0,2026-09-21 10:26:44,Chaud,Aucune,Modéré,11.2,Faible,Complet,Thursday,False,3
+Imi-n-Tanout,31.1875,-8.875,2026-09-25,32.0,22.2,0.0,0,15.0,28.4,3,2026-09-21 10:26:44,Chaud,Aucune,Calme,9.5,Faible,Complet,Friday,True,4
+Imi-n-Tanout,31.1875,-8.875,2026-09-26,30.4,22.2,0.0,0,17.7,28.8,3,2026-09-21 10:26:44,Chaud,Aucune,Calme,9.6,Faible,Complet,Saturday,True,5
+Imi-n-Tanout,31.1875,-8.875,2026-09-27,29.6,19.9,0.0,0,17.1,33.8,3,2026-09-21 10:26:44,Normal,Aucune,Modéré,11.3,Faible,Complet,Sunday,False,6
+Imzouren,35.125,-3.875,2026-09-21,29.3,19.3,0.0,0,18.8,34.2,1,2026-09-21 10:26:37,Normal,Aucune,Modéré,11.4,Faible,Complet,Monday,False,0
+Imzouren,35.125,-3.875,2026-09-22,27.1,18.0,0.0,0,14.8,26.6,3,2026-09-21 10:26:37,Normal,Aucune,Calme,8.9,Faible,Complet,Tuesday,False,1
+Imzouren,35.125,-3.875,2026-09-23,27.0,17.3,0.0,0,13.7,24.5,2,2026-09-21 10:26:37,Normal,Aucune,Calme,8.2,Faible,Complet,Wednesday,False,2
+Imzouren,35.125,-3.875,2026-09-24,28.0,18.4,0.0,0,14.6,28.4,2,2026-09-21 10:26:37,Normal,Aucune,Calme,9.5,Faible,Complet,Thursday,False,3
+Imzouren,35.125,-3.875,2026-09-25,28.5,18.0,0.0,0,10.1,20.5,0,2026-09-21 10:26:37,Normal,Aucune,Calme,6.8,Faible,Complet,Friday,True,4
+Imzouren,35.125,-3.875,2026-09-26,32.4,19.6,0.0,0,13.4,25.9,3,2026-09-21 10:26:37,Chaud,Aucune,Calme,8.6,Faible,Complet,Saturday,True,5
+Imzouren,35.125,-3.875,2026-09-27,28.0,18.3,0.0,0,10.2,19.8,3,2026-09-21 10:26:37,Normal,Aucune,Calme,6.6,Faible,Complet,Sunday,False,6
+Inezgane,30.375,-9.5625,2026-09-21,36.1,20.8,0.0,0,11.1,33.1,3,2026-09-21 10:26:05,Chaud,Aucune,Modéré,11.0,Faible,Complet,Monday,False,0
+Inezgane,30.375,-9.5625,2026-09-22,33.4,23.6,0.0,0,13.9,40.3,3,2026-09-21 10:26:05,Chaud,Aucune,Modéré,13.4,Faible,Complet,Tuesday,False,1
+Inezgane,30.375,-9.5625,2026-09-23,36.1,22.7,0.0,0,13.0,33.8,1,2026-09-21 10:26:05,Chaud,Aucune,Modéré,11.3,Faible,Complet,Wednesday,False,2
+Inezgane,30.375,-9.5625,2026-09-24,31.2,20.1,0.0,0,9.5,25.9,0,2026-09-21 10:26:05,Chaud,Aucune,Calme,8.6,Faible,Complet,Thursday,False,3
+Inezgane,30.375,-9.5625,2026-09-25,24.7,18.7,0.0,0,11.9,35.3,45,2026-09-21 10:26:05,Normal,Aucune,Modéré,21.8,Faible,Complet,Friday,True,4
+Inezgane,30.375,-9.5625,2026-09-26,28.0,19.0,0.0,0,13.8,27.7,45,2026-09-21 10:26:05,Normal,Aucune,Calme,19.2,Faible,Complet,Saturday,True,5
+Inezgane,30.375,-9.5625,2026-09-27,29.2,20.7,0.0,0,14.8,30.2,3,2026-09-21 10:26:05,Normal,Aucune,Modéré,10.1,Faible,Complet,Sunday,False,6
+Jerada,34.3125,-2.1875,2026-09-21,27.2,17.3,0.0,0,20.1,39.6,3,2026-09-21 10:26:33,Normal,Aucune,Modéré,13.2,Faible,Complet,Monday,False,0
+Jerada,34.3125,-2.1875,2026-09-22,27.7,15.8,0.0,0,20.4,40.0,3,2026-09-21 10:26:33,Normal,Aucune,Modéré,13.3,Faible,Complet,Tuesday,False,1
+Jerada,34.3125,-2.1875,2026-09-23,28.8,16.8,0.0,0,23.9,46.4,3,2026-09-21 10:26:33,Normal,Aucune,Modéré,15.5,Faible,Complet,Wednesday,False,2
+Jerada,34.3125,-2.1875,2026-09-24,29.4,18.1,0.0,0,21.8,41.4,1,2026-09-21 10:26:33,Normal,Aucune,Modéré,13.8,Faible,Complet,Thursday,False,3
+Jerada,34.3125,-2.1875,2026-09-25,30.0,17.4,0.0,3,21.3,45.4,0,2026-09-21 10:26:33,Chaud,Aucune,Modéré,15.4,Faible,Complet,Friday,True,4
+Jerada,34.3125,-2.1875,2026-09-26,29.9,14.3,0.0,0,14.7,24.1,3,2026-09-21 10:26:33,Normal,Aucune,Calme,8.0,Faible,Complet,Saturday,True,5
+Jerada,34.3125,-2.1875,2026-09-27,31.2,12.8,0.0,0,17.6,32.4,3,2026-09-21 10:26:33,Chaud,Aucune,Modéré,10.8,Faible,Complet,Sunday,False,6
+Kenitra,34.25,-6.5625,2026-09-21,33.6,19.6,0.0,0,12.2,30.6,2,2026-09-21 10:25:57,Chaud,Aucune,Modéré,10.2,Faible,Complet,Monday,False,0
+Kenitra,34.25,-6.5625,2026-09-22,32.4,19.3,0.0,0,10.5,26.3,45,2026-09-21 10:25:57,Chaud,Aucune,Calme,18.8,Faible,Complet,Tuesday,False,1
+Kenitra,34.25,-6.5625,2026-09-23,31.4,19.9,0.0,0,14.0,35.3,45,2026-09-21 10:25:57,Chaud,Aucune,Modéré,21.8,Faible,Complet,Wednesday,False,2
+Kenitra,34.25,-6.5625,2026-09-24,34.0,19.2,0.0,0,13.5,35.6,0,2026-09-21 10:25:57,Chaud,Aucune,Modéré,11.9,Faible,Complet,Thursday,False,3
+Kenitra,34.25,-6.5625,2026-09-25,34.3,18.2,0.0,0,13.9,35.3,0,2026-09-21 10:25:57,Chaud,Aucune,Modéré,11.8,Faible,Complet,Friday,True,4
+Kenitra,34.25,-6.5625,2026-09-26,32.7,16.9,0.0,0,15.0,33.8,3,2026-09-21 10:25:57,Chaud,Aucune,Modéré,11.3,Faible,Complet,Saturday,True,5
+Kenitra,34.25,-6.5625,2026-09-27,28.0,20.7,0.0,0,11.2,26.3,45,2026-09-21 10:25:57,Normal,Aucune,Calme,18.8,Faible,Complet,Sunday,False,6
+Khénifra,32.9375,-5.6875,2026-09-21,34.3,19.6,0.0,0,18.0,36.4,2,2026-09-21 10:26:07,Chaud,Aucune,Modéré,12.1,Faible,Complet,Monday,False,0
+Khénifra,32.9375,-5.6875,2026-09-22,32.9,16.8,0.0,0,17.1,32.4,2,2026-09-21 10:26:07,Chaud,Aucune,Modéré,10.8,Faible,Complet,Tuesday,False,1
+Khénifra,32.9375,-5.6875,2026-09-23,33.2,16.7,0.0,0,10.2,19.8,1,2026-09-21 10:26:07,Chaud,Aucune,Calme,6.6,Faible,Complet,Wednesday,False,2
+Khénifra,32.9375,-5.6875,2026-09-24,34.7,17.1,0.0,0,16.1,30.6,1,2026-09-21 10:26:07,Chaud,Aucune,Modéré,10.2,Faible,Complet,Thursday,False,3
+Khénifra,32.9375,-5.6875,2026-09-25,34.4,17.2,0.0,0,17.8,31.7,3,2026-09-21 10:26:07,Chaud,Aucune,Modéré,10.6,Faible,Complet,Friday,True,4
+Khénifra,32.9375,-5.6875,2026-09-26,34.5,18.8,0.0,0,13.2,28.1,3,2026-09-21 10:26:07,Chaud,Aucune,Calme,9.4,Faible,Complet,Saturday,True,5
+Khénifra,32.9375,-5.6875,2026-09-27,32.6,19.7,0.3,7,8.7,17.6,3,2026-09-21 10:26:07,Chaud,Faible,Calme,6.8,Faible,Complet,Sunday,False,6
+Kouribga,32.875,-6.875,2026-09-21,34.9,22.1,0.0,0,22.4,43.2,2,2026-09-21 10:26:03,Chaud,Aucune,Modéré,14.4,Faible,Complet,Monday,False,0
+Kouribga,32.875,-6.875,2026-09-22,34.1,20.7,0.0,0,20.2,40.0,1,2026-09-21 10:26:03,Chaud,Aucune,Modéré,13.3,Faible,Complet,Tuesday,False,1
+Kouribga,32.875,-6.875,2026-09-23,33.8,19.1,0.0,0,19.8,37.8,1,2026-09-21 10:26:03,Chaud,Aucune,Modéré,12.6,Faible,Complet,Wednesday,False,2
+Kouribga,32.875,-6.875,2026-09-24,35.4,20.2,0.0,0,20.3,39.2,0,2026-09-21 10:26:03,Chaud,Aucune,Modéré,13.1,Faible,Complet,Thursday,False,3
+Kouribga,32.875,-6.875,2026-09-25,34.8,20.4,0.0,0,18.7,36.0,3,2026-09-21 10:26:03,Chaud,Aucune,Modéré,12.0,Faible,Complet,Friday,True,4
+Kouribga,32.875,-6.875,2026-09-26,34.9,19.3,0.0,0,15.7,37.1,3,2026-09-21 10:26:03,Chaud,Aucune,Modéré,12.4,Faible,Complet,Saturday,True,5
+Kouribga,32.875,-6.875,2026-09-27,33.0,19.9,0.0,0,13.5,28.4,3,2026-09-21 10:26:03,Chaud,Aucune,Calme,9.5,Faible,Complet,Sunday,False,6
+Ksar El Kebir,35.0,-5.875,2026-09-21,36.8,21.8,0.0,0,14.3,27.4,0,2026-09-21 10:26:07,Chaud,Aucune,Calme,9.1,Faible,Complet,Monday,False,0
+Ksar El Kebir,35.0,-5.875,2026-09-22,35.7,20.2,0.0,0,14.9,31.7,1,2026-09-21 10:26:07,Chaud,Aucune,Modéré,10.6,Faible,Complet,Tuesday,False,1
+Ksar El Kebir,35.0,-5.875,2026-09-23,35.3,19.0,0.0,0,15.8,30.2,1,2026-09-21 10:26:07,Chaud,Aucune,Modéré,10.1,Faible,Complet,Wednesday,False,2
+Ksar El Kebir,35.0,-5.875,2026-09-24,36.9,19.2,0.0,0,17.3,34.2,0,2026-09-21 10:26:07,Chaud,Aucune,Modéré,11.4,Faible,Complet,Thursday,False,3
+Ksar El Kebir,35.0,-5.875,2026-09-25,36.0,18.5,0.0,0,19.6,36.4,0,2026-09-21 10:26:07,Chaud,Aucune,Modéré,12.1,Faible,Complet,Friday,True,4
+Ksar El Kebir,35.0,-5.875,2026-09-26,37.4,17.2,0.0,0,16.4,33.8,3,2026-09-21 10:26:07,Chaud,Aucune,Modéré,11.3,Faible,Complet,Saturday,True,5
+Ksar El Kebir,35.0,-5.875,2026-09-27,34.3,18.4,0.0,0,12.8,25.2,3,2026-09-21 10:26:07,Chaud,Aucune,Calme,8.4,Faible,Complet,Sunday,False,6
+Larache,35.1875,-6.125,2026-09-21,33.6,21.2,0.0,0,15.0,28.1,0,2026-09-21 10:26:06,Chaud,Aucune,Calme,9.4,Faible,Complet,Monday,False,0
+Larache,35.1875,-6.125,2026-09-22,32.7,19.5,0.0,0,15.4,29.2,1,2026-09-21 10:26:06,Chaud,Aucune,Calme,9.7,Faible,Complet,Tuesday,False,1
+Larache,35.1875,-6.125,2026-09-23,30.7,18.6,0.0,0,14.8,27.7,1,2026-09-21 10:26:06,Chaud,Aucune,Calme,9.2,Faible,Complet,Wednesday,False,2
+Larache,35.1875,-6.125,2026-09-24,33.9,17.9,0.0,0,15.9,29.5,0,2026-09-21 10:26:06,Chaud,Aucune,Calme,9.8,Faible,Complet,Thursday,False,3
+Larache,35.1875,-6.125,2026-09-25,31.3,18.1,0.0,0,17.2,32.4,0,2026-09-21 10:26:06,Chaud,Aucune,Modéré,10.8,Faible,Complet,Friday,True,4
+Larache,35.1875,-6.125,2026-09-26,33.2,16.9,0.0,0,14.2,25.9,3,2026-09-21 10:26:06,Chaud,Aucune,Calme,8.6,Faible,Complet,Saturday,True,5
+Larache,35.1875,-6.125,2026-09-27,29.4,17.2,0.0,0,12.0,23.0,3,2026-09-21 10:26:06,Normal,Aucune,Calme,7.7,Faible,Complet,Sunday,False,6
+Laâyoune,27.170473,-13.229401,2026-09-21,36.8,21.7,0.0,0,26.9,50.4,3,2026-09-21 10:25:59,Chaud,Aucune,Fort,16.8,Faible,Complet,Monday,False,0
+Laâyoune,27.170473,-13.229401,2026-09-22,36.5,21.5,0.0,0,21.8,42.8,3,2026-09-21 10:25:59,Chaud,Aucune,Modéré,14.3,Faible,Complet,Tuesday,False,1
+Laâyoune,27.170473,-13.229401,2026-09-23,42.1,25.8,0.0,4,26.2,50.0,1,2026-09-21 10:25:59,Extrême,Aucune,Fort,23.2,Faible,Complet,Wednesday,False,2
+Laâyoune,27.170473,-13.229401,2026-09-24,41.3,25.4,0.0,0,24.2,43.2,2,2026-09-21 10:25:59,Extrême,Aucune,Modéré,19.3,Faible,Complet,Thursday,False,3
+Laâyoune,27.170473,-13.229401,2026-09-25,32.6,20.5,0.0,0,21.1,42.1,3,2026-09-21 10:25:59,Chaud,Aucune,Modéré,14.0,Faible,Complet,Friday,True,4
+Laâyoune,27.170473,-13.229401,2026-09-26,32.0,21.5,0.0,0,16.9,36.7,3,2026-09-21 10:25:59,Chaud,Aucune,Modéré,12.2,Faible,Complet,Saturday,True,5
+Laâyoune,27.170473,-13.229401,2026-09-27,29.3,21.4,0.6,2,15.3,32.8,51,2026-09-21 10:25:59,Normal,Faible,Modéré,16.6,Faible,Complet,Sunday,False,6
+Lqoliaa,30.3125,-9.4375,2026-09-21,40.4,21.5,0.0,0,16.3,33.8,3,2026-09-21 10:26:11,Extrême,Aucune,Modéré,14.9,Faible,Complet,Monday,False,0
+Lqoliaa,30.3125,-9.4375,2026-09-22,38.0,23.4,0.0,0,21.7,46.1,3,2026-09-21 10:26:11,Extrême,Aucune,Modéré,15.4,Faible,Complet,Tuesday,False,1
+Lqoliaa,30.3125,-9.4375,2026-09-23,40.2,22.8,0.0,0,21.2,45.0,0,2026-09-21 10:26:11,Extrême,Aucune,Modéré,18.3,Faible,Complet,Wednesday,False,2
+Lqoliaa,30.3125,-9.4375,2026-09-24,37.3,22.0,0.0,0,16.5,35.6,0,2026-09-21 10:26:11,Chaud,Aucune,Modéré,11.9,Faible,Complet,Thursday,False,3
+Lqoliaa,30.3125,-9.4375,2026-09-25,28.0,18.7,0.0,0,20.2,42.8,3,2026-09-21 10:26:11,Normal,Aucune,Modéré,14.3,Faible,Complet,Friday,True,4
+Lqoliaa,30.3125,-9.4375,2026-09-26,25.8,18.5,0.0,0,16.9,37.1,45,2026-09-21 10:26:11,Normal,Aucune,Modéré,22.4,Faible,Complet,Saturday,True,5
+Lqoliaa,30.3125,-9.4375,2026-09-27,26.3,19.6,0.0,0,18.9,41.0,3,2026-09-21 10:26:11,Normal,Aucune,Modéré,13.7,Faible,Complet,Sunday,False,6
+Marrakech,31.625,-8.0,2026-09-21,38.4,24.3,0.0,5,17.9,44.6,3,2026-09-21 10:25:56,Extrême,Aucune,Modéré,16.0,Faible,Complet,Monday,False,0
+Marrakech,31.625,-8.0,2026-09-22,37.4,21.3,0.0,0,14.5,37.4,0,2026-09-21 10:25:56,Chaud,Aucune,Modéré,12.5,Faible,Complet,Tuesday,False,1
+Marrakech,31.625,-8.0,2026-09-23,36.8,19.9,0.0,0,9.9,29.5,0,2026-09-21 10:25:56,Chaud,Aucune,Calme,9.8,Faible,Complet,Wednesday,False,2
+Marrakech,31.625,-8.0,2026-09-24,37.1,20.0,0.0,0,12.6,33.5,1,2026-09-21 10:25:56,Chaud,Aucune,Modéré,11.2,Faible,Complet,Thursday,False,3
+Marrakech,31.625,-8.0,2026-09-25,36.9,20.9,0.0,0,8.7,27.0,3,2026-09-21 10:25:56,Chaud,Aucune,Calme,9.0,Faible,Complet,Friday,True,4
+Marrakech,31.625,-8.0,2026-09-26,33.3,21.5,0.0,0,12.0,22.3,3,2026-09-21 10:25:56,Chaud,Aucune,Calme,7.4,Faible,Complet,Saturday,True,5
+Marrakech,31.625,-8.0,2026-09-27,34.4,22.8,0.0,0,8.8,18.7,3,2026-09-21 10:25:56,Chaud,Aucune,Calme,6.2,Faible,Complet,Sunday,False,6
+Martil,35.625,-5.3125,2026-09-21,24.7,21.9,0.5,0,21.3,43.6,2,2026-09-21 10:26:16,Normal,Faible,Modéré,14.9,Faible,Complet,Monday,False,0
+Martil,35.625,-5.3125,2026-09-22,24.5,21.0,0.0,0,16.9,36.4,3,2026-09-21 10:26:16,Normal,Aucune,Modéré,12.1,Faible,Complet,Tuesday,False,1
+Martil,35.625,-5.3125,2026-09-23,24.2,20.1,0.0,0,17.4,37.1,3,2026-09-21 10:26:16,Normal,Aucune,Modéré,12.4,Faible,Complet,Wednesday,False,2
+Martil,35.625,-5.3125,2026-09-24,25.0,21.0,0.0,0,19.1,38.2,2,2026-09-21 10:26:16,Normal,Aucune,Modéré,12.7,Faible,Complet,Thursday,False,3
+Martil,35.625,-5.3125,2026-09-25,25.5,20.7,0.0,0,10.3,24.5,45,2026-09-21 10:26:16,Normal,Aucune,Calme,18.2,Faible,Complet,Friday,True,4
+Martil,35.625,-5.3125,2026-09-26,24.4,19.8,0.0,0,14.3,24.8,3,2026-09-21 10:26:16,Normal,Aucune,Calme,8.3,Faible,Complet,Saturday,True,5
+Martil,35.625,-5.3125,2026-09-27,24.8,21.3,0.0,0,19.1,34.2,3,2026-09-21 10:26:16,Normal,Aucune,Modéré,11.4,Faible,Complet,Sunday,False,6
+Mechraa Bel Ksiri,34.5625,-5.9375,2026-09-21,37.9,24.7,0.0,0,18.3,33.8,1,2026-09-21 10:26:39,Chaud,Aucune,Modéré,11.3,Faible,Complet,Monday,False,0
+Mechraa Bel Ksiri,34.5625,-5.9375,2026-09-22,36.2,20.4,0.0,0,15.3,29.5,0,2026-09-21 10:26:39,Chaud,Aucune,Calme,9.8,Faible,Complet,Tuesday,False,1
+Mechraa Bel Ksiri,34.5625,-5.9375,2026-09-23,36.5,17.8,0.0,0,18.5,33.5,0,2026-09-21 10:26:39,Chaud,Aucune,Modéré,11.2,Faible,Complet,Wednesday,False,2
+Mechraa Bel Ksiri,34.5625,-5.9375,2026-09-24,38.3,21.3,0.0,0,14.8,37.1,0,2026-09-21 10:26:39,Extrême,Aucune,Modéré,12.8,Faible,Complet,Thursday,False,3
+Mechraa Bel Ksiri,34.5625,-5.9375,2026-09-25,37.4,19.2,0.0,0,15.6,31.7,0,2026-09-21 10:26:39,Chaud,Aucune,Modéré,10.6,Faible,Complet,Friday,True,4
+Mechraa Bel Ksiri,34.5625,-5.9375,2026-09-26,39.6,17.1,0.0,0,15.3,30.2,3,2026-09-21 10:26:39,Extrême,Aucune,Modéré,12.5,Faible,Complet,Saturday,True,5
+Mechraa Bel Ksiri,34.5625,-5.9375,2026-09-27,35.9,20.1,0.0,3,15.0,34.6,45,2026-09-21 10:26:39,Chaud,Aucune,Modéré,21.8,Faible,Complet,Sunday,False,6
+Mediouna,33.4375,-7.5,2026-09-21,37.9,20.4,0.0,0,20.4,36.4,1,2026-09-21 10:26:37,Chaud,Aucune,Modéré,12.1,Faible,Complet,Monday,False,0
+Mediouna,33.4375,-7.5,2026-09-22,35.0,18.6,0.0,0,17.4,31.7,2,2026-09-21 10:26:37,Chaud,Aucune,Modéré,10.6,Faible,Complet,Tuesday,False,1
+Mediouna,33.4375,-7.5,2026-09-23,33.8,18.1,0.0,0,17.3,31.7,45,2026-09-21 10:26:37,Chaud,Aucune,Modéré,20.6,Faible,Complet,Wednesday,False,2
+Mediouna,33.4375,-7.5,2026-09-24,33.7,18.4,0.0,0,17.2,31.7,0,2026-09-21 10:26:37,Chaud,Aucune,Modéré,10.6,Faible,Complet,Thursday,False,3
+Mediouna,33.4375,-7.5,2026-09-25,33.8,17.9,0.0,0,18.4,33.5,3,2026-09-21 10:26:37,Chaud,Aucune,Modéré,11.2,Faible,Complet,Friday,True,4
+Mediouna,33.4375,-7.5,2026-09-26,28.7,18.4,0.0,0,11.4,30.6,3,2026-09-21 10:26:37,Normal,Aucune,Modéré,10.2,Faible,Complet,Saturday,True,5
+Mediouna,33.4375,-7.5,2026-09-27,28.1,20.5,0.0,0,12.2,33.8,3,2026-09-21 10:26:37,Normal,Aucune,Modéré,11.3,Faible,Complet,Sunday,False,6
+Mehdya,34.25,-6.625,2026-09-21,32.0,19.8,0.0,0,12.0,27.0,2,2026-09-21 10:26:23,Chaud,Aucune,Calme,9.0,Faible,Complet,Monday,False,0
+Mehdya,34.25,-6.625,2026-09-22,30.8,19.7,0.0,0,9.2,22.3,45,2026-09-21 10:26:23,Chaud,Aucune,Calme,17.4,Faible,Complet,Tuesday,False,1
+Mehdya,34.25,-6.625,2026-09-23,29.3,20.3,0.0,0,15.2,33.8,45,2026-09-21 10:26:23,Normal,Aucune,Modéré,21.3,Faible,Complet,Wednesday,False,2
+Mehdya,34.25,-6.625,2026-09-24,33.5,19.3,0.0,0,13.2,30.2,0,2026-09-21 10:26:23,Chaud,Aucune,Modéré,10.1,Faible,Complet,Thursday,False,3
+Mehdya,34.25,-6.625,2026-09-25,33.1,18.7,0.0,0,14.0,31.7,0,2026-09-21 10:26:23,Chaud,Aucune,Modéré,10.6,Faible,Complet,Friday,True,4
+Mehdya,34.25,-6.625,2026-09-26,32.7,17.1,0.0,0,15.0,33.8,3,2026-09-21 10:26:23,Chaud,Aucune,Modéré,11.3,Faible,Complet,Saturday,True,5
+Mehdya,34.25,-6.625,2026-09-27,28.0,20.7,0.0,0,11.2,26.3,45,2026-09-21 10:26:23,Normal,Aucune,Calme,18.8,Faible,Complet,Sunday,False,6
+Meknès,33.875,-5.5625,2026-09-21,35.3,20.4,0.0,0,16.1,39.2,2,2026-09-21 10:25:56,Chaud,Aucune,Modéré,13.1,Faible,Complet,Monday,False,0
+Meknès,33.875,-5.5625,2026-09-22,33.7,19.1,0.0,0,14.0,36.4,0,2026-09-21 10:25:56,Chaud,Aucune,Modéré,12.1,Faible,Complet,Tuesday,False,1
+Meknès,33.875,-5.5625,2026-09-23,34.1,18.4,0.0,0,13.4,36.4,1,2026-09-21 10:25:56,Chaud,Aucune,Modéré,12.1,Faible,Complet,Wednesday,False,2
+Meknès,33.875,-5.5625,2026-09-24,35.1,19.2,0.0,0,11.2,30.2,0,2026-09-21 10:25:56,Chaud,Aucune,Modéré,10.1,Faible,Complet,Thursday,False,3
+Meknès,33.875,-5.5625,2026-09-25,34.9,18.5,0.0,0,11.4,31.3,0,2026-09-21 10:25:56,Chaud,Aucune,Modéré,10.4,Faible,Complet,Friday,True,4
+Meknès,33.875,-5.5625,2026-09-26,35.8,19.3,0.0,0,17.3,43.6,3,2026-09-21 10:25:56,Chaud,Aucune,Modéré,14.5,Faible,Complet,Saturday,True,5
+Meknès,33.875,-5.5625,2026-09-27,33.4,20.8,0.0,0,12.2,28.8,3,2026-09-21 10:25:56,Chaud,Aucune,Calme,9.6,Faible,Complet,Sunday,False,6
+Midalt,32.6875,-4.75,2026-09-21,28.6,15.2,0.0,0,22.1,41.0,3,2026-09-21 10:26:22,Normal,Aucune,Modéré,13.7,Faible,Complet,Monday,False,0
+Midalt,32.6875,-4.75,2026-09-22,27.5,14.7,0.0,0,17.3,29.9,3,2026-09-21 10:26:22,Normal,Aucune,Calme,10.0,Faible,Complet,Tuesday,False,1
+Midalt,32.6875,-4.75,2026-09-23,28.2,13.2,0.0,0,13.6,20.9,2,2026-09-21 10:26:22,Normal,Aucune,Calme,7.0,Faible,Complet,Wednesday,False,2
+Midalt,32.6875,-4.75,2026-09-24,29.3,13.7,0.0,0,17.1,31.0,0,2026-09-21 10:26:22,Normal,Aucune,Modéré,10.3,Faible,Complet,Thursday,False,3
+Midalt,32.6875,-4.75,2026-09-25,29.1,13.7,0.0,0,19.2,34.2,0,2026-09-21 10:26:22,Normal,Aucune,Modéré,11.4,Faible,Complet,Friday,True,4
+Midalt,32.6875,-4.75,2026-09-26,28.8,13.2,0.0,0,18.3,29.2,3,2026-09-21 10:26:22,Normal,Aucune,Calme,9.7,Faible,Complet,Saturday,True,5
+Midalt,32.6875,-4.75,2026-09-27,28.8,15.7,0.0,7,11.5,22.3,3,2026-09-21 10:26:22,Normal,Aucune,Calme,8.1,Faible,Complet,Sunday,False,6
+Missour,33.0625,-4.0,2026-09-21,30.6,17.6,0.0,3,24.5,39.6,3,2026-09-21 10:26:42,Chaud,Aucune,Modéré,13.5,Faible,Complet,Monday,False,0
+Missour,33.0625,-4.0,2026-09-22,30.3,16.4,0.0,0,22.9,34.9,1,2026-09-21 10:26:42,Chaud,Aucune,Modéré,11.6,Faible,Complet,Tuesday,False,1
+Missour,33.0625,-4.0,2026-09-23,31.2,14.9,0.0,0,20.4,32.4,0,2026-09-21 10:26:42,Chaud,Aucune,Modéré,10.8,Faible,Complet,Wednesday,False,2
+Missour,33.0625,-4.0,2026-09-24,32.5,16.3,0.0,0,30.0,46.1,1,2026-09-21 10:26:42,Chaud,Aucune,Modéré,15.4,Faible,Complet,Thursday,False,3
+Missour,33.0625,-4.0,2026-09-25,31.5,16.5,0.0,0,24.7,37.4,2,2026-09-21 10:26:42,Chaud,Aucune,Modéré,12.5,Faible,Complet,Friday,True,4
+Missour,33.0625,-4.0,2026-09-26,32.1,15.9,0.0,0,16.7,28.4,3,2026-09-21 10:26:42,Chaud,Aucune,Calme,9.5,Faible,Complet,Saturday,True,5
+Missour,33.0625,-4.0,2026-09-27,33.4,18.4,0.0,5,25.3,38.9,3,2026-09-21 10:26:42,Chaud,Aucune,Modéré,13.5,Faible,Complet,Sunday,False,6
+Mohammedia,33.6875,-7.375,2026-09-21,29.8,19.8,0.0,0,13.7,34.2,45,2026-09-21 10:26:02,Normal,Aucune,Modéré,21.4,Faible,Complet,Monday,False,0
+Mohammedia,33.6875,-7.375,2026-09-22,28.7,19.0,0.0,0,10.6,27.4,45,2026-09-21 10:26:02,Normal,Aucune,Calme,19.1,Faible,Complet,Tuesday,False,1
+Mohammedia,33.6875,-7.375,2026-09-23,26.6,20.0,0.0,0,12.7,31.0,45,2026-09-21 10:26:02,Normal,Aucune,Modéré,20.3,Faible,Complet,Wednesday,False,2
+Mohammedia,33.6875,-7.375,2026-09-24,27.7,18.6,0.0,0,11.5,28.8,1,2026-09-21 10:26:02,Normal,Aucune,Calme,9.6,Faible,Complet,Thursday,False,3
+Mohammedia,33.6875,-7.375,2026-09-25,27.4,18.4,0.0,0,12.6,29.9,3,2026-09-21 10:26:02,Normal,Aucune,Calme,10.0,Faible,Complet,Friday,True,4
+Mohammedia,33.6875,-7.375,2026-09-26,31.1,17.9,0.0,0,15.7,29.9,3,2026-09-21 10:26:02,Chaud,Aucune,Calme,10.0,Faible,Complet,Saturday,True,5
+Mohammedia,33.6875,-7.375,2026-09-27,31.3,21.5,0.0,0,15.0,29.5,45,2026-09-21 10:26:02,Chaud,Aucune,Calme,19.8,Faible,Complet,Sunday,False,6
+Moulay Abdallah,33.1875,-8.5625,2026-09-21,30.5,21.1,0.0,0,15.9,24.8,2,2026-09-21 10:26:12,Chaud,Aucune,Calme,8.3,Faible,Complet,Monday,False,0
+Moulay Abdallah,33.1875,-8.5625,2026-09-22,29.4,19.4,0.0,0,17.6,28.8,45,2026-09-21 10:26:12,Normal,Aucune,Calme,19.6,Faible,Complet,Tuesday,False,1
+Moulay Abdallah,33.1875,-8.5625,2026-09-23,26.9,20.8,0.0,0,17.5,27.7,45,2026-09-21 10:26:12,Normal,Aucune,Calme,19.2,Faible,Complet,Wednesday,False,2
+Moulay Abdallah,33.1875,-8.5625,2026-09-24,27.7,20.6,0.0,0,13.6,21.6,45,2026-09-21 10:26:12,Normal,Aucune,Calme,17.2,Faible,Complet,Thursday,False,3
+Moulay Abdallah,33.1875,-8.5625,2026-09-25,27.8,21.0,0.0,0,17.1,27.4,45,2026-09-21 10:26:12,Normal,Aucune,Calme,19.1,Faible,Complet,Friday,True,4
+Moulay Abdallah,33.1875,-8.5625,2026-09-26,27.2,20.5,0.0,0,11.0,21.6,3,2026-09-21 10:26:12,Normal,Aucune,Calme,7.2,Faible,Complet,Saturday,True,5
+Moulay Abdallah,33.1875,-8.5625,2026-09-27,26.7,21.2,0.0,0,13.7,25.6,45,2026-09-21 10:26:12,Normal,Aucune,Calme,18.5,Faible,Complet,Sunday,False,6
+Moulay Bousselham,34.875,-6.25,2026-09-21,32.5,19.5,0.0,0,16.8,28.1,0,2026-09-21 10:26:39,Chaud,Aucune,Calme,9.4,Faible,Complet,Monday,False,0
+Moulay Bousselham,34.875,-6.25,2026-09-22,31.5,19.6,0.0,0,16.2,28.4,0,2026-09-21 10:26:39,Chaud,Aucune,Calme,9.5,Faible,Complet,Tuesday,False,1
+Moulay Bousselham,34.875,-6.25,2026-09-23,28.2,17.1,0.0,0,17.9,29.5,1,2026-09-21 10:26:39,Normal,Aucune,Calme,9.8,Faible,Complet,Wednesday,False,2
+Moulay Bousselham,34.875,-6.25,2026-09-24,31.7,18.0,0.0,0,18.0,29.9,0,2026-09-21 10:26:39,Chaud,Aucune,Calme,10.0,Faible,Complet,Thursday,False,3
+Moulay Bousselham,34.875,-6.25,2026-09-25,30.4,19.5,0.0,0,15.9,27.4,1,2026-09-21 10:26:39,Chaud,Aucune,Calme,9.1,Faible,Complet,Friday,True,4
+Moulay Bousselham,34.875,-6.25,2026-09-26,34.2,17.1,0.0,0,16.9,34.2,3,2026-09-21 10:26:39,Chaud,Aucune,Modéré,11.4,Faible,Complet,Saturday,True,5
+Moulay Bousselham,34.875,-6.25,2026-09-27,29.9,19.0,0.0,0,17.9,31.3,45,2026-09-21 10:26:39,Normal,Aucune,Modéré,20.4,Faible,Complet,Sunday,False,6
+Mrirt,33.1875,-5.5625,2026-09-21,31.8,18.0,0.0,0,20.4,41.4,3,2026-09-21 10:26:29,Chaud,Aucune,Modéré,13.8,Faible,Complet,Monday,False,0
+Mrirt,33.1875,-5.5625,2026-09-22,31.2,16.3,0.0,0,19.2,38.9,3,2026-09-21 10:26:29,Chaud,Aucune,Modéré,13.0,Faible,Complet,Tuesday,False,1
+Mrirt,33.1875,-5.5625,2026-09-23,32.2,16.1,0.0,0,20.0,39.6,2,2026-09-21 10:26:29,Chaud,Aucune,Modéré,13.2,Faible,Complet,Wednesday,False,2
+Mrirt,33.1875,-5.5625,2026-09-24,33.5,16.8,0.0,0,18.7,38.5,1,2026-09-21 10:26:29,Chaud,Aucune,Modéré,12.8,Faible,Complet,Thursday,False,3
+Mrirt,33.1875,-5.5625,2026-09-25,32.9,16.3,0.0,0,16.3,39.2,0,2026-09-21 10:26:29,Chaud,Aucune,Modéré,13.1,Faible,Complet,Friday,True,4
+Mrirt,33.1875,-5.5625,2026-09-26,33.4,16.3,0.0,0,14.9,27.7,3,2026-09-21 10:26:29,Chaud,Aucune,Calme,9.2,Faible,Complet,Saturday,True,5
+Mrirt,33.1875,-5.5625,2026-09-27,31.3,17.6,0.0,14,11.3,22.3,3,2026-09-21 10:26:29,Chaud,Aucune,Calme,8.8,Faible,Complet,Sunday,False,6
+My Drarga,30.375,-9.5,2026-09-21,39.1,21.8,0.0,0,19.3,34.6,3,2026-09-21 10:26:10,Extrême,Aucune,Modéré,13.2,Faible,Complet,Monday,False,0
+My Drarga,30.375,-9.5,2026-09-22,35.4,24.5,0.0,0,18.8,40.3,3,2026-09-21 10:26:10,Chaud,Aucune,Modéré,13.4,Faible,Complet,Tuesday,False,1
+My Drarga,30.375,-9.5,2026-09-23,37.9,23.9,0.0,0,16.2,36.7,1,2026-09-21 10:26:10,Chaud,Aucune,Modéré,12.2,Faible,Complet,Wednesday,False,2
+My Drarga,30.375,-9.5,2026-09-24,34.5,21.6,0.0,0,11.5,25.2,0,2026-09-21 10:26:10,Chaud,Aucune,Calme,8.4,Faible,Complet,Thursday,False,3
+My Drarga,30.375,-9.5,2026-09-25,27.0,19.3,0.0,0,13.6,32.4,45,2026-09-21 10:26:10,Normal,Aucune,Modéré,20.8,Faible,Complet,Friday,True,4
+My Drarga,30.375,-9.5,2026-09-26,27.9,19.9,0.0,0,13.8,27.7,45,2026-09-21 10:26:10,Normal,Aucune,Calme,19.2,Faible,Complet,Saturday,True,5
+My Drarga,30.375,-9.5,2026-09-27,29.1,20.5,0.0,0,14.8,30.2,3,2026-09-21 10:26:10,Normal,Aucune,Modéré,10.1,Faible,Complet,Sunday,False,6
+M’diq,35.625,-5.3125,2026-09-21,24.5,21.7,0.5,0,21.3,43.6,2,2026-09-21 10:26:21,Normal,Faible,Modéré,14.9,Faible,Complet,Monday,False,0
+M’diq,35.625,-5.3125,2026-09-22,24.3,20.8,0.0,0,16.9,36.4,3,2026-09-21 10:26:21,Normal,Aucune,Modéré,12.1,Faible,Complet,Tuesday,False,1
+M’diq,35.625,-5.3125,2026-09-23,24.1,20.0,0.0,0,17.4,37.1,3,2026-09-21 10:26:21,Normal,Aucune,Modéré,12.4,Faible,Complet,Wednesday,False,2
+M’diq,35.625,-5.3125,2026-09-24,24.8,20.9,0.0,0,19.1,38.2,2,2026-09-21 10:26:21,Normal,Aucune,Modéré,12.7,Faible,Complet,Thursday,False,3
+M’diq,35.625,-5.3125,2026-09-25,25.3,20.6,0.0,0,10.3,24.5,45,2026-09-21 10:26:21,Normal,Aucune,Calme,18.2,Faible,Complet,Friday,True,4
+M’diq,35.625,-5.3125,2026-09-26,26.9,19.8,0.0,0,16.8,45.7,3,2026-09-21 10:26:21,Normal,Aucune,Modéré,15.2,Faible,Complet,Saturday,True,5
+M’diq,35.625,-5.3125,2026-09-27,26.9,21.3,0.0,2,22.8,57.2,3,2026-09-21 10:26:21,Normal,Aucune,Fort,19.3,Faible,Complet,Sunday,False,6
+Nador,35.1875,-2.9375,2026-09-21,25.1,22.5,0.3,0,16.6,36.4,2,2026-09-21 10:26:04,Normal,Faible,Modéré,12.4,Faible,Complet,Monday,False,0
+Nador,35.1875,-2.9375,2026-09-22,25.1,19.9,0.0,0,13.0,28.1,3,2026-09-21 10:26:04,Normal,Aucune,Calme,9.4,Faible,Complet,Tuesday,False,1
+Nador,35.1875,-2.9375,2026-09-23,25.3,19.6,0.0,0,12.8,28.1,2,2026-09-21 10:26:04,Normal,Aucune,Calme,9.4,Faible,Complet,Wednesday,False,2
+Nador,35.1875,-2.9375,2026-09-24,25.8,20.5,0.0,0,14.3,32.4,2,2026-09-21 10:26:04,Normal,Aucune,Modéré,10.8,Faible,Complet,Thursday,False,3
+Nador,35.1875,-2.9375,2026-09-25,26.3,20.4,0.0,0,10.7,24.8,2,2026-09-21 10:26:04,Normal,Aucune,Calme,8.3,Faible,Complet,Friday,True,4
+Nador,35.1875,-2.9375,2026-09-26,27.6,17.5,0.0,0,18.1,31.7,3,2026-09-21 10:26:04,Normal,Aucune,Modéré,10.6,Faible,Complet,Saturday,True,5
+Nador,35.1875,-2.9375,2026-09-27,26.1,18.2,0.0,0,16.1,28.1,45,2026-09-21 10:26:04,Normal,Aucune,Calme,19.4,Faible,Complet,Sunday,False,6
+Oued Zem,32.875,-6.5625,2026-09-21,34.7,22.3,0.0,0,19.7,41.4,2,2026-09-21 10:26:17,Chaud,Aucune,Modéré,13.8,Faible,Complet,Monday,False,0
+Oued Zem,32.875,-6.5625,2026-09-22,34.1,21.1,0.0,0,17.3,33.8,1,2026-09-21 10:26:17,Chaud,Aucune,Modéré,11.3,Faible,Complet,Tuesday,False,1
+Oued Zem,32.875,-6.5625,2026-09-23,33.7,19.8,0.0,0,11.3,27.0,2,2026-09-21 10:26:17,Chaud,Aucune,Calme,9.0,Faible,Complet,Wednesday,False,2
+Oued Zem,32.875,-6.5625,2026-09-24,35.4,20.2,0.0,0,17.9,34.9,1,2026-09-21 10:26:17,Chaud,Aucune,Modéré,11.6,Faible,Complet,Thursday,False,3
+Oued Zem,32.875,-6.5625,2026-09-25,35.1,20.3,0.0,0,17.9,36.7,3,2026-09-21 10:26:17,Chaud,Aucune,Modéré,12.2,Faible,Complet,Friday,True,4
+Oued Zem,32.875,-6.5625,2026-09-26,34.6,20.6,0.0,0,16.9,33.1,3,2026-09-21 10:26:17,Chaud,Aucune,Modéré,11.0,Faible,Complet,Saturday,True,5
+Oued Zem,32.875,-6.5625,2026-09-27,33.3,20.7,0.0,3,10.2,25.9,3,2026-09-21 10:26:17,Chaud,Aucune,Calme,8.9,Faible,Complet,Sunday,False,6
+Ouezzane,34.8125,-5.625,2026-09-21,36.0,19.9,0.0,0,14.0,26.6,1,2026-09-21 10:26:24,Chaud,Aucune,Calme,8.9,Faible,Complet,Monday,False,0
+Ouezzane,34.8125,-5.625,2026-09-22,34.9,18.8,0.0,0,13.7,28.1,1,2026-09-21 10:26:24,Chaud,Aucune,Calme,9.4,Faible,Complet,Tuesday,False,1
+Ouezzane,34.8125,-5.625,2026-09-23,35.4,18.7,0.0,0,15.2,28.8,0,2026-09-21 10:26:24,Chaud,Aucune,Calme,9.6,Faible,Complet,Wednesday,False,2
+Ouezzane,34.8125,-5.625,2026-09-24,37.0,18.6,0.0,0,13.8,32.8,0,2026-09-21 10:26:24,Chaud,Aucune,Modéré,10.9,Faible,Complet,Thursday,False,3
+Ouezzane,34.8125,-5.625,2026-09-25,36.9,17.7,0.0,0,13.0,26.6,0,2026-09-21 10:26:24,Chaud,Aucune,Calme,8.9,Faible,Complet,Friday,True,4
+Ouezzane,34.8125,-5.625,2026-09-26,38.0,17.1,0.0,0,20.4,40.0,3,2026-09-21 10:26:24,Extrême,Aucune,Modéré,13.3,Faible,Complet,Saturday,True,5
+Ouezzane,34.8125,-5.625,2026-09-27,35.4,19.5,0.0,0,12.0,23.8,3,2026-09-21 10:26:24,Chaud,Aucune,Calme,7.9,Faible,Complet,Sunday,False,6
+Oujda-Angad,34.6875,-1.9375,2026-09-21,28.1,17.1,0.0,0,19.2,39.2,45,2026-09-21 10:25:58,Normal,Aucune,Modéré,23.1,Faible,Complet,Monday,False,0
+Oujda-Angad,34.6875,-1.9375,2026-09-22,28.5,14.0,0.0,0,18.2,37.1,3,2026-09-21 10:25:58,Normal,Aucune,Modéré,12.4,Faible,Complet,Tuesday,False,1
+Oujda-Angad,34.6875,-1.9375,2026-09-23,29.4,15.5,0.0,0,21.0,43.2,1,2026-09-21 10:25:58,Normal,Aucune,Modéré,14.4,Faible,Complet,Wednesday,False,2
+Oujda-Angad,34.6875,-1.9375,2026-09-24,29.8,15.8,0.0,0,21.3,42.5,0,2026-09-21 10:25:58,Normal,Aucune,Modéré,14.2,Faible,Complet,Thursday,False,3
+Oujda-Angad,34.6875,-1.9375,2026-09-25,30.6,13.8,0.0,0,17.5,35.6,0,2026-09-21 10:25:58,Chaud,Aucune,Modéré,11.9,Faible,Complet,Friday,True,4
+Oujda-Angad,34.6875,-1.9375,2026-09-26,32.7,15.4,0.0,0,23.5,41.4,1,2026-09-21 10:25:58,Chaud,Aucune,Modéré,13.8,Faible,Complet,Saturday,True,5
+Oujda-Angad,34.6875,-1.9375,2026-09-27,33.7,17.3,0.0,0,23.2,43.2,3,2026-09-21 10:25:58,Chaud,Aucune,Modéré,14.4,Faible,Complet,Sunday,False,6
+Oulad Barhil,30.625,-8.5,2026-09-21,38.0,22.3,0.0,3,25.0,44.6,3,2026-09-21 10:26:40,Extrême,Aucune,Modéré,15.2,Faible,Complet,Monday,False,0
+Oulad Barhil,30.625,-8.5,2026-09-22,38.1,21.6,0.0,5,20.9,38.5,3,2026-09-21 10:26:40,Extrême,Aucune,Modéré,13.5,Faible,Complet,Tuesday,False,1
+Oulad Barhil,30.625,-8.5,2026-09-23,38.6,21.1,0.0,0,18.0,32.8,0,2026-09-21 10:26:40,Extrême,Aucune,Modéré,11.8,Faible,Complet,Wednesday,False,2
+Oulad Barhil,30.625,-8.5,2026-09-24,37.7,20.9,0.0,0,26.8,50.4,1,2026-09-21 10:26:40,Chaud,Aucune,Fort,16.8,Faible,Complet,Thursday,False,3
+Oulad Barhil,30.625,-8.5,2026-09-25,38.0,19.3,0.0,0,26.9,53.3,3,2026-09-21 10:26:40,Extrême,Aucune,Fort,17.8,Faible,Complet,Friday,True,4
+Oulad Barhil,30.625,-8.5,2026-09-26,34.5,20.8,0.0,3,14.5,27.4,3,2026-09-21 10:26:40,Chaud,Aucune,Calme,9.4,Faible,Complet,Saturday,True,5
+Oulad Barhil,30.625,-8.5,2026-09-27,36.0,20.6,0.0,3,16.0,28.4,3,2026-09-21 10:26:40,Chaud,Aucune,Calme,9.8,Faible,Complet,Sunday,False,6
+Oulad Tayeb,33.9375,-5.0,2026-09-21,35.4,20.3,0.0,0,17.0,33.5,2,2026-09-21 10:26:25,Chaud,Aucune,Modéré,11.2,Faible,Complet,Monday,False,0
+Oulad Tayeb,33.9375,-5.0,2026-09-22,33.9,19.8,0.0,0,15.1,29.5,1,2026-09-21 10:26:25,Chaud,Aucune,Calme,9.8,Faible,Complet,Tuesday,False,1
+Oulad Tayeb,33.9375,-5.0,2026-09-23,34.5,19.4,0.0,0,13.6,27.0,0,2026-09-21 10:26:25,Chaud,Aucune,Calme,9.0,Faible,Complet,Wednesday,False,2
+Oulad Tayeb,33.9375,-5.0,2026-09-24,35.4,20.2,0.0,0,13.8,27.7,0,2026-09-21 10:26:25,Chaud,Aucune,Calme,9.2,Faible,Complet,Thursday,False,3
+Oulad Tayeb,33.9375,-5.0,2026-09-25,35.1,20.2,0.0,0,13.8,27.0,0,2026-09-21 10:26:25,Chaud,Aucune,Calme,9.0,Faible,Complet,Friday,True,4
+Oulad Tayeb,33.9375,-5.0,2026-09-26,35.7,20.0,0.0,0,22.1,50.4,3,2026-09-21 10:26:25,Chaud,Aucune,Fort,16.8,Faible,Complet,Saturday,True,5
+Oulad Tayeb,33.9375,-5.0,2026-09-27,34.3,22.7,0.0,0,8.1,22.0,3,2026-09-21 10:26:25,Chaud,Aucune,Calme,7.3,Faible,Complet,Sunday,False,6
+Oulad Teïma,30.375,-9.1875,2026-09-21,41.0,22.3,0.0,0,22.6,40.0,3,2026-09-21 10:26:13,Extrême,Aucune,Modéré,17.8,Faible,Complet,Monday,False,0
+Oulad Teïma,30.375,-9.1875,2026-09-22,39.8,23.3,0.0,0,28.4,55.4,3,2026-09-21 10:26:13,Extrême,Aucune,Fort,21.2,Faible,Complet,Tuesday,False,1
+Oulad Teïma,30.375,-9.1875,2026-09-23,41.1,22.4,0.0,0,25.1,45.7,0,2026-09-21 10:26:13,Extrême,Aucune,Modéré,19.9,Faible,Complet,Wednesday,False,2
+Oulad Teïma,30.375,-9.1875,2026-09-24,39.5,21.4,0.0,0,21.6,41.4,0,2026-09-21 10:26:13,Extrême,Aucune,Modéré,16.0,Faible,Complet,Thursday,False,3
+Oulad Teïma,30.375,-9.1875,2026-09-25,33.2,19.1,0.0,0,24.9,46.8,3,2026-09-21 10:26:13,Chaud,Aucune,Modéré,15.6,Faible,Complet,Friday,True,4
+Oulad Teïma,30.375,-9.1875,2026-09-26,27.6,18.3,0.0,0,26.0,42.8,3,2026-09-21 10:26:13,Normal,Aucune,Modéré,14.3,Faible,Complet,Saturday,True,5
+Oulad Teïma,30.375,-9.1875,2026-09-27,28.8,19.0,0.0,0,27.8,48.6,45,2026-09-21 10:26:13,Normal,Aucune,Modéré,26.2,Modéré,Complet,Sunday,False,6
+Oulad Yaïch,32.4375,-6.3125,2026-09-21,37.5,24.0,0.0,0,13.5,23.8,2,2026-09-21 10:26:43,Chaud,Aucune,Calme,7.9,Faible,Complet,Monday,False,0
+Oulad Yaïch,32.4375,-6.3125,2026-09-22,36.3,21.6,0.0,0,10.2,19.4,1,2026-09-21 10:26:43,Chaud,Aucune,Calme,6.5,Faible,Complet,Tuesday,False,1
+Oulad Yaïch,32.4375,-6.3125,2026-09-23,36.5,20.6,0.0,0,9.0,17.6,1,2026-09-21 10:26:43,Chaud,Aucune,Calme,5.9,Faible,Complet,Wednesday,False,2
+Oulad Yaïch,32.4375,-6.3125,2026-09-24,38.0,20.7,0.0,0,10.4,20.2,0,2026-09-21 10:26:43,Extrême,Aucune,Calme,6.7,Faible,Complet,Thursday,False,3
+Oulad Yaïch,32.4375,-6.3125,2026-09-25,37.5,20.7,0.0,0,7.5,16.2,3,2026-09-21 10:26:43,Chaud,Aucune,Calme,5.4,Faible,Complet,Friday,True,4
+Oulad Yaïch,32.4375,-6.3125,2026-09-26,36.3,22.6,0.0,0,17.2,32.4,3,2026-09-21 10:26:43,Chaud,Aucune,Modéré,10.8,Faible,Complet,Saturday,True,5
+Oulad Yaïch,32.4375,-6.3125,2026-09-27,34.8,24.3,0.0,3,11.1,20.5,3,2026-09-21 10:26:43,Chaud,Aucune,Calme,7.1,Faible,Complet,Sunday,False,6
+Qasbat Tadla,32.625,-6.25,2026-09-21,37.4,22.2,0.0,0,15.6,27.7,2,2026-09-21 10:26:28,Chaud,Aucune,Calme,9.2,Faible,Complet,Monday,False,0
+Qasbat Tadla,32.625,-6.25,2026-09-22,36.0,19.3,0.0,0,10.7,18.7,2,2026-09-21 10:26:28,Chaud,Aucune,Calme,6.2,Faible,Complet,Tuesday,False,1
+Qasbat Tadla,32.625,-6.25,2026-09-23,36.1,17.8,0.0,0,6.9,14.8,3,2026-09-21 10:26:28,Chaud,Aucune,Calme,4.9,Faible,Complet,Wednesday,False,2
+Qasbat Tadla,32.625,-6.25,2026-09-24,37.8,19.0,0.0,0,10.0,19.8,0,2026-09-21 10:26:28,Chaud,Aucune,Calme,6.6,Faible,Complet,Thursday,False,3
+Qasbat Tadla,32.625,-6.25,2026-09-25,37.2,17.2,0.0,0,9.7,19.4,1,2026-09-21 10:26:28,Chaud,Aucune,Calme,6.5,Faible,Complet,Friday,True,4
+Qasbat Tadla,32.625,-6.25,2026-09-26,37.7,18.3,0.0,0,12.2,23.0,3,2026-09-21 10:26:28,Chaud,Aucune,Calme,7.7,Faible,Complet,Saturday,True,5
+Qasbat Tadla,32.625,-6.25,2026-09-27,35.6,20.7,0.0,3,6.5,13.3,3,2026-09-21 10:26:28,Chaud,Aucune,Calme,4.7,Faible,Complet,Sunday,False,6
+Rabat,34.0,-6.8125,2026-09-21,31.8,19.9,0.0,0,11.3,30.2,45,2026-09-21 10:25:57,Chaud,Aucune,Modéré,20.1,Faible,Complet,Monday,False,0
+Rabat,34.0,-6.8125,2026-09-22,30.7,20.0,0.0,0,9.2,26.6,1,2026-09-21 10:25:57,Chaud,Aucune,Calme,8.9,Faible,Complet,Tuesday,False,1
+Rabat,34.0,-6.8125,2026-09-23,28.5,20.1,0.0,0,12.5,32.8,45,2026-09-21 10:25:57,Normal,Aucune,Modéré,20.9,Faible,Complet,Wednesday,False,2
+Rabat,34.0,-6.8125,2026-09-24,30.2,18.0,0.0,0,10.8,28.8,1,2026-09-21 10:25:57,Chaud,Aucune,Calme,9.6,Faible,Complet,Thursday,False,3
+Rabat,34.0,-6.8125,2026-09-25,30.6,18.3,0.0,0,12.1,31.3,0,2026-09-21 10:25:57,Chaud,Aucune,Modéré,10.4,Faible,Complet,Friday,True,4
+Rabat,34.0,-6.8125,2026-09-26,28.9,17.8,0.0,0,13.0,30.6,3,2026-09-21 10:25:57,Normal,Aucune,Modéré,10.2,Faible,Complet,Saturday,True,5
+Rabat,34.0,-6.8125,2026-09-27,27.4,21.7,0.0,0,10.8,26.6,3,2026-09-21 10:25:57,Normal,Aucune,Calme,8.9,Faible,Complet,Sunday,False,6
+Safi,32.3125,-9.25,2026-09-21,27.7,19.1,0.0,0,7.3,15.8,45,2026-09-21 10:25:58,Normal,Aucune,Calme,15.3,Faible,Complet,Monday,False,0
+Safi,32.3125,-9.25,2026-09-22,31.9,19.5,0.0,0,13.8,28.8,45,2026-09-21 10:25:58,Chaud,Aucune,Calme,19.6,Faible,Complet,Tuesday,False,1
+Safi,32.3125,-9.25,2026-09-23,29.5,20.7,0.0,0,18.7,34.6,0,2026-09-21 10:25:58,Normal,Aucune,Modéré,11.5,Faible,Complet,Wednesday,False,2
+Safi,32.3125,-9.25,2026-09-24,26.9,19.5,0.0,0,12.9,25.6,1,2026-09-21 10:25:58,Normal,Aucune,Calme,8.5,Faible,Complet,Thursday,False,3
+Safi,32.3125,-9.25,2026-09-25,27.8,19.7,0.0,0,16.7,32.4,3,2026-09-21 10:25:58,Normal,Aucune,Modéré,10.8,Faible,Complet,Friday,True,4
+Safi,32.3125,-9.25,2026-09-26,28.9,20.5,0.0,0,11.3,26.3,45,2026-09-21 10:25:58,Normal,Aucune,Calme,18.8,Faible,Complet,Saturday,True,5
+Safi,32.3125,-9.25,2026-09-27,26.7,20.1,0.0,0,15.9,32.4,45,2026-09-21 10:25:58,Normal,Aucune,Modéré,20.8,Faible,Complet,Sunday,False,6
+Sale,34.0,-6.8125,2026-09-21,31.8,19.8,0.0,0,11.3,30.2,45,2026-09-21 10:25:56,Chaud,Aucune,Modéré,20.1,Faible,Complet,Monday,False,0
+Sale,34.0,-6.8125,2026-09-22,30.6,20.0,0.0,0,9.2,26.6,1,2026-09-21 10:25:56,Chaud,Aucune,Calme,8.9,Faible,Complet,Tuesday,False,1
+Sale,34.0,-6.8125,2026-09-23,28.4,20.0,0.0,0,12.5,32.8,45,2026-09-21 10:25:56,Normal,Aucune,Modéré,20.9,Faible,Complet,Wednesday,False,2
+Sale,34.0,-6.8125,2026-09-24,30.2,18.0,0.0,0,10.8,28.8,1,2026-09-21 10:25:56,Chaud,Aucune,Calme,9.6,Faible,Complet,Thursday,False,3
+Sale,34.0,-6.8125,2026-09-25,30.5,18.2,0.0,0,12.1,31.3,0,2026-09-21 10:25:56,Chaud,Aucune,Modéré,10.4,Faible,Complet,Friday,True,4
+Sale,34.0,-6.8125,2026-09-26,28.9,17.8,0.0,0,13.0,30.6,3,2026-09-21 10:25:56,Normal,Aucune,Modéré,10.2,Faible,Complet,Saturday,True,5
+Sale,34.0,-6.8125,2026-09-27,27.4,21.7,0.0,0,10.8,26.6,3,2026-09-21 10:25:56,Normal,Aucune,Calme,8.9,Faible,Complet,Sunday,False,6
+Sebt Gzoula,32.125,-9.0625,2026-09-21,35.4,22.0,0.0,0,13.5,26.3,2,2026-09-21 10:26:44,Chaud,Aucune,Calme,8.8,Faible,Complet,Monday,False,0
+Sebt Gzoula,32.125,-9.0625,2026-09-22,37.0,20.2,0.0,0,14.8,29.9,0,2026-09-21 10:26:44,Chaud,Aucune,Calme,10.0,Faible,Complet,Tuesday,False,1
+Sebt Gzoula,32.125,-9.0625,2026-09-23,35.5,20.5,0.0,0,14.3,27.7,0,2026-09-21 10:26:44,Chaud,Aucune,Calme,9.2,Faible,Complet,Wednesday,False,2
+Sebt Gzoula,32.125,-9.0625,2026-09-24,32.8,18.9,0.0,0,13.8,27.0,0,2026-09-21 10:26:44,Chaud,Aucune,Calme,9.0,Faible,Complet,Thursday,False,3
+Sebt Gzoula,32.125,-9.0625,2026-09-25,33.7,19.1,0.0,0,15.1,29.2,3,2026-09-21 10:26:44,Chaud,Aucune,Calme,9.7,Faible,Complet,Friday,True,4
+Sebt Gzoula,32.125,-9.0625,2026-09-26,28.9,20.3,0.0,0,11.6,26.6,45,2026-09-21 10:26:44,Normal,Aucune,Calme,18.9,Faible,Complet,Saturday,True,5
+Sebt Gzoula,32.125,-9.0625,2026-09-27,26.9,19.6,0.0,0,16.1,31.7,45,2026-09-21 10:26:44,Normal,Aucune,Modéré,20.6,Faible,Complet,Sunday,False,6
+Sefrou,33.8125,-4.8125,2026-09-21,32.1,22.1,0.0,0,21.4,45.0,2,2026-09-21 10:26:17,Chaud,Aucune,Modéré,15.0,Faible,Complet,Monday,False,0
+Sefrou,33.8125,-4.8125,2026-09-22,30.7,21.0,0.0,0,17.9,38.9,1,2026-09-21 10:26:17,Chaud,Aucune,Modéré,13.0,Faible,Complet,Tuesday,False,1
+Sefrou,33.8125,-4.8125,2026-09-23,31.2,20.6,0.0,0,14.8,33.1,2,2026-09-21 10:26:17,Chaud,Aucune,Modéré,11.0,Faible,Complet,Wednesday,False,2
+Sefrou,33.8125,-4.8125,2026-09-24,32.2,21.7,0.0,0,16.7,36.0,0,2026-09-21 10:26:17,Chaud,Aucune,Modéré,12.0,Faible,Complet,Thursday,False,3
+Sefrou,33.8125,-4.8125,2026-09-25,31.8,20.5,0.0,0,15.0,34.6,0,2026-09-21 10:26:17,Chaud,Aucune,Modéré,11.5,Faible,Complet,Friday,True,4
+Sefrou,33.8125,-4.8125,2026-09-26,34.1,19.2,0.0,0,22.0,47.2,3,2026-09-21 10:26:17,Chaud,Aucune,Modéré,15.7,Faible,Complet,Saturday,True,5
+Sefrou,33.8125,-4.8125,2026-09-27,31.7,18.3,0.0,4,13.0,25.6,3,2026-09-21 10:26:17,Chaud,Aucune,Calme,8.9,Faible,Complet,Sunday,False,6
+Semara,26.74868,-11.648254,2026-09-21,42.5,23.7,0.0,2,22.2,40.3,2,2026-09-21 10:26:24,Extrême,Aucune,Modéré,20.4,Faible,Complet,Monday,False,0
+Semara,26.74868,-11.648254,2026-09-22,41.4,25.4,0.0,1,19.4,31.3,3,2026-09-21 10:26:24,Extrême,Aucune,Modéré,15.6,Faible,Complet,Tuesday,False,1
+Semara,26.74868,-11.648254,2026-09-23,42.4,27.3,0.0,0,27.0,42.5,2,2026-09-21 10:26:24,Extrême,Aucune,Modéré,20.8,Faible,Complet,Wednesday,False,2
+Semara,26.74868,-11.648254,2026-09-24,41.0,26.1,0.0,0,22.0,41.0,3,2026-09-21 10:26:24,Extrême,Aucune,Modéré,18.2,Faible,Complet,Thursday,False,3
+Semara,26.74868,-11.648254,2026-09-25,38.3,21.9,0.0,0,20.7,39.2,3,2026-09-21 10:26:24,Extrême,Aucune,Modéré,13.5,Faible,Complet,Friday,True,4
+Semara,26.74868,-11.648254,2026-09-26,39.8,23.2,0.0,0,28.7,50.8,3,2026-09-21 10:26:24,Extrême,Aucune,Fort,19.6,Faible,Complet,Saturday,True,5
+Semara,26.74868,-11.648254,2026-09-27,31.1,25.3,0.0,4,19.1,39.6,3,2026-09-21 10:26:24,Chaud,Aucune,Modéré,13.6,Faible,Complet,Sunday,False,6
+Settat,33.0,-7.625,2026-09-21,38.6,22.1,0.0,0,22.3,51.1,2,2026-09-21 10:26:03,Extrême,Aucune,Fort,17.9,Faible,Complet,Monday,False,0
+Settat,33.0,-7.625,2026-09-22,36.5,20.3,0.0,0,17.3,37.4,0,2026-09-21 10:26:03,Chaud,Aucune,Modéré,12.5,Faible,Complet,Tuesday,False,1
+Settat,33.0,-7.625,2026-09-23,35.8,18.5,0.0,0,17.8,41.4,1,2026-09-21 10:26:03,Chaud,Aucune,Modéré,13.8,Faible,Complet,Wednesday,False,2
+Settat,33.0,-7.625,2026-09-24,36.3,19.2,0.0,0,15.5,35.6,0,2026-09-21 10:26:03,Chaud,Aucune,Modéré,11.9,Faible,Complet,Thursday,False,3
+Settat,33.0,-7.625,2026-09-25,35.9,19.7,0.0,0,18.0,41.4,1,2026-09-21 10:26:03,Chaud,Aucune,Modéré,13.8,Faible,Complet,Friday,True,4
+Settat,33.0,-7.625,2026-09-26,34.0,19.4,0.0,0,15.8,31.3,3,2026-09-21 10:26:03,Chaud,Aucune,Modéré,10.4,Faible,Complet,Saturday,True,5
+Settat,33.0,-7.625,2026-09-27,33.5,19.3,0.0,0,15.8,32.4,3,2026-09-21 10:26:03,Chaud,Aucune,Modéré,10.8,Faible,Complet,Sunday,False,6
+Sidi Bennour,32.625,-8.4375,2026-09-21,39.6,20.2,0.0,0,21.7,38.2,2,2026-09-21 10:26:26,Extrême,Aucune,Modéré,15.1,Faible,Complet,Monday,False,0
+Sidi Bennour,32.625,-8.4375,2026-09-22,37.6,17.4,0.0,0,18.7,32.4,0,2026-09-21 10:26:26,Chaud,Aucune,Modéré,10.8,Faible,Complet,Tuesday,False,1
+Sidi Bennour,32.625,-8.4375,2026-09-23,35.6,16.8,0.0,0,16.9,29.9,45,2026-09-21 10:26:26,Chaud,Aucune,Calme,20.0,Faible,Complet,Wednesday,False,2
+Sidi Bennour,32.625,-8.4375,2026-09-24,36.0,18.1,0.0,0,17.6,31.3,0,2026-09-21 10:26:26,Chaud,Aucune,Modéré,10.4,Faible,Complet,Thursday,False,3
+Sidi Bennour,32.625,-8.4375,2026-09-25,35.9,17.4,0.0,0,17.4,36.0,3,2026-09-21 10:26:26,Chaud,Aucune,Modéré,12.0,Faible,Complet,Friday,True,4
+Sidi Bennour,32.625,-8.4375,2026-09-26,31.5,18.3,0.0,0,16.0,29.5,3,2026-09-21 10:26:26,Chaud,Aucune,Calme,9.8,Faible,Complet,Saturday,True,5
+Sidi Bennour,32.625,-8.4375,2026-09-27,32.5,19.5,0.0,0,16.5,33.8,45,2026-09-21 10:26:26,Chaud,Aucune,Modéré,21.3,Faible,Complet,Sunday,False,6
+Sidi Lmokhtar,31.5625,-9.0,2026-09-21,38.4,22.6,0.0,0,24.1,41.0,3,2026-09-21 10:26:43,Extrême,Aucune,Modéré,14.3,Faible,Complet,Monday,False,0
+Sidi Lmokhtar,31.5625,-9.0,2026-09-22,37.8,21.5,0.0,0,21.8,36.4,1,2026-09-21 10:26:43,Chaud,Aucune,Modéré,12.1,Faible,Complet,Tuesday,False,1
+Sidi Lmokhtar,31.5625,-9.0,2026-09-23,37.0,21.3,0.0,0,17.2,28.8,0,2026-09-21 10:26:43,Chaud,Aucune,Calme,9.6,Faible,Complet,Wednesday,False,2
+Sidi Lmokhtar,31.5625,-9.0,2026-09-24,35.3,18.8,0.0,0,17.9,29.9,0,2026-09-21 10:26:43,Chaud,Aucune,Calme,10.0,Faible,Complet,Thursday,False,3
+Sidi Lmokhtar,31.5625,-9.0,2026-09-25,35.6,20.6,0.0,0,16.8,29.9,3,2026-09-21 10:26:43,Chaud,Aucune,Calme,10.0,Faible,Complet,Friday,True,4
+Sidi Lmokhtar,31.5625,-9.0,2026-09-26,30.7,20.4,0.0,0,21.0,35.3,3,2026-09-21 10:26:43,Chaud,Aucune,Modéré,11.8,Faible,Complet,Saturday,True,5
+Sidi Lmokhtar,31.5625,-9.0,2026-09-27,30.3,18.6,0.0,0,18.6,32.4,3,2026-09-21 10:26:43,Chaud,Aucune,Modéré,10.8,Faible,Complet,Sunday,False,6
+Sidi Qacem,34.1875,-5.6875,2026-09-21,38.0,23.3,0.0,0,14.9,31.7,1,2026-09-21 10:26:21,Extrême,Aucune,Modéré,10.6,Faible,Complet,Monday,False,0
+Sidi Qacem,34.1875,-5.6875,2026-09-22,36.3,20.5,0.0,0,13.2,28.8,0,2026-09-21 10:26:21,Chaud,Aucune,Calme,9.6,Faible,Complet,Tuesday,False,1
+Sidi Qacem,34.1875,-5.6875,2026-09-23,36.7,19.7,0.0,0,12.3,26.6,0,2026-09-21 10:26:21,Chaud,Aucune,Calme,8.9,Faible,Complet,Wednesday,False,2
+Sidi Qacem,34.1875,-5.6875,2026-09-24,37.8,21.8,0.0,0,11.8,23.8,0,2026-09-21 10:26:21,Chaud,Aucune,Calme,7.9,Faible,Complet,Thursday,False,3
+Sidi Qacem,34.1875,-5.6875,2026-09-25,37.4,20.4,0.0,0,14.3,29.5,0,2026-09-21 10:26:21,Chaud,Aucune,Calme,9.8,Faible,Complet,Friday,True,4
+Sidi Qacem,34.1875,-5.6875,2026-09-26,38.3,20.3,0.0,0,18.7,37.4,3,2026-09-21 10:26:21,Extrême,Aucune,Modéré,12.9,Faible,Complet,Saturday,True,5
+Sidi Qacem,34.1875,-5.6875,2026-09-27,35.5,20.9,0.0,0,12.5,25.9,3,2026-09-21 10:26:21,Chaud,Aucune,Calme,8.6,Faible,Complet,Sunday,False,6
+Sidi Slimane,34.25,-5.9375,2026-09-21,38.5,21.9,0.0,0,15.6,32.8,1,2026-09-21 10:26:16,Extrême,Aucune,Modéré,11.7,Faible,Complet,Monday,False,0
+Sidi Slimane,34.25,-5.9375,2026-09-22,36.5,19.0,0.0,0,13.2,28.1,0,2026-09-21 10:26:16,Chaud,Aucune,Calme,9.4,Faible,Complet,Tuesday,False,1
+Sidi Slimane,34.25,-5.9375,2026-09-23,37.2,18.1,0.0,0,16.7,36.4,45,2026-09-21 10:26:16,Chaud,Aucune,Modéré,22.1,Faible,Complet,Wednesday,False,2
+Sidi Slimane,34.25,-5.9375,2026-09-24,38.4,19.8,0.0,0,14.9,39.2,0,2026-09-21 10:26:16,Extrême,Aucune,Modéré,13.7,Faible,Complet,Thursday,False,3
+Sidi Slimane,34.25,-5.9375,2026-09-25,38.3,18.6,0.0,0,13.3,36.0,0,2026-09-21 10:26:16,Extrême,Aucune,Modéré,12.4,Faible,Complet,Friday,True,4
+Sidi Slimane,34.25,-5.9375,2026-09-26,39.5,16.8,0.0,0,18.4,31.7,3,2026-09-21 10:26:16,Extrême,Aucune,Modéré,12.8,Faible,Complet,Saturday,True,5
+Sidi Slimane,34.25,-5.9375,2026-09-27,35.5,20.5,0.0,0,16.2,34.6,3,2026-09-21 10:26:16,Chaud,Aucune,Modéré,11.5,Faible,Complet,Sunday,False,6
+Sidi Smai’il,32.8125,-8.5,2026-09-21,38.6,20.8,0.0,0,17.6,31.3,2,2026-09-21 10:26:38,Extrême,Aucune,Modéré,11.3,Faible,Complet,Monday,False,0
+Sidi Smai’il,32.8125,-8.5,2026-09-22,35.9,18.4,0.0,0,16.2,28.8,0,2026-09-21 10:26:38,Chaud,Aucune,Calme,9.6,Faible,Complet,Tuesday,False,1
+Sidi Smai’il,32.8125,-8.5,2026-09-23,33.0,18.9,0.0,0,15.0,26.6,45,2026-09-21 10:26:38,Chaud,Aucune,Calme,18.9,Faible,Complet,Wednesday,False,2
+Sidi Smai’il,32.8125,-8.5,2026-09-24,33.0,19.1,0.0,0,16.4,30.2,0,2026-09-21 10:26:38,Chaud,Aucune,Modéré,10.1,Faible,Complet,Thursday,False,3
+Sidi Smai’il,32.8125,-8.5,2026-09-25,33.7,18.4,0.0,0,17.8,32.0,45,2026-09-21 10:26:38,Chaud,Aucune,Modéré,20.7,Faible,Complet,Friday,True,4
+Sidi Smai’il,32.8125,-8.5,2026-09-26,29.2,19.3,0.0,0,14.3,25.9,3,2026-09-21 10:26:38,Normal,Aucune,Calme,8.6,Faible,Complet,Saturday,True,5
+Sidi Smai’il,32.8125,-8.5,2026-09-27,29.7,19.9,0.0,0,16.0,30.6,45,2026-09-21 10:26:38,Normal,Aucune,Modéré,20.2,Faible,Complet,Sunday,False,6
+Sidi Yahia El Gharb,34.3125,-6.3125,2026-09-21,36.8,20.6,0.0,0,16.8,30.2,1,2026-09-21 10:26:34,Chaud,Aucune,Modéré,10.1,Faible,Complet,Monday,False,0
+Sidi Yahia El Gharb,34.3125,-6.3125,2026-09-22,35.0,18.2,0.0,0,15.0,27.0,0,2026-09-21 10:26:34,Chaud,Aucune,Calme,9.0,Faible,Complet,Tuesday,False,1
+Sidi Yahia El Gharb,34.3125,-6.3125,2026-09-23,35.1,17.9,0.0,0,19.0,34.2,45,2026-09-21 10:26:34,Chaud,Aucune,Modéré,21.4,Faible,Complet,Wednesday,False,2
+Sidi Yahia El Gharb,34.3125,-6.3125,2026-09-24,37.6,19.0,0.0,0,13.7,29.9,0,2026-09-21 10:26:34,Chaud,Aucune,Calme,10.0,Faible,Complet,Thursday,False,3
+Sidi Yahia El Gharb,34.3125,-6.3125,2026-09-25,37.1,17.5,0.0,0,16.9,32.8,0,2026-09-21 10:26:34,Chaud,Aucune,Modéré,10.9,Faible,Complet,Friday,True,4
+Sidi Yahia El Gharb,34.3125,-6.3125,2026-09-26,39.4,17.2,0.0,0,16.1,32.0,3,2026-09-21 10:26:34,Extrême,Aucune,Modéré,12.8,Faible,Complet,Saturday,True,5
+Sidi Yahia El Gharb,34.3125,-6.3125,2026-09-27,34.4,20.7,0.0,0,14.4,30.6,45,2026-09-21 10:26:34,Chaud,Aucune,Modéré,20.2,Faible,Complet,Sunday,False,6
+Sidi Yahya Zaer,33.6875,-6.875,2026-09-21,36.7,20.4,0.0,0,19.4,40.0,2,2026-09-21 10:26:08,Chaud,Aucune,Modéré,13.3,Faible,Complet,Monday,False,0
+Sidi Yahya Zaer,33.6875,-6.875,2026-09-22,34.6,19.8,0.0,0,18.0,37.1,0,2026-09-21 10:26:08,Chaud,Aucune,Modéré,12.4,Faible,Complet,Tuesday,False,1
+Sidi Yahya Zaer,33.6875,-6.875,2026-09-23,33.8,17.6,0.0,0,17.9,37.4,0,2026-09-21 10:26:08,Chaud,Aucune,Modéré,12.5,Faible,Complet,Wednesday,False,2
+Sidi Yahya Zaer,33.6875,-6.875,2026-09-24,34.0,19.4,0.0,0,17.0,35.6,0,2026-09-21 10:26:08,Chaud,Aucune,Modéré,11.9,Faible,Complet,Thursday,False,3
+Sidi Yahya Zaer,33.6875,-6.875,2026-09-25,34.4,20.7,0.0,0,17.8,38.2,1,2026-09-21 10:26:08,Chaud,Aucune,Modéré,12.7,Faible,Complet,Friday,True,4
+Sidi Yahya Zaer,33.6875,-6.875,2026-09-26,33.1,16.6,0.0,0,16.1,32.4,3,2026-09-21 10:26:08,Chaud,Aucune,Modéré,10.8,Faible,Complet,Saturday,True,5
+Sidi Yahya Zaer,33.6875,-6.875,2026-09-27,31.5,18.0,0.0,0,13.9,28.1,3,2026-09-21 10:26:08,Chaud,Aucune,Calme,9.4,Faible,Complet,Sunday,False,6
+Skhirate,33.875,-7.0,2026-09-21,29.1,19.8,0.0,0,13.0,29.5,2,2026-09-21 10:26:08,Normal,Aucune,Calme,9.8,Faible,Complet,Monday,False,0
+Skhirate,33.875,-7.0,2026-09-22,28.0,19.3,0.0,0,10.5,25.2,1,2026-09-21 10:26:08,Normal,Aucune,Calme,8.4,Faible,Complet,Tuesday,False,1
+Skhirate,33.875,-7.0,2026-09-23,26.5,19.0,0.0,0,13.6,30.6,45,2026-09-21 10:26:08,Normal,Aucune,Modéré,20.2,Faible,Complet,Wednesday,False,2
+Skhirate,33.875,-7.0,2026-09-24,27.8,18.1,0.0,0,11.1,25.9,0,2026-09-21 10:26:08,Normal,Aucune,Calme,8.6,Faible,Complet,Thursday,False,3
+Skhirate,33.875,-7.0,2026-09-25,27.8,18.3,0.0,0,12.5,28.1,0,2026-09-21 10:26:08,Normal,Aucune,Calme,9.4,Faible,Complet,Friday,True,4
+Skhirate,33.875,-7.0,2026-09-26,27.9,18.1,0.0,0,11.9,24.5,3,2026-09-21 10:26:08,Normal,Aucune,Calme,8.2,Faible,Complet,Saturday,True,5
+Skhirate,33.875,-7.0,2026-09-27,26.2,21.7,0.0,0,11.4,25.6,3,2026-09-21 10:26:08,Normal,Aucune,Calme,8.5,Faible,Complet,Sunday,False,6
+Souk et Tnine Jorf el Mellah,34.5,-5.5,2026-09-21,37.5,24.6,0.0,0,16.7,32.4,1,2026-09-21 10:26:40,Chaud,Aucune,Modéré,10.8,Faible,Complet,Monday,False,0
+Souk et Tnine Jorf el Mellah,34.5,-5.5,2026-09-22,36.1,23.2,0.0,0,12.2,24.1,0,2026-09-21 10:26:40,Chaud,Aucune,Calme,8.0,Faible,Complet,Tuesday,False,1
+Souk et Tnine Jorf el Mellah,34.5,-5.5,2026-09-23,36.8,19.6,0.0,0,11.0,21.2,0,2026-09-21 10:26:40,Chaud,Aucune,Calme,7.1,Faible,Complet,Wednesday,False,2
+Souk et Tnine Jorf el Mellah,34.5,-5.5,2026-09-24,38.1,21.4,0.0,0,13.3,25.9,0,2026-09-21 10:26:40,Extrême,Aucune,Calme,8.8,Faible,Complet,Thursday,False,3
+Souk et Tnine Jorf el Mellah,34.5,-5.5,2026-09-25,37.5,20.4,0.0,0,14.9,28.4,0,2026-09-21 10:26:40,Chaud,Aucune,Calme,9.5,Faible,Complet,Friday,True,4
+Souk et Tnine Jorf el Mellah,34.5,-5.5,2026-09-26,39.1,18.8,0.0,0,25.7,47.2,3,2026-09-21 10:26:40,Extrême,Aucune,Modéré,17.4,Faible,Complet,Saturday,True,5
+Souk et Tnine Jorf el Mellah,34.5,-5.5,2026-09-27,36.4,20.0,0.0,0,8.1,15.8,3,2026-09-21 10:26:40,Chaud,Aucune,Calme,5.3,Faible,Complet,Sunday,False,6
+Souq Sebt Oulad Nemma,32.3125,-6.6875,2026-09-21,38.4,21.7,0.0,0,14.9,26.3,2,2026-09-21 10:26:23,Extrême,Aucune,Calme,9.4,Faible,Complet,Monday,False,0
+Souq Sebt Oulad Nemma,32.3125,-6.6875,2026-09-22,37.2,21.2,0.0,0,10.2,18.7,1,2026-09-21 10:26:23,Chaud,Aucune,Calme,6.2,Faible,Complet,Tuesday,False,1
+Souq Sebt Oulad Nemma,32.3125,-6.6875,2026-09-23,37.2,19.8,0.0,0,9.5,18.0,1,2026-09-21 10:26:23,Chaud,Aucune,Calme,6.0,Faible,Complet,Wednesday,False,2
+Souq Sebt Oulad Nemma,32.3125,-6.6875,2026-09-24,38.5,19.2,0.0,0,10.9,20.9,0,2026-09-21 10:26:23,Extrême,Aucune,Calme,7.7,Faible,Complet,Thursday,False,3
+Souq Sebt Oulad Nemma,32.3125,-6.6875,2026-09-25,38.2,19.2,0.0,0,9.3,17.6,3,2026-09-21 10:26:23,Extrême,Aucune,Calme,6.2,Faible,Complet,Friday,True,4
+Souq Sebt Oulad Nemma,32.3125,-6.6875,2026-09-26,37.6,18.8,0.0,0,12.3,24.5,3,2026-09-21 10:26:23,Chaud,Aucune,Calme,8.2,Faible,Complet,Saturday,True,5
+Souq Sebt Oulad Nemma,32.3125,-6.6875,2026-09-27,36.3,22.1,0.0,0,13.0,23.4,3,2026-09-21 10:26:23,Chaud,Aucune,Calme,7.8,Faible,Complet,Sunday,False,6
+Tabount,30.875,-6.9375,2026-09-21,30.4,20.6,0.7,35,17.2,29.5,80,2026-09-21 10:26:36,Chaud,Faible,Calme,23.9,Faible,Complet,Monday,False,0
+Tabount,30.875,-6.9375,2026-09-22,32.4,17.4,0.0,0,33.3,53.6,1,2026-09-21 10:26:36,Chaud,Aucune,Fort,17.9,Faible,Complet,Tuesday,False,1
+Tabount,30.875,-6.9375,2026-09-23,31.5,16.7,0.0,0,9.4,15.8,2,2026-09-21 10:26:36,Chaud,Aucune,Calme,5.3,Faible,Complet,Wednesday,False,2
+Tabount,30.875,-6.9375,2026-09-24,31.7,18.3,0.0,0,19.8,31.0,2,2026-09-21 10:26:36,Chaud,Aucune,Modéré,10.3,Faible,Complet,Thursday,False,3
+Tabount,30.875,-6.9375,2026-09-25,32.5,18.7,0.0,0,20.7,45.0,3,2026-09-21 10:26:36,Chaud,Aucune,Modéré,15.0,Faible,Complet,Friday,True,4
+Tabount,30.875,-6.9375,2026-09-26,30.2,18.0,0.0,0,10.1,26.3,3,2026-09-21 10:26:36,Chaud,Aucune,Calme,8.8,Faible,Complet,Saturday,True,5
+Tabount,30.875,-6.9375,2026-09-27,28.8,19.3,0.6,3,14.5,25.2,3,2026-09-21 10:26:36,Normal,Faible,Calme,9.2,Faible,Complet,Sunday,False,6
+Tahannawt,31.375,-7.9375,2026-09-21,34.0,22.9,0.0,8,21.3,46.1,3,2026-09-21 10:26:41,Chaud,Aucune,Modéré,16.2,Faible,Complet,Monday,False,0
+Tahannawt,31.375,-7.9375,2026-09-22,33.2,20.4,0.0,0,18.0,34.2,1,2026-09-21 10:26:41,Chaud,Aucune,Modéré,11.4,Faible,Complet,Tuesday,False,1
+Tahannawt,31.375,-7.9375,2026-09-23,32.7,19.4,0.0,0,13.7,26.3,0,2026-09-21 10:26:41,Chaud,Aucune,Calme,8.8,Faible,Complet,Wednesday,False,2
+Tahannawt,31.375,-7.9375,2026-09-24,32.9,19.3,0.0,0,14.7,29.2,0,2026-09-21 10:26:41,Chaud,Aucune,Calme,9.7,Faible,Complet,Thursday,False,3
+Tahannawt,31.375,-7.9375,2026-09-25,32.5,19.1,0.0,0,13.0,26.6,3,2026-09-21 10:26:41,Chaud,Aucune,Calme,8.9,Faible,Complet,Friday,True,4
+Tahannawt,31.375,-7.9375,2026-09-26,29.9,19.7,0.0,0,12.1,23.8,3,2026-09-21 10:26:41,Normal,Aucune,Calme,7.9,Faible,Complet,Saturday,True,5
+Tahannawt,31.375,-7.9375,2026-09-27,30.5,20.1,0.3,7,10.5,20.2,3,2026-09-21 10:26:41,Chaud,Faible,Calme,7.7,Faible,Complet,Sunday,False,6
+Tahla,34.0625,-4.4375,2026-09-21,33.7,20.1,0.0,0,13.8,27.7,2,2026-09-21 10:26:42,Chaud,Aucune,Calme,9.2,Faible,Complet,Monday,False,0
+Tahla,34.0625,-4.4375,2026-09-22,32.8,18.6,0.0,0,12.1,23.4,2,2026-09-21 10:26:42,Chaud,Aucune,Calme,7.8,Faible,Complet,Tuesday,False,1
+Tahla,34.0625,-4.4375,2026-09-23,33.3,18.2,0.0,0,18.9,36.7,0,2026-09-21 10:26:42,Chaud,Aucune,Modéré,12.2,Faible,Complet,Wednesday,False,2
+Tahla,34.0625,-4.4375,2026-09-24,34.0,19.6,0.0,0,20.0,36.7,0,2026-09-21 10:26:42,Chaud,Aucune,Modéré,12.2,Faible,Complet,Thursday,False,3
+Tahla,34.0625,-4.4375,2026-09-25,34.6,18.3,0.0,0,20.1,40.0,0,2026-09-21 10:26:42,Chaud,Aucune,Modéré,13.3,Faible,Complet,Friday,True,4
+Tahla,34.0625,-4.4375,2026-09-26,34.8,19.3,0.0,0,28.2,52.2,3,2026-09-21 10:26:42,Chaud,Aucune,Fort,17.4,Faible,Complet,Saturday,True,5
+Tahla,34.0625,-4.4375,2026-09-27,32.8,22.0,0.0,0,11.7,25.2,3,2026-09-21 10:26:42,Chaud,Aucune,Calme,8.4,Faible,Complet,Sunday,False,6
+Tameslouht,31.5,-8.125,2026-09-21,37.9,25.0,0.0,3,26.9,49.0,3,2026-09-21 10:26:34,Chaud,Aucune,Modéré,16.6,Faible,Complet,Monday,False,0
+Tameslouht,31.5,-8.125,2026-09-22,36.8,22.3,0.0,0,20.8,34.2,0,2026-09-21 10:26:34,Chaud,Aucune,Modéré,11.4,Faible,Complet,Tuesday,False,1
+Tameslouht,31.5,-8.125,2026-09-23,36.2,21.9,0.0,0,15.0,24.8,0,2026-09-21 10:26:34,Chaud,Aucune,Calme,8.3,Faible,Complet,Wednesday,False,2
+Tameslouht,31.5,-8.125,2026-09-24,36.1,21.1,0.0,0,18.2,29.5,0,2026-09-21 10:26:34,Chaud,Aucune,Calme,9.8,Faible,Complet,Thursday,False,3
+Tameslouht,31.5,-8.125,2026-09-25,36.1,21.9,0.0,0,12.8,22.7,3,2026-09-21 10:26:34,Chaud,Aucune,Calme,7.6,Faible,Complet,Friday,True,4
+Tameslouht,31.5,-8.125,2026-09-26,32.5,22.0,0.0,0,15.1,25.6,3,2026-09-21 10:26:34,Chaud,Aucune,Calme,8.5,Faible,Complet,Saturday,True,5
+Tameslouht,31.5,-8.125,2026-09-27,33.3,21.1,0.0,0,14.2,24.5,3,2026-09-21 10:26:34,Chaud,Aucune,Calme,8.2,Faible,Complet,Sunday,False,6
+Tan-Tan,28.435852,-11.147736,2026-09-21,37.6,20.5,0.0,0,25.1,45.4,3,2026-09-21 10:26:20,Chaud,Aucune,Modéré,15.1,Faible,Complet,Monday,False,0
+Tan-Tan,28.435852,-11.147736,2026-09-22,40.2,20.0,0.0,0,25.8,47.2,3,2026-09-21 10:26:20,Extrême,Aucune,Modéré,19.0,Faible,Complet,Tuesday,False,1
+Tan-Tan,28.435852,-11.147736,2026-09-23,38.9,25.7,0.0,0,21.8,41.0,1,2026-09-21 10:26:20,Extrême,Aucune,Modéré,15.0,Faible,Complet,Wednesday,False,2
+Tan-Tan,28.435852,-11.147736,2026-09-24,32.2,19.2,0.0,0,17.9,34.9,1,2026-09-21 10:26:20,Chaud,Aucune,Modéré,11.6,Faible,Complet,Thursday,False,3
+Tan-Tan,28.435852,-11.147736,2026-09-25,28.0,19.0,0.0,0,16.1,34.2,3,2026-09-21 10:26:20,Normal,Aucune,Modéré,11.4,Faible,Complet,Friday,True,4
+Tan-Tan,28.435852,-11.147736,2026-09-26,28.7,20.1,0.0,0,17.1,34.9,3,2026-09-21 10:26:20,Normal,Aucune,Modéré,11.6,Faible,Complet,Saturday,True,5
+Tan-Tan,28.435852,-11.147736,2026-09-27,32.8,20.5,0.0,0,11.5,28.4,3,2026-09-21 10:26:20,Chaud,Aucune,Calme,9.5,Faible,Complet,Sunday,False,6
+Tangier,35.75,-5.8125,2026-09-21,28.0,22.7,0.0,0,28.1,63.7,2,2026-09-21 10:25:55,Normal,Aucune,Fort,21.2,Faible,Complet,Monday,False,0
+Tangier,35.75,-5.8125,2026-09-22,28.9,21.2,0.0,0,23.4,51.1,2,2026-09-21 10:25:55,Normal,Aucune,Fort,17.0,Faible,Complet,Tuesday,False,1
+Tangier,35.75,-5.8125,2026-09-23,29.2,20.9,0.0,0,21.4,47.9,3,2026-09-21 10:25:55,Normal,Aucune,Modéré,16.0,Faible,Complet,Wednesday,False,2
+Tangier,35.75,-5.8125,2026-09-24,29.1,21.4,0.0,0,25.0,59.0,1,2026-09-21 10:25:55,Normal,Aucune,Fort,19.7,Faible,Complet,Thursday,False,3
+Tangier,35.75,-5.8125,2026-09-25,31.3,21.2,0.0,0,13.8,31.3,2,2026-09-21 10:25:55,Chaud,Aucune,Modéré,10.4,Faible,Complet,Friday,True,4
+Tangier,35.75,-5.8125,2026-09-26,28.5,22.5,0.0,0,27.2,49.3,3,2026-09-21 10:25:55,Normal,Aucune,Modéré,16.4,Faible,Complet,Saturday,True,5
+Tangier,35.75,-5.8125,2026-09-27,26.9,22.2,0.0,0,34.9,63.7,3,2026-09-21 10:25:55,Normal,Aucune,Fort,21.2,Faible,Complet,Sunday,False,6
+Taourirt,34.4375,-2.875,2026-09-21,29.9,20.2,0.0,0,27.4,44.3,3,2026-09-21 10:25:59,Normal,Aucune,Modéré,14.8,Faible,Complet,Monday,False,0
+Taourirt,34.4375,-2.875,2026-09-22,30.3,16.6,0.0,0,22.4,35.3,3,2026-09-21 10:25:59,Chaud,Aucune,Modéré,11.8,Faible,Complet,Tuesday,False,1
+Taourirt,34.4375,-2.875,2026-09-23,31.0,17.6,0.0,0,28.6,46.8,1,2026-09-21 10:25:59,Chaud,Aucune,Modéré,15.6,Faible,Complet,Wednesday,False,2
+Taourirt,34.4375,-2.875,2026-09-24,31.0,18.1,0.0,0,29.1,49.3,1,2026-09-21 10:25:59,Chaud,Aucune,Modéré,16.4,Faible,Complet,Thursday,False,3
+Taourirt,34.4375,-2.875,2026-09-25,32.5,16.8,0.0,0,20.7,37.4,0,2026-09-21 10:25:59,Chaud,Aucune,Modéré,12.5,Faible,Complet,Friday,True,4
+Taourirt,34.4375,-2.875,2026-09-26,34.5,17.4,0.0,0,21.0,38.2,3,2026-09-21 10:25:59,Chaud,Aucune,Modéré,12.7,Faible,Complet,Saturday,True,5
+Taourirt,34.4375,-2.875,2026-09-27,30.6,17.4,0.0,0,20.2,32.0,3,2026-09-21 10:25:59,Chaud,Aucune,Modéré,10.7,Faible,Complet,Sunday,False,6
+Taroudannt,30.5,-8.875,2026-09-21,40.3,23.1,0.0,0,23.7,44.3,3,2026-09-21 10:26:17,Extrême,Aucune,Modéré,18.2,Faible,Complet,Monday,False,0
+Taroudannt,30.5,-8.875,2026-09-22,40.0,24.7,0.0,3,30.3,57.2,2,2026-09-21 10:26:17,Extrême,Aucune,Fort,22.4,Faible,Complet,Tuesday,False,1
+Taroudannt,30.5,-8.875,2026-09-23,40.6,23.8,0.0,0,25.1,47.9,0,2026-09-21 10:26:17,Extrême,Aucune,Modéré,19.9,Faible,Complet,Wednesday,False,2
+Taroudannt,30.5,-8.875,2026-09-24,39.5,23.2,0.0,0,23.1,45.0,0,2026-09-21 10:26:17,Extrême,Aucune,Modéré,17.2,Faible,Complet,Thursday,False,3
+Taroudannt,30.5,-8.875,2026-09-25,37.8,21.1,0.0,0,22.8,44.3,3,2026-09-21 10:26:17,Chaud,Aucune,Modéré,14.8,Faible,Complet,Friday,True,4
+Taroudannt,30.5,-8.875,2026-09-26,31.0,19.7,0.0,0,21.9,37.1,3,2026-09-21 10:26:17,Chaud,Aucune,Modéré,12.4,Faible,Complet,Saturday,True,5
+Taroudannt,30.5,-8.875,2026-09-27,32.1,18.3,0.0,0,24.0,43.6,45,2026-09-21 10:26:17,Chaud,Aucune,Modéré,24.5,Faible,Complet,Sunday,False,6
+Taza,34.25,-4.0,2026-09-21,29.9,19.5,0.0,0,19.5,39.6,3,2026-09-21 10:26:05,Normal,Aucune,Modéré,13.2,Faible,Complet,Monday,False,0
+Taza,34.25,-4.0,2026-09-22,30.6,17.9,0.0,0,14.4,28.8,3,2026-09-21 10:26:05,Chaud,Aucune,Calme,9.6,Faible,Complet,Tuesday,False,1
+Taza,34.25,-4.0,2026-09-23,31.1,17.4,0.0,0,17.6,36.4,0,2026-09-21 10:26:05,Chaud,Aucune,Modéré,12.1,Faible,Complet,Wednesday,False,2
+Taza,34.25,-4.0,2026-09-24,31.1,19.2,0.0,0,19.9,40.7,0,2026-09-21 10:26:05,Chaud,Aucune,Modéré,13.6,Faible,Complet,Thursday,False,3
+Taza,34.25,-4.0,2026-09-25,32.3,17.5,0.0,0,17.7,36.0,0,2026-09-21 10:26:05,Chaud,Aucune,Modéré,12.0,Faible,Complet,Friday,True,4
+Taza,34.25,-4.0,2026-09-26,33.0,17.2,0.0,0,25.6,47.9,3,2026-09-21 10:26:05,Chaud,Aucune,Modéré,16.0,Faible,Complet,Saturday,True,5
+Taza,34.25,-4.0,2026-09-27,31.3,18.5,0.0,3,14.8,26.6,3,2026-09-21 10:26:05,Chaud,Aucune,Calme,9.2,Faible,Complet,Sunday,False,6
+Temara,33.9375,-6.875,2026-09-21,32.1,19.6,0.0,0,11.3,31.7,2,2026-09-21 10:25:59,Chaud,Aucune,Modéré,10.6,Faible,Complet,Monday,False,0
+Temara,33.9375,-6.875,2026-09-22,30.4,20.2,0.0,0,9.7,27.7,1,2026-09-21 10:25:59,Chaud,Aucune,Calme,9.2,Faible,Complet,Tuesday,False,1
+Temara,33.9375,-6.875,2026-09-23,28.9,19.6,0.0,0,12.1,33.5,45,2026-09-21 10:25:59,Normal,Aucune,Modéré,21.2,Faible,Complet,Wednesday,False,2
+Temara,33.9375,-6.875,2026-09-24,30.0,18.5,0.0,0,10.4,28.4,0,2026-09-21 10:25:59,Chaud,Aucune,Calme,9.5,Faible,Complet,Thursday,False,3
+Temara,33.9375,-6.875,2026-09-25,30.6,18.5,0.0,0,11.4,31.7,0,2026-09-21 10:25:59,Chaud,Aucune,Modéré,10.6,Faible,Complet,Friday,True,4
+Temara,33.9375,-6.875,2026-09-26,27.8,17.9,0.0,0,11.9,24.5,3,2026-09-21 10:25:59,Normal,Aucune,Calme,8.2,Faible,Complet,Saturday,True,5
+Temara,33.9375,-6.875,2026-09-27,26.1,21.6,0.0,0,11.4,25.6,3,2026-09-21 10:25:59,Normal,Aucune,Calme,8.5,Faible,Complet,Sunday,False,6
+Temsia,30.375,-9.4375,2026-09-21,40.6,22.2,0.0,0,17.4,34.9,3,2026-09-21 10:26:27,Extrême,Aucune,Modéré,15.5,Faible,Complet,Monday,False,0
+Temsia,30.375,-9.4375,2026-09-22,38.0,24.2,0.0,0,23.3,48.6,3,2026-09-21 10:26:27,Extrême,Aucune,Modéré,16.2,Faible,Complet,Tuesday,False,1
+Temsia,30.375,-9.4375,2026-09-23,40.2,23.7,0.0,0,19.7,41.4,0,2026-09-21 10:26:27,Extrême,Aucune,Modéré,17.1,Faible,Complet,Wednesday,False,2
+Temsia,30.375,-9.4375,2026-09-24,38.2,22.3,0.0,0,15.5,34.6,0,2026-09-21 10:26:27,Extrême,Aucune,Modéré,11.8,Faible,Complet,Thursday,False,3
+Temsia,30.375,-9.4375,2026-09-25,28.7,19.6,0.0,0,17.3,37.4,3,2026-09-21 10:26:27,Normal,Aucune,Modéré,12.5,Faible,Complet,Friday,True,4
+Temsia,30.375,-9.4375,2026-09-26,28.1,18.7,0.0,0,26.0,42.8,45,2026-09-21 10:26:27,Normal,Aucune,Modéré,24.3,Faible,Complet,Saturday,True,5
+Temsia,30.375,-9.4375,2026-09-27,29.3,19.5,0.0,0,27.8,48.6,45,2026-09-21 10:26:27,Normal,Aucune,Modéré,26.2,Modéré,Complet,Sunday,False,6
+Tifariti,26.18629,-10.559204,2026-09-21,39.8,27.5,0.0,0,29.5,46.4,3,2026-09-21 10:26:45,Extrême,Aucune,Modéré,18.2,Faible,Complet,Monday,False,0
+Tifariti,26.18629,-10.559204,2026-09-22,38.9,26.5,0.0,4,23.8,40.0,3,2026-09-21 10:26:45,Extrême,Aucune,Modéré,15.1,Faible,Complet,Tuesday,False,1
+Tifariti,26.18629,-10.559204,2026-09-23,38.6,26.9,0.0,1,20.7,34.2,1,2026-09-21 10:26:45,Extrême,Aucune,Modéré,12.4,Faible,Complet,Wednesday,False,2
+Tifariti,26.18629,-10.559204,2026-09-24,38.6,25.4,0.0,0,21.0,29.5,3,2026-09-21 10:26:45,Extrême,Aucune,Calme,10.7,Faible,Complet,Thursday,False,3
+Tifariti,26.18629,-10.559204,2026-09-25,38.3,25.5,0.0,0,19.6,34.2,3,2026-09-21 10:26:45,Extrême,Aucune,Modéré,11.8,Faible,Complet,Friday,True,4
+Tifariti,26.18629,-10.559204,2026-09-26,36.8,26.7,0.0,2,24.1,40.7,3,2026-09-21 10:26:45,Chaud,Aucune,Modéré,13.8,Faible,Complet,Saturday,True,5
+Tifariti,26.18629,-10.559204,2026-09-27,30.8,22.3,4.2,2,21.9,35.6,53,2026-09-21 10:26:45,Chaud,Faible,Modéré,20.6,Faible,Complet,Sunday,False,6
+Tiflet,33.875,-6.3125,2026-09-21,36.7,21.2,0.0,0,17.1,34.9,2,2026-09-21 10:26:12,Chaud,Aucune,Modéré,11.6,Faible,Complet,Monday,False,0
+Tiflet,33.875,-6.3125,2026-09-22,35.2,21.3,0.0,0,15.8,32.8,0,2026-09-21 10:26:12,Chaud,Aucune,Modéré,10.9,Faible,Complet,Tuesday,False,1
+Tiflet,33.875,-6.3125,2026-09-23,34.8,20.3,0.0,0,16.9,34.6,2,2026-09-21 10:26:12,Chaud,Aucune,Modéré,11.5,Faible,Complet,Wednesday,False,2
+Tiflet,33.875,-6.3125,2026-09-24,36.0,19.7,0.0,0,14.6,38.5,0,2026-09-21 10:26:12,Chaud,Aucune,Modéré,12.8,Faible,Complet,Thursday,False,3
+Tiflet,33.875,-6.3125,2026-09-25,35.8,21.8,0.0,0,15.1,38.2,0,2026-09-21 10:26:12,Chaud,Aucune,Modéré,12.7,Faible,Complet,Friday,True,4
+Tiflet,33.875,-6.3125,2026-09-26,36.2,19.2,0.0,0,16.1,40.7,3,2026-09-21 10:26:12,Chaud,Aucune,Modéré,13.6,Faible,Complet,Saturday,True,5
+Tiflet,33.875,-6.3125,2026-09-27,34.1,21.7,0.0,0,13.9,28.4,3,2026-09-21 10:26:12,Chaud,Aucune,Calme,9.5,Faible,Complet,Sunday,False,6
+Tineghir,31.5,-5.5625,2026-09-21,27.6,18.4,0.4,23,26.5,45.4,80,2026-09-21 10:26:30,Normal,Faible,Modéré,27.8,Modéré,Complet,Monday,False,0
+Tineghir,31.5,-5.5625,2026-09-22,29.4,17.6,0.0,0,20.4,31.3,2,2026-09-21 10:26:30,Normal,Aucune,Modéré,10.4,Faible,Complet,Tuesday,False,1
+Tineghir,31.5,-5.5625,2026-09-23,29.0,17.6,0.0,3,10.2,18.7,3,2026-09-21 10:26:30,Normal,Aucune,Calme,6.5,Faible,Complet,Wednesday,False,2
+Tineghir,31.5,-5.5625,2026-09-24,29.7,18.5,0.0,0,23.0,35.3,2,2026-09-21 10:26:30,Normal,Aucune,Modéré,11.8,Faible,Complet,Thursday,False,3
+Tineghir,31.5,-5.5625,2026-09-25,30.5,18.0,0.0,0,10.2,21.2,2,2026-09-21 10:26:30,Chaud,Aucune,Calme,7.1,Faible,Complet,Friday,True,4
+Tineghir,31.5,-5.5625,2026-09-26,29.2,19.5,0.1,3,12.3,20.9,3,2026-09-21 10:26:30,Normal,Faible,Calme,7.3,Faible,Complet,Saturday,True,5
+Tineghir,31.5,-5.5625,2026-09-27,27.3,20.5,0.5,5,8.2,15.8,3,2026-09-21 10:26:30,Normal,Faible,Calme,6.2,Faible,Complet,Sunday,False,6
+Tit Mellil,33.5625,-7.5,2026-09-21,32.9,20.3,0.0,0,13.0,35.6,2,2026-09-21 10:26:26,Chaud,Aucune,Modéré,11.9,Faible,Complet,Monday,False,0
+Tit Mellil,33.5625,-7.5,2026-09-22,31.4,18.8,0.0,0,11.5,32.0,2,2026-09-21 10:26:26,Chaud,Aucune,Modéré,10.7,Faible,Complet,Tuesday,False,1
+Tit Mellil,33.5625,-7.5,2026-09-23,29.4,19.1,0.0,0,12.1,33.1,45,2026-09-21 10:26:26,Normal,Aucune,Modéré,21.0,Faible,Complet,Wednesday,False,2
+Tit Mellil,33.5625,-7.5,2026-09-24,30.2,18.7,0.0,0,11.6,32.8,0,2026-09-21 10:26:26,Chaud,Aucune,Modéré,10.9,Faible,Complet,Thursday,False,3
+Tit Mellil,33.5625,-7.5,2026-09-25,30.2,18.4,0.0,0,12.8,34.2,3,2026-09-21 10:26:26,Chaud,Aucune,Modéré,11.4,Faible,Complet,Friday,True,4
+Tit Mellil,33.5625,-7.5,2026-09-26,29.1,18.8,0.0,0,11.4,30.6,3,2026-09-21 10:26:26,Normal,Aucune,Modéré,10.2,Faible,Complet,Saturday,True,5
+Tit Mellil,33.5625,-7.5,2026-09-27,28.5,20.9,0.0,0,12.2,33.8,3,2026-09-21 10:26:26,Normal,Aucune,Modéré,11.3,Faible,Complet,Sunday,False,6
+Tiznit,29.6875,-9.75,2026-09-21,39.3,23.7,0.0,0,17.6,29.9,3,2026-09-21 10:26:02,Extrême,Aucune,Calme,11.9,Faible,Complet,Monday,False,0
+Tiznit,29.6875,-9.75,2026-09-22,37.7,26.5,0.0,0,16.7,30.2,3,2026-09-21 10:26:02,Chaud,Aucune,Modéré,10.1,Faible,Complet,Tuesday,False,1
+Tiznit,29.6875,-9.75,2026-09-23,38.7,25.8,0.0,0,19.9,32.0,3,2026-09-21 10:26:02,Extrême,Aucune,Modéré,11.7,Faible,Complet,Wednesday,False,2
+Tiznit,29.6875,-9.75,2026-09-24,36.2,23.9,0.0,0,18.0,29.2,0,2026-09-21 10:26:02,Chaud,Aucune,Calme,9.7,Faible,Complet,Thursday,False,3
+Tiznit,29.6875,-9.75,2026-09-25,30.1,20.5,0.0,0,13.2,22.0,3,2026-09-21 10:26:02,Chaud,Aucune,Calme,7.3,Faible,Complet,Friday,True,4
+Tiznit,29.6875,-9.75,2026-09-26,24.3,19.5,0.0,0,14.1,24.5,3,2026-09-21 10:26:02,Normal,Aucune,Calme,8.2,Faible,Complet,Saturday,True,5
+Tiznit,29.6875,-9.75,2026-09-27,25.0,19.3,0.0,0,16.7,26.6,45,2026-09-21 10:26:02,Normal,Aucune,Calme,18.9,Faible,Complet,Sunday,False,6
+Tétouan,35.5625,-5.375,2026-09-21,25.9,22.0,0.0,0,22.4,50.0,2,2026-09-21 10:25:58,Normal,Aucune,Fort,16.7,Faible,Complet,Monday,False,0
+Tétouan,35.5625,-5.375,2026-09-22,26.2,20.3,0.0,0,16.9,41.4,3,2026-09-21 10:25:58,Normal,Aucune,Modéré,13.8,Faible,Complet,Tuesday,False,1
+Tétouan,35.5625,-5.375,2026-09-23,25.7,19.1,0.0,0,17.2,42.1,2,2026-09-21 10:25:58,Normal,Aucune,Modéré,14.0,Faible,Complet,Wednesday,False,2
+Tétouan,35.5625,-5.375,2026-09-24,26.9,21.1,0.0,0,18.7,47.2,2,2026-09-21 10:25:58,Normal,Aucune,Modéré,15.7,Faible,Complet,Thursday,False,3
+Tétouan,35.5625,-5.375,2026-09-25,28.3,20.1,0.0,0,13.6,33.8,2,2026-09-21 10:25:58,Normal,Aucune,Modéré,11.3,Faible,Complet,Friday,True,4
+Tétouan,35.5625,-5.375,2026-09-26,26.6,19.2,0.0,0,16.8,45.7,3,2026-09-21 10:25:58,Normal,Aucune,Modéré,15.2,Faible,Complet,Saturday,True,5
+Tétouan,35.5625,-5.375,2026-09-27,26.6,21.0,0.0,0,22.8,57.2,3,2026-09-21 10:25:58,Normal,Aucune,Fort,19.1,Faible,Complet,Sunday,False,6
+Warzat,30.9375,-6.9375,2026-09-21,30.1,20.0,0.6,35,18.2,30.6,80,2026-09-21 10:26:19,Chaud,Faible,Modéré,24.2,Faible,Complet,Monday,False,0
+Warzat,30.9375,-6.9375,2026-09-22,32.3,16.2,0.0,0,33.0,57.2,1,2026-09-21 10:26:19,Chaud,Aucune,Fort,19.1,Faible,Complet,Tuesday,False,1
+Warzat,30.9375,-6.9375,2026-09-23,31.3,15.1,0.0,0,5.9,13.3,3,2026-09-21 10:26:19,Chaud,Aucune,Calme,4.4,Faible,Complet,Wednesday,False,2
+Warzat,30.9375,-6.9375,2026-09-24,31.6,17.0,0.0,0,19.6,32.0,2,2026-09-21 10:26:19,Chaud,Aucune,Modéré,10.7,Faible,Complet,Thursday,False,3
+Warzat,30.9375,-6.9375,2026-09-25,32.4,17.7,0.0,0,15.0,31.3,2,2026-09-21 10:26:19,Chaud,Aucune,Modéré,10.4,Faible,Complet,Friday,True,4
+Warzat,30.9375,-6.9375,2026-09-26,30.3,18.1,0.0,0,10.1,19.4,3,2026-09-21 10:26:19,Chaud,Aucune,Calme,6.5,Faible,Complet,Saturday,True,5
+Warzat,30.9375,-6.9375,2026-09-27,28.9,19.4,0.6,3,14.5,25.2,3,2026-09-21 10:26:19,Normal,Faible,Calme,9.2,Faible,Complet,Sunday,False,6
+Youssoufia,32.25,-8.5,2026-09-21,38.7,22.9,0.0,0,18.9,40.0,3,2026-09-21 10:26:21,Extrême,Aucune,Modéré,14.4,Faible,Complet,Monday,False,0
+Youssoufia,32.25,-8.5,2026-09-22,37.5,20.4,0.0,0,16.2,34.6,0,2026-09-21 10:26:21,Chaud,Aucune,Modéré,11.5,Faible,Complet,Tuesday,False,1
+Youssoufia,32.25,-8.5,2026-09-23,36.4,20.2,0.0,0,14.8,32.8,0,2026-09-21 10:26:21,Chaud,Aucune,Modéré,10.9,Faible,Complet,Wednesday,False,2
+Youssoufia,32.25,-8.5,2026-09-24,36.3,19.0,0.0,0,15.3,38.5,0,2026-09-21 10:26:21,Chaud,Aucune,Modéré,12.8,Faible,Complet,Thursday,False,3
+Youssoufia,32.25,-8.5,2026-09-25,36.1,19.6,0.0,0,15.5,38.2,3,2026-09-21 10:26:21,Chaud,Aucune,Modéré,12.7,Faible,Complet,Friday,True,4
+Youssoufia,32.25,-8.5,2026-09-26,33.3,20.2,0.0,0,18.5,33.8,3,2026-09-21 10:26:21,Chaud,Aucune,Modéré,11.3,Faible,Complet,Saturday,True,5
+Youssoufia,32.25,-8.5,2026-09-27,33.2,19.5,0.0,0,16.7,33.5,3,2026-09-21 10:26:21,Chaud,Aucune,Modéré,11.2,Faible,Complet,Sunday,False,6
+Zagora,30.3125,-5.8125,2026-09-21,33.5,23.9,0.1,13,13.9,24.8,3,2026-09-21 10:26:32,Chaud,Faible,Calme,9.6,Faible,Complet,Monday,False,0
+Zagora,30.3125,-5.8125,2026-09-22,34.7,24.4,0.0,3,12.2,21.6,2,2026-09-21 10:26:32,Chaud,Aucune,Calme,7.5,Faible,Complet,Tuesday,False,1
+Zagora,30.3125,-5.8125,2026-09-23,33.7,23.7,0.0,0,9.4,16.6,2,2026-09-21 10:26:32,Chaud,Aucune,Calme,5.5,Faible,Complet,Wednesday,False,2
+Zagora,30.3125,-5.8125,2026-09-24,34.2,24.3,0.0,0,12.1,21.2,3,2026-09-21 10:26:32,Chaud,Aucune,Calme,7.1,Faible,Complet,Thursday,False,3
+Zagora,30.3125,-5.8125,2026-09-25,34.8,26.1,0.0,0,22.2,34.2,3,2026-09-21 10:26:32,Chaud,Aucune,Modéré,11.4,Faible,Complet,Friday,True,4
+Zagora,30.3125,-5.8125,2026-09-26,34.5,24.6,0.0,0,13.7,20.9,3,2026-09-21 10:26:32,Chaud,Aucune,Calme,7.0,Faible,Complet,Saturday,True,5
+Zagora,30.3125,-5.8125,2026-09-27,32.1,24.3,0.0,3,17.9,33.5,3,2026-09-21 10:26:32,Chaud,Aucune,Modéré,11.5,Faible,Complet,Sunday,False,6
+Zawyat ech Cheïkh,32.6875,-5.9375,2026-09-21,34.8,19.1,0.0,5,13.2,23.8,2,2026-09-21 10:26:44,Chaud,Aucune,Calme,8.4,Faible,Complet,Monday,False,0
+Zawyat ech Cheïkh,32.6875,-5.9375,2026-09-22,33.5,17.1,0.0,0,10.1,20.2,1,2026-09-21 10:26:44,Chaud,Aucune,Calme,6.7,Faible,Complet,Tuesday,False,1
+Zawyat ech Cheïkh,32.6875,-5.9375,2026-09-23,34.0,16.2,0.0,0,11.0,20.9,3,2026-09-21 10:26:44,Chaud,Aucune,Calme,7.0,Faible,Complet,Wednesday,False,2
+Zawyat ech Cheïkh,32.6875,-5.9375,2026-09-24,35.4,16.5,0.0,0,12.6,24.1,0,2026-09-21 10:26:44,Chaud,Aucune,Calme,8.0,Faible,Complet,Thursday,False,3
+Zawyat ech Cheïkh,32.6875,-5.9375,2026-09-25,35.2,15.3,0.0,0,6.9,16.2,0,2026-09-21 10:26:44,Chaud,Aucune,Calme,5.4,Faible,Complet,Friday,True,4
+Zawyat ech Cheïkh,32.6875,-5.9375,2026-09-26,35.7,18.9,0.0,0,13.9,25.2,3,2026-09-21 10:26:44,Chaud,Aucune,Calme,8.4,Faible,Complet,Saturday,True,5
+Zawyat ech Cheïkh,32.6875,-5.9375,2026-09-27,33.3,21.2,0.0,3,8.2,16.2,3,2026-09-21 10:26:44,Chaud,Aucune,Calme,5.7,Faible,Complet,Sunday,False,6
+Zaïo,34.9375,-2.75,2026-09-21,28.6,19.2,0.0,0,15.2,34.6,45,2026-09-21 10:26:36,Normal,Aucune,Modéré,21.5,Faible,Complet,Monday,False,0
+Zaïo,34.9375,-2.75,2026-09-22,28.3,17.0,0.0,0,11.8,24.1,45,2026-09-21 10:26:36,Normal,Aucune,Calme,18.0,Faible,Complet,Tuesday,False,1
+Zaïo,34.9375,-2.75,2026-09-23,28.9,16.8,0.0,0,12.1,29.2,45,2026-09-21 10:26:36,Normal,Aucune,Calme,19.7,Faible,Complet,Wednesday,False,2
+Zaïo,34.9375,-2.75,2026-09-24,29.6,18.8,0.0,0,14.8,41.4,45,2026-09-21 10:26:36,Normal,Aucune,Modéré,23.8,Faible,Complet,Thursday,False,3
+Zaïo,34.9375,-2.75,2026-09-25,31.0,18.7,0.0,0,9.0,20.2,45,2026-09-21 10:26:36,Chaud,Aucune,Calme,16.7,Faible,Complet,Friday,True,4
+Zaïo,34.9375,-2.75,2026-09-26,32.4,16.0,0.0,0,16.5,31.7,3,2026-09-21 10:26:36,Chaud,Aucune,Modéré,10.6,Faible,Complet,Saturday,True,5
+Zaïo,34.9375,-2.75,2026-09-27,28.3,16.4,0.0,0,14.7,29.2,45,2026-09-21 10:26:36,Normal,Aucune,Calme,19.7,Faible,Complet,Sunday,False,6
+Zeghanghane,35.125,-3.0,2026-09-21,25.4,21.0,0.0,0,22.4,41.8,2,2026-09-21 10:26:40,Normal,Aucune,Modéré,13.9,Faible,Complet,Monday,False,0
+Zeghanghane,35.125,-3.0,2026-09-22,26.2,17.6,0.0,0,17.9,35.3,3,2026-09-21 10:26:40,Normal,Aucune,Modéré,11.8,Faible,Complet,Tuesday,False,1
+Zeghanghane,35.125,-3.0,2026-09-23,26.4,17.7,0.0,0,18.5,36.4,45,2026-09-21 10:26:40,Normal,Aucune,Modéré,22.1,Faible,Complet,Wednesday,False,2
+Zeghanghane,35.125,-3.0,2026-09-24,26.8,18.2,0.0,0,21.3,39.6,45,2026-09-21 10:26:40,Normal,Aucune,Modéré,23.2,Faible,Complet,Thursday,False,3
+Zeghanghane,35.125,-3.0,2026-09-25,28.5,18.6,0.0,0,11.5,22.0,45,2026-09-21 10:26:40,Normal,Aucune,Calme,17.3,Faible,Complet,Friday,True,4
+Zeghanghane,35.125,-3.0,2026-09-26,28.9,16.9,0.0,0,16.6,31.7,3,2026-09-21 10:26:40,Normal,Aucune,Modéré,10.6,Faible,Complet,Saturday,True,5
+Zeghanghane,35.125,-3.0,2026-09-27,26.7,17.9,0.0,0,16.1,29.5,45,2026-09-21 10:26:40,Normal,Aucune,Calme,19.8,Faible,Complet,Sunday,False,6

@@ -1,0 +1,95 @@
+{
+  "latitude": 31.1875,
+  "longitude": -8.875,
+  "generationtime_ms": 0.24831295013427734,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 863.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      34.7,
+      33.4,
+      33.0,
+      33.1,
+      32.0,
+      30.4,
+      29.6
+    ],
+    "temperature_2m_min": [
+      23.6,
+      23.2,
+      22.2,
+      21.8,
+      22.2,
+      22.2,
+      19.9
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      25.8,
+      23.1,
+      20.1,
+      17.7,
+      15.0,
+      17.7,
+      17.1
+    ],
+    "wind_gusts_10m_max": [
+      44.6,
+      39.6,
+      33.8,
+      33.5,
+      28.4,
+      28.8,
+      33.8
+    ],
+    "weather_code": [
+      3,
+      2,
+      0,
+      0,
+      3,
+      3,
+      3
+    ]
+  },
+  "_city_name": "Imi-n-Tanout",
+  "_extracted_at": "2026-09-21T10:26:44"
+}

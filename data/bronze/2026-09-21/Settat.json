@@ -1,0 +1,95 @@
+{
+  "latitude": 33.0,
+  "longitude": -7.625,
+  "generationtime_ms": 0.6909370422363281,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 360.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      38.6,
+      36.5,
+      35.8,
+      36.3,
+      35.9,
+      34.0,
+      33.5
+    ],
+    "temperature_2m_min": [
+      22.1,
+      20.3,
+      18.5,
+      19.2,
+      19.7,
+      19.4,
+      19.3
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      22.3,
+      17.3,
+      17.8,
+      15.5,
+      18.0,
+      15.8,
+      15.8
+    ],
+    "wind_gusts_10m_max": [
+      51.1,
+      37.4,
+      41.4,
+      35.6,
+      41.4,
+      31.3,
+      32.4
+    ],
+    "weather_code": [
+      2,
+      0,
+      1,
+      0,
+      1,
+      3,
+      3
+    ]
+  },
+  "_city_name": "Settat",
+  "_extracted_at": "2026-09-21T10:26:03"
+}

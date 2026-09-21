@@ -1,9 +1,15 @@
 from datetime import date
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 import psycopg2
 import psycopg2.extras as pg_extras
+from psycopg2.extensions import register_adapter, AsIs
+
+
+register_adapter(np.int64, lambda val: AsIs(int(val)))
+register_adapter(np.float64, lambda val: AsIs(float(val)))
 
 from src.utils.config import (
     DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER,

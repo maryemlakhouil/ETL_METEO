@@ -1,7 +1,4 @@
 pandas>=2.0
 requests>=2.31
 pyarrow>=14.0
-streamlit
-plotly>=5.0
-SQLAlchemy>=2.0
 psycopg2-binary>=2.9

@@ -1,0 +1,95 @@
+{
+  "latitude": 30.4375,
+  "longitude": -9.5625,
+  "generationtime_ms": 0.2263784408569336,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 60.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      36.1,
+      35.0,
+      36.3,
+      34.2,
+      27.7,
+      27.7,
+      28.9
+    ],
+    "temperature_2m_min": [
+      22.3,
+      26.4,
+      25.6,
+      22.1,
+      20.0,
+      19.7,
+      20.4
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      13.7,
+      13.1,
+      14.6,
+      9.8,
+      9.7,
+      13.8,
+      14.8
+    ],
+    "wind_gusts_10m_max": [
+      29.2,
+      40.3,
+      36.7,
+      28.1,
+      32.4,
+      27.7,
+      30.2
+    ],
+    "weather_code": [
+      3,
+      3,
+      1,
+      0,
+      45,
+      45,
+      3
+    ]
+  },
+  "_city_name": "Agadir",
+  "_extracted_at": "2026-09-21T10:25:57"
+}

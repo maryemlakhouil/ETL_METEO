@@ -1,0 +1,95 @@
+{
+  "latitude": 33.6875,
+  "longitude": -5.375,
+  "generationtime_ms": 0.2675056457519531,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 982.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      32.3,
+      30.7,
+      31.1,
+      32.3,
+      31.7,
+      32.9,
+      30.7
+    ],
+    "temperature_2m_min": [
+      21.7,
+      20.5,
+      19.5,
+      20.9,
+      19.7,
+      20.4,
+      20.3
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    "wind_speed_10m_max": [
+      21.8,
+      18.9,
+      17.7,
+      18.8,
+      17.0,
+      22.5,
+      15.6
+    ],
+    "wind_gusts_10m_max": [
+      45.7,
+      39.6,
+      37.1,
+      36.7,
+      34.9,
+      49.7,
+      31.3
+    ],
+    "weather_code": [
+      2,
+      2,
+      3,
+      0,
+      0,
+      3,
+      3
+    ]
+  },
+  "_city_name": "El Hajeb",
+  "_extracted_at": "2026-09-21T10:26:33"
+}

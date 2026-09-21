@@ -1,0 +1,95 @@
+{
+  "latitude": 31.8125,
+  "longitude": -7.3125,
+  "generationtime_ms": 0.6107091903686523,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 631.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      36.2,
+      35.3,
+      34.8,
+      35.8,
+      35.2,
+      33.4,
+      33.2
+    ],
+    "temperature_2m_min": [
+      22.1,
+      21.1,
+      19.3,
+      19.2,
+      19.1,
+      17.6,
+      19.6
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      3,
+      4
+    ],
+    "wind_speed_10m_max": [
+      19.2,
+      15.7,
+      12.1,
+      14.6,
+      14.4,
+      13.5,
+      14.9
+    ],
+    "wind_gusts_10m_max": [
+      35.3,
+      28.4,
+      22.0,
+      26.6,
+      27.7,
+      25.2,
+      34.9
+    ],
+    "weather_code": [
+      3,
+      0,
+      2,
+      0,
+      3,
+      3,
+      3
+    ]
+  },
+  "_city_name": "Al ’Attawia",
+  "_extracted_at": "2026-09-21T10:26:35"
+}

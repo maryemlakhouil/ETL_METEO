@@ -1,0 +1,34 @@
+[2026-09-21T10:26:45.413+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T10:26:45.427+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_risk_pipeline.clean_silver manual__2026-09-21T10:20:54.547266+00:00 [queued]>
+[2026-09-21T10:26:45.433+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_risk_pipeline.clean_silver manual__2026-09-21T10:20:54.547266+00:00 [queued]>
+[2026-09-21T10:26:45.433+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 4
+[2026-09-21T10:26:45.442+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): clean_silver> on 2026-09-21 10:20:54.547266+00:00
+[2026-09-21T10:26:45.446+0000] {standard_task_runner.py:72} INFO - Started process 609 to run task
+[2026-09-21T10:26:45.448+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weather_risk_pipeline', 'clean_silver', 'manual__2026-09-21T10:20:54.547266+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/tmp/tmpe_7gykgu']
+[2026-09-21T10:26:45.449+0000] {standard_task_runner.py:105} INFO - Job 31: Subtask clean_silver
+[2026-09-21T10:26:45.481+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_risk_pipeline.clean_silver manual__2026-09-21T10:20:54.547266+00:00 [running]> on host d7ad3602866e
+[2026-09-21T10:26:45.540+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='weather_risk_pipeline' AIRFLOW_CTX_TASK_ID='clean_silver' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T10:20:54.547266+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-21T10:20:54.547266+00:00'
+[2026-09-21T10:26:45.540+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T10:26:45.806+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:26:45 | INFO     | src.transform.clean_silver | 120 fichiers lus -> 840 lignes brutes
+[2026-09-21T10:26:45.806+0000] {clean_silver.py:56} INFO - 120 fichiers lus -> 840 lignes brutes
+[2026-09-21T10:26:45.812+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:26:45 | INFO     | src.transform.clean_silver | Types standardisés
+[2026-09-21T10:26:45.812+0000] {clean_silver.py:86} INFO - Types standardisés
+[2026-09-21T10:26:45.814+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:26:45 | INFO     | src.transform.clean_silver | Aucun doublon détecté
+[2026-09-21T10:26:45.814+0000] {clean_silver.py:101} INFO - Aucun doublon détecté
+[2026-09-21T10:26:45.816+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:26:45 | INFO     | src.extract.extract_cities | 120 villes chargées depuis ma.csv
+[2026-09-21T10:26:45.816+0000] {extract_cities.py:16} INFO - 120 villes chargées depuis ma.csv
+[2026-09-21T10:26:45.819+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:26:45 | INFO     | src.transform.clean_silver | Jointure villes effectuée : 840 lignes
+[2026-09-21T10:26:45.819+0000] {clean_silver.py:165} INFO - Jointure villes effectuée : 840 lignes
+[2026-09-21T10:26:45.820+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:26:45 | INFO     | src.transform.clean_silver | QUALITÉ | 840 lignes | 120 villes | période 2026-09-21 -> 2026-09-27
+[2026-09-21T10:26:45.820+0000] {clean_silver.py:182} INFO - QUALITÉ | 840 lignes | 120 villes | période 2026-09-21 -> 2026-09-27
+[2026-09-21T10:26:45.831+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:26:45 | INFO     | src.transform.clean_silver | Silver écrit : weather_silver_2026-09-21.parquet
+[2026-09-21T10:26:45.831+0000] {clean_silver.py:229} INFO - Silver écrit : weather_silver_2026-09-21.parquet
+[2026-09-21T10:26:45.838+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:26:45 | INFO     | src.transform.clean_silver | Silver écrit : weather_silver_2026-09-21.csv (840 lignes)
+[2026-09-21T10:26:45.838+0000] {clean_silver.py:235} INFO - Silver écrit : weather_silver_2026-09-21.csv (840 lignes)
+[2026-09-21T10:26:45.838+0000] {weather_pipeline_dag.py:37} INFO - Silver écrit dans /opt/***/data/silver/weather_silver_2026-09-21.parquet
+[2026-09-21T10:26:45.838+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-09-21T10:26:45.846+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T10:26:45.846+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=weather_risk_pipeline, task_id=clean_silver, run_id=manual__2026-09-21T10:20:54.547266+00:00, execution_date=20260921T102054, start_date=20260921T102645, end_date=20260921T102645
+[2026-09-21T10:26:45.901+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-21T10:26:45.922+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T10:26:45.924+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

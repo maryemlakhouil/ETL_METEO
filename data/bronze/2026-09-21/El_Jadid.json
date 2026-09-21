@@ -1,0 +1,95 @@
+{
+  "latitude": 33.25,
+  "longitude": -8.4375,
+  "generationtime_ms": 0.5764961242675781,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 8.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      27.9,
+      27.0,
+      25.9,
+      27.5,
+      26.8,
+      26.9,
+      27.4
+    ],
+    "temperature_2m_min": [
+      21.0,
+      19.6,
+      20.5,
+      20.1,
+      20.9,
+      20.6,
+      21.2
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      15.1,
+      15.5,
+      15.4,
+      12.8,
+      14.9,
+      10.5,
+      13.0
+    ],
+    "wind_gusts_10m_max": [
+      27.7,
+      28.1,
+      27.7,
+      23.4,
+      27.7,
+      22.0,
+      27.0
+    ],
+    "weather_code": [
+      2,
+      45,
+      45,
+      45,
+      45,
+      3,
+      45
+    ]
+  },
+  "_city_name": "El Jadid",
+  "_extracted_at": "2026-09-21T10:26:00"
+}

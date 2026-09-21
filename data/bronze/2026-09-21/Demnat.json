@@ -1,0 +1,95 @@
+{
+  "latitude": 31.75,
+  "longitude": -7.0625,
+  "generationtime_ms": 0.7702112197875977,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 1023.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      32.8,
+      32.0,
+      31.9,
+      32.5,
+      32.5,
+      31.2,
+      29.5
+    ],
+    "temperature_2m_min": [
+      21.2,
+      19.9,
+      18.9,
+      19.5,
+      19.1,
+      18.4,
+      18.1
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "precipitation_probability_max": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      8,
+      14
+    ],
+    "wind_speed_10m_max": [
+      16.9,
+      15.3,
+      15.3,
+      17.6,
+      15.0,
+      16.4,
+      13.8
+    ],
+    "wind_gusts_10m_max": [
+      31.3,
+      28.8,
+      29.5,
+      34.9,
+      30.6,
+      32.0,
+      36.4
+    ],
+    "weather_code": [
+      2,
+      1,
+      1,
+      0,
+      3,
+      3,
+      3
+    ]
+  },
+  "_city_name": "Demnat",
+  "_extracted_at": "2026-09-21T10:26:38"
+}

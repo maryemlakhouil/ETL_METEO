@@ -1,0 +1,22 @@
+[2026-09-21T10:24:13.438+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T10:24:13.449+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_bronze manual__2026-09-21T10:06:26.998955+00:00 [queued]>
+[2026-09-21T10:24:13.454+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_bronze manual__2026-09-21T10:06:26.998955+00:00 [queued]>
+[2026-09-21T10:24:13.455+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 4
+[2026-09-21T10:24:13.463+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_bronze> on 2026-09-21 10:06:26.998955+00:00
+[2026-09-21T10:24:13.467+0000] {standard_task_runner.py:72} INFO - Started process 500 to run task
+[2026-09-21T10:24:13.469+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weather_risk_pipeline', 'extract_bronze', 'manual__2026-09-21T10:06:26.998955+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/tmp/tmpycggep2w']
+[2026-09-21T10:24:13.470+0000] {standard_task_runner.py:105} INFO - Job 22: Subtask extract_bronze
+[2026-09-21T10:24:13.503+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_risk_pipeline.extract_bronze manual__2026-09-21T10:06:26.998955+00:00 [running]> on host d7ad3602866e
+[2026-09-21T10:24:13.562+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='weather_risk_pipeline' AIRFLOW_CTX_TASK_ID='extract_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T10:06:26.998955+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-21T10:06:26.998955+00:00'
+[2026-09-21T10:24:13.563+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T10:24:13.762+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:24:13 | INFO     | src.extract.extract_cities | 120 villes chargées depuis ma.csv
+[2026-09-21T10:24:13.762+0000] {extract_cities.py:16} INFO - 120 villes chargées depuis ma.csv
+[2026-09-21T10:24:59.520+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:24:59 | INFO     | src.extract.extract_weather | Extraction terminée : 120 villes OK, 0 échecs
+[2026-09-21T10:24:59.520+0000] {extract_weather.py:90} INFO - Extraction terminée : 120 villes OK, 0 échecs
+[2026-09-21T10:24:59.521+0000] {weather_pipeline_dag.py:31} INFO - Bronze écrit dans /opt/***/data/bronze/2026-09-21
+[2026-09-21T10:24:59.521+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-09-21T10:24:59.539+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T10:24:59.540+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=weather_risk_pipeline, task_id=extract_bronze, run_id=manual__2026-09-21T10:06:26.998955+00:00, execution_date=20260921T100626, start_date=20260921T102413, end_date=20260921T102459
+[2026-09-21T10:24:59.614+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-21T10:24:59.652+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T10:24:59.654+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

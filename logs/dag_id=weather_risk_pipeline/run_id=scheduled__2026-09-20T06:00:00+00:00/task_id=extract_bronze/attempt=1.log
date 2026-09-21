@@ -1,0 +1,134 @@
+[2026-09-21T06:43:47.891+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T06:43:47.907+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_bronze scheduled__2026-09-20T06:00:00+00:00 [queued]>
+[2026-09-21T06:43:47.914+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_bronze scheduled__2026-09-20T06:00:00+00:00 [queued]>
+[2026-09-21T06:43:47.914+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 4
+[2026-09-21T06:43:47.925+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_bronze> on 2026-09-20 06:00:00+00:00
+[2026-09-21T06:43:47.930+0000] {standard_task_runner.py:72} INFO - Started process 997 to run task
+[2026-09-21T06:43:47.932+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weather_risk_pipeline', 'extract_bronze', 'scheduled__2026-09-20T06:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/tmp/tmp2po6jd57']
+[2026-09-21T06:43:47.934+0000] {standard_task_runner.py:105} INFO - Job 2: Subtask extract_bronze
+[2026-09-21T06:43:47.980+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_risk_pipeline.extract_bronze scheduled__2026-09-20T06:00:00+00:00 [running]> on host d7ad3602866e
+[2026-09-21T06:43:48.096+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='weather_risk_pipeline' AIRFLOW_CTX_TASK_ID='extract_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-09-20T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-20T06:00:00+00:00'
+[2026-09-21T06:43:48.097+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T06:43:49.108+0000] {logging_mixin.py:190} INFO - 2026-09-21 06:43:49 | INFO     | src.extract.extract_cities | 120 villes chargées depuis ma.csv
+[2026-09-21T06:43:49.108+0000] {extract_cities.py:16} INFO - 120 villes chargées depuis ma.csv
+[2026-09-21T06:43:49.110+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/weather_pipeline_dag.py", line 30, in task_extract
+    output_dir = run_bronze_extraction()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/src/extract/extract_weather.py", line 64, in run_bronze_extraction
+    output_dir.mkdir(parents=True, exist_ok=True)
+  File "/usr/local/lib/python3.11/pathlib.py", line 1116, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/opt/airflow/data/bronze/2026-09-21'
+[2026-09-21T06:43:49.124+0000] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=weather_risk_pipeline, task_id=extract_bronze, run_id=scheduled__2026-09-20T06:00:00+00:00, execution_date=20260920T060000, start_date=20260921T064347, end_date=20260921T064349
+[2026-09-21T06:43:49.156+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T06:43:49.156+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 2 for task extract_bronze ([Errno 13] Permission denied: '/opt/airflow/data/bronze/2026-09-21'; 997)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/weather_pipeline_dag.py", line 30, in task_extract
+    output_dir = run_bronze_extraction()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/src/extract/extract_weather.py", line 64, in run_bronze_extraction
+    output_dir.mkdir(parents=True, exist_ok=True)
+  File "/usr/local/lib/python3.11/pathlib.py", line 1116, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/opt/airflow/data/bronze/2026-09-21'
+[2026-09-21T06:43:49.188+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-09-21T06:43:49.231+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T06:43:49.234+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-09-21T09:26:43.924+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T09:26:43.940+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_bronze scheduled__2026-09-20T06:00:00+00:00 [queued]>
+[2026-09-21T09:26:43.948+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_bronze scheduled__2026-09-20T06:00:00+00:00 [queued]>
+[2026-09-21T09:26:43.949+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 4
+[2026-09-21T09:26:43.962+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_bronze> on 2026-09-20 06:00:00+00:00
+[2026-09-21T09:26:43.969+0000] {standard_task_runner.py:72} INFO - Started process 2000 to run task
+[2026-09-21T09:26:43.974+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weather_risk_pipeline', 'extract_bronze', 'scheduled__2026-09-20T06:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/tmp/tmpikmxu4pr']
+[2026-09-21T09:26:43.978+0000] {standard_task_runner.py:105} INFO - Job 14: Subtask extract_bronze
+[2026-09-21T09:26:44.062+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_risk_pipeline.extract_bronze scheduled__2026-09-20T06:00:00+00:00 [running]> on host d7ad3602866e
+[2026-09-21T09:26:44.202+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='weather_risk_pipeline' AIRFLOW_CTX_TASK_ID='extract_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-09-20T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-20T06:00:00+00:00'
+[2026-09-21T09:26:44.203+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T09:26:44.570+0000] {logging_mixin.py:190} INFO - 2026-09-21 09:26:44 | INFO     | src.extract.extract_cities | 120 villes chargées depuis ma.csv
+[2026-09-21T09:26:44.570+0000] {extract_cities.py:16} INFO - 120 villes chargées depuis ma.csv
+[2026-09-21T09:27:32.650+0000] {logging_mixin.py:190} INFO - 2026-09-21 09:27:32 | INFO     | src.extract.extract_weather | Extraction terminée : 120 villes OK, 0 échecs
+[2026-09-21T09:27:32.650+0000] {extract_weather.py:90} INFO - Extraction terminée : 120 villes OK, 0 échecs
+[2026-09-21T09:27:32.651+0000] {weather_pipeline_dag.py:31} INFO - Bronze écrit dans /opt/***/data/bronze/2026-09-21
+[2026-09-21T09:27:32.652+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-09-21T09:27:32.672+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T09:27:32.673+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=weather_risk_pipeline, task_id=extract_bronze, run_id=scheduled__2026-09-20T06:00:00+00:00, execution_date=20260920T060000, start_date=20260921T092643, end_date=20260921T092732
+[2026-09-21T09:27:32.765+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-21T09:27:32.814+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T09:27:32.817+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

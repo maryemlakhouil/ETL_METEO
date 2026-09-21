@@ -1,0 +1,95 @@
+{
+  "latitude": 26.18629,
+  "longitude": -10.559204,
+  "generationtime_ms": 0.18167495727539062,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/El_Aaiun",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 486.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      39.8,
+      38.9,
+      38.6,
+      38.6,
+      38.3,
+      36.8,
+      30.8
+    ],
+    "temperature_2m_min": [
+      27.5,
+      26.5,
+      26.9,
+      25.4,
+      25.5,
+      26.7,
+      22.3
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.2
+    ],
+    "precipitation_probability_max": [
+      0,
+      4,
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "wind_speed_10m_max": [
+      29.5,
+      23.8,
+      20.7,
+      21.0,
+      19.6,
+      24.1,
+      21.9
+    ],
+    "wind_gusts_10m_max": [
+      46.4,
+      40.0,
+      34.2,
+      29.5,
+      34.2,
+      40.7,
+      35.6
+    ],
+    "weather_code": [
+      3,
+      3,
+      1,
+      3,
+      3,
+      3,
+      53
+    ]
+  },
+  "_city_name": "Tifariti",
+  "_extracted_at": "2026-09-21T10:26:45"
+}

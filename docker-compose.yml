@@ -1,0 +1,145 @@
+# postgres + airflow + streamlit 
+
+# ==================================================================
+# ATTENTION : ce compose définit DEUX bases PostgreSQL distinctes :
+#   - postgres-airflow : métadonnées internes d'Airflow (état des DAGs,
+#     tâches, utilisateurs...). Tu n'y touches jamais directement.
+#   - postgres-app      : NOTRE base métier "weather_db" (villes,
+#     prévisions, risk_score). C'est celle-ci que le dashboard et
+#     tes requêtes SQL de l'étape 4 utilisent.
+# ==================================================================
+
+x-airflow-common: &airflow-common
+  build: .
+  environment: &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres-airflow:5432/airflow
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "true"
+    # Clé fixe pour le dev : évite que la session web casse à chaque
+    # redémarrage (sinon Airflow en génère une aléatoire par défaut).
+    # À changer par une vraie valeur secrète en production.
+    AIRFLOW__WEBSERVER__SECRET_KEY: "dev_secret_key_change_in_production"
+    PYTHONPATH: /opt/airflow
+    # --- Connexion à NOTRE base métier (weather_db), lue par src/utils/config.py ---
+    POSTGRES_HOST: postgres-app
+    POSTGRES_PORT: "5432"
+    POSTGRES_DB: weather_db
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: postgres
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./src:/opt/airflow/src
+    - ./sql:/opt/airflow/sql
+    - ./data:/opt/airflow/data
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+  depends_on:
+    postgres-airflow:
+      condition: service_healthy
+    postgres-app:
+      condition: service_healthy
+
+services:
+
+  # ---------------------------------------------------------- Notre base métier
+  postgres-app:
+    image: postgres:16
+    container_name: postgres_app
+    environment:
+      POSTGRES_DB: weather_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - weather_db_data:/var/lib/postgresql/data
+      # Initialise le schéma automatiquement à la 1ère création du volume
+      # (notre script load_postgres.py le refait aussi de façon idempotente,
+      # donc ce n'est pas strictement indispensable, mais pratique pour
+      # pouvoir explorer la base via psql avant même le premier run du DAG)
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+    ports:
+      - "5433:5432"   # 5433 côté hôte pour ne pas entrer en conflit avec un Postgres local existant
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d weather_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ---------------------------------------------------------- Base interne Airflow
+  postgres-airflow:
+    image: postgres:16
+    container_name: postgres_airflow
+    environment:
+      POSTGRES_DB: airflow
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+    volumes:
+      - airflow_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ---------------------------------------------------------- Init Airflow (1 seule fois)
+  airflow-init:
+    <<: *airflow-common
+    container_name: airflow_init
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db migrate
+        airflow users create \
+          --username admin --password admin \
+          --firstname Admin --lastname User \
+          --role Admin --email admin@example.com || true
+    restart: "no"
+
+  # ---------------------------------------------------------- Interface web Airflow
+  airflow-webserver:
+    <<: *airflow-common
+    container_name: airflow_webserver
+    command: webserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail http://localhost:8080/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # ---------------------------------------------------------- Scheduler Airflow
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: airflow_scheduler
+    command: scheduler
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+  # ---------------------------------------------------------- Dashboard
+  streamlit:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.streamlit
+    container_name: streamlit_dashboard
+    environment:
+      POSTGRES_HOST: postgres-app
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: weather_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "8501:8501"
+    depends_on:
+      postgres-app:
+        condition: service_healthy
+
+volumes:
+  weather_db_data:
+  airflow_db_data:

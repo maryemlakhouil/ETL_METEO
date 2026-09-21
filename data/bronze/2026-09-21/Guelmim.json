@@ -1,0 +1,95 @@
+{
+  "latitude": 28.998241,
+  "longitude": -10.114685,
+  "generationtime_ms": 3.3376216888427734,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 281.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      40.1,
+      39.4,
+      40.4,
+      38.6,
+      34.9,
+      34.6,
+      29.6
+    ],
+    "temperature_2m_min": [
+      22.2,
+      27.2,
+      24.9,
+      20.6,
+      17.1,
+      17.7,
+      20.2
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      22.3,
+      19.3,
+      26.4,
+      24.0,
+      17.6,
+      19.9,
+      11.8
+    ],
+    "wind_gusts_10m_max": [
+      37.8,
+      35.6,
+      43.6,
+      40.3,
+      34.2,
+      37.4,
+      27.0
+    ],
+    "weather_code": [
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3
+    ]
+  },
+  "_city_name": "Guelmim",
+  "_extracted_at": "2026-09-21T10:26:07"
+}

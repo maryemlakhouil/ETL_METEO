@@ -1,0 +1,95 @@
+{
+  "latitude": 34.0,
+  "longitude": -6.8125,
+  "generationtime_ms": 0.17344951629638672,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 18.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      31.8,
+      30.7,
+      28.5,
+      30.2,
+      30.6,
+      28.9,
+      27.4
+    ],
+    "temperature_2m_min": [
+      19.9,
+      20.0,
+      20.1,
+      18.0,
+      18.3,
+      17.8,
+      21.7
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      11.3,
+      9.2,
+      12.5,
+      10.8,
+      12.1,
+      13.0,
+      10.8
+    ],
+    "wind_gusts_10m_max": [
+      30.2,
+      26.6,
+      32.8,
+      28.8,
+      31.3,
+      30.6,
+      26.6
+    ],
+    "weather_code": [
+      45,
+      1,
+      45,
+      1,
+      0,
+      3,
+      3
+    ]
+  },
+  "_city_name": "Rabat",
+  "_extracted_at": "2026-09-21T10:25:57"
+}

@@ -1,0 +1,95 @@
+{
+  "latitude": 31.5625,
+  "longitude": -7.6875,
+  "generationtime_ms": 0.22125244140625,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 667.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      36.3,
+      35.4,
+      35.0,
+      35.5,
+      35.1,
+      32.7,
+      32.7
+    ],
+    "temperature_2m_min": [
+      24.1,
+      21.9,
+      20.6,
+      20.6,
+      20.7,
+      20.0,
+      21.7
+    ],
+    "precipitation_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      21.0,
+      17.5,
+      13.0,
+      14.7,
+      10.0,
+      9.2,
+      14.8
+    ],
+    "wind_gusts_10m_max": [
+      38.5,
+      34.2,
+      24.5,
+      28.1,
+      19.1,
+      19.8,
+      39.2
+    ],
+    "weather_code": [
+      3,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3
+    ]
+  },
+  "_city_name": "Ait Ourir",
+  "_extracted_at": "2026-09-21T10:26:25"
+}

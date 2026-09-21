@@ -1,0 +1,26 @@
+[2026-09-21T10:24:11.348+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T10:24:11.364+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_risk_pipeline.load_postgres scheduled__2026-09-20T06:00:00+00:00 [queued]>
+[2026-09-21T10:24:11.371+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_risk_pipeline.load_postgres scheduled__2026-09-20T06:00:00+00:00 [queued]>
+[2026-09-21T10:24:11.371+0000] {taskinstance.py:2867} INFO - Starting attempt 4 of 4
+[2026-09-21T10:24:11.379+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): load_postgres> on 2026-09-20 06:00:00+00:00
+[2026-09-21T10:24:11.383+0000] {standard_task_runner.py:72} INFO - Started process 484 to run task
+[2026-09-21T10:24:11.385+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weather_risk_pipeline', 'load_postgres', 'scheduled__2026-09-20T06:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/tmp/tmp5nh33c9u']
+[2026-09-21T10:24:11.387+0000] {standard_task_runner.py:105} INFO - Job 21: Subtask load_postgres
+[2026-09-21T10:24:11.420+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_risk_pipeline.load_postgres scheduled__2026-09-20T06:00:00+00:00 [running]> on host d7ad3602866e
+[2026-09-21T10:24:11.475+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-team' AIRFLOW_CTX_DAG_ID='weather_risk_pipeline' AIRFLOW_CTX_TASK_ID='load_postgres' AIRFLOW_CTX_EXECUTION_DATE='2026-09-20T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-20T06:00:00+00:00'
+[2026-09-21T10:24:11.475+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T10:24:11.704+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:24:11 | INFO     | src.load.load_postgres | Schéma vérifié/créé
+[2026-09-21T10:24:11.704+0000] {load_postgres.py:44} INFO - Schéma vérifié/créé
+[2026-09-21T10:24:11.710+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:24:11 | INFO     | src.load.load_postgres | 120 villes upsertées
+[2026-09-21T10:24:11.710+0000] {load_postgres.py:89} INFO - 120 villes upsertées
+[2026-09-21T10:24:11.761+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:24:11 | INFO     | src.load.load_postgres | 840 prévisions upsertées dans previsions_meteo
+[2026-09-21T10:24:11.761+0000] {load_postgres.py:124} INFO - 840 prévisions upsertées dans previsions_meteo
+[2026-09-21T10:24:11.762+0000] {logging_mixin.py:190} INFO - 2026-09-21 10:24:11 | INFO     | src.load.load_postgres | Chargement terminé : 840 prévisions
+[2026-09-21T10:24:11.762+0000] {load_postgres.py:138} INFO - Chargement terminé : 840 prévisions 
+[2026-09-21T10:24:11.762+0000] {weather_pipeline_dag.py:49} INFO - Chargement PostgreSQL terminé
+[2026-09-21T10:24:11.762+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-09-21T10:24:11.769+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T10:24:11.770+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=weather_risk_pipeline, task_id=load_postgres, run_id=scheduled__2026-09-20T06:00:00+00:00, execution_date=20260920T060000, start_date=20260921T102411, end_date=20260921T102411
+[2026-09-21T10:24:11.838+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-21T10:24:11.867+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T10:24:11.870+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

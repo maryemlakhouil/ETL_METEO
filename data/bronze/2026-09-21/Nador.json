@@ -1,0 +1,95 @@
+{
+  "latitude": 35.1875,
+  "longitude": -2.9375,
+  "generationtime_ms": 0.18513202667236328,
+  "utc_offset_seconds": 3600,
+  "timezone": "Africa/Casablanca",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 20.0,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_sum": "mm",
+    "precipitation_probability_max": "%",
+    "wind_speed_10m_max": "km/h",
+    "wind_gusts_10m_max": "km/h",
+    "weather_code": "wmo code"
+  },
+  "daily": {
+    "time": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "temperature_2m_max": [
+      25.1,
+      25.1,
+      25.3,
+      25.8,
+      26.3,
+      27.6,
+      26.1
+    ],
+    "temperature_2m_min": [
+      22.5,
+      19.9,
+      19.6,
+      20.5,
+      20.4,
+      17.5,
+      18.2
+    ],
+    "precipitation_sum": [
+      0.3,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precipitation_probability_max": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wind_speed_10m_max": [
+      16.6,
+      13.0,
+      12.8,
+      14.3,
+      10.7,
+      18.1,
+      16.1
+    ],
+    "wind_gusts_10m_max": [
+      36.4,
+      28.1,
+      28.1,
+      32.4,
+      24.8,
+      31.7,
+      28.1
+    ],
+    "weather_code": [
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      45
+    ]
+  },
+  "_city_name": "Nador",
+  "_extracted_at": "2026-09-21T10:26:04"
+}
